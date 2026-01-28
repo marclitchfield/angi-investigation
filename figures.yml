@@ -1,901 +1,900 @@
-figures:
-- figure: "9.10.1"
-  caption: "🏦 Screenshot of merchant details from Monarch Money of unexpected charge from homeadvisorhandy.com. (Redacted: debit card details)"
-  event: "(🏦🌀) 9/10 8:34am - [Transaction] Unexpected $29.99 Charge"
-  image: "Transaction Explanation: Recurring Debit Purchase Pay* Homeadvisorhandy.com $29.99"
-  check: "🟢"
-
-- figure: "9.10.2"
-  caption: "❌ Chrome Browser error attempting to navigate to homeadvisorhandy.com, resulting in DNS_PROBE_FINISHED_NXDOMAIN Chrome browser error."
-  event: "(🏦🌀) 9/10 8:34am - [Transaction] Unexpected $29.99 Charge"
-  image: "Chrome browser error screen showing 'This site can't be reached... DNS_PROBE_FINISHED_NXDOMAIN'"
-  check: "🟢"
-
-- figure: "9.10.3"
-  caption: "🟠 Angi Key Membership renewal notice delivered to tenamyw@gmail.com, undetected until after cancellation."
-  event: "(🟠🌹) 9/10 8:36am - [Email] Angi Renewal Notice"
-  image: "Email from Angi: 'Your membership has successfully renewed on 9/11/2025' with payment receipt"
-  check: "🟢"
-
-- figure: "9.10.4"
-  caption: "🟠 first login/registration verification code email from homeadvisor.com delivered to marclitchfield@gmail.com"
-  event: "(🌀🟠) 9/10 8:36am - [Web] Sign In"
-  image: "Email from HomeAdvisor: 'Log in with this 6-digit code to continue' (Code 205704)"
-  check: "🟢"
-
-- figure: "9.10.5"
-  caption: "🟠 homeadvisor.com settings page appears to offer no cancellation option or method of updating or removing billing information. (Note: it appeared this way at the time because this was a \"shell\" account that was obstructing my cancellation)."
-  event: "(🌀🟠) 9/10~9:00am - [Web] Attempt to Cancel HomeAdvisor"
-  image: "HomeAdvisor settings page showing 'Welcome back, Stephen' and sections for Personal Information, Password, Address, and Payment Method"
-  check: "🟢"
-
-- figure: "9.10.6"
-  caption: "🌀 5 logged disconnected calls attempting to cancel membership (plus one for verification of accuracy)"
-  event: "(🌀🟠) 9/10 9:36am - [Phone] Call #5"
-  image: "Android Call History showing 6 outgoing calls to 888-811-ANGI"
-  check: "🟢"
-
-- figure: "9.10.7"
-  caption: "🌀 My comment on Angi’s latest Facebook post, requesting cancellation steps. (Note: This post was found to be removed or deranked the next day)."
-  event: "(🌀🟠) 9/10 9:52am - [Comment] Attempt to cancel via Facebook"
-  image: "Facebook comment on Angi page: 'I have made 5 attempts to cancel...'"
-  check: "🟢"
-
-- figure: "9.10.8"
-  caption: "🟠 homeadvisor.com site does not appear to have a link to a contact email or chat."
-  event: "(🌀🟠) 9/10~10:00am - [Web] Looking For Contact Method"
-  image: "HomeAdvisor website footer showing social media icons and 'Sign up for Free Project Cost Information' form"
-  check: "🟢"
-
-- figure: "9.10.9"
-  caption: "🟠 \"Log In\" and \"Sign Up\" choices. 🌀 I chose \"Log In\"."
-  event: "(🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel"
-  image: "HomeAdvisor mobile screen showing 'Log In' and 'Sign Up' buttons"
-  check: "🟢"
-
-- figure: "9.10.10"
-  caption: "🟠 \"Welcome Back\" and \"Don't have an account? Click here\" messages. 🌀 I supplied my email address."
-  event: "(🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel"
-  image: "HomeAdvisor login screen: 'Welcome back!', email field, and 'Don't have an account? Sign Up.'"
-  check: "🟢"
-
-- figure: "9.10.11"
-  caption: "🟠 6-digit login code email"
-  event: "(🟠🌀) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel"
-  image: "Email from HomeAdvisor: 'Here is your 6 digit code 009514'"
-  check: "🟢"
-
-- figure: "9.10.12"
-  caption: "🌀 Supplying code to verify my email"
-  event: "(🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel"
-  image: "HomeAdvisor screen: 'Check your email to continue' with code input field"
-  check: "🟢"
-
-- figure: "9.10.13"
-  caption: "🟠 We need a few details to complete your account. 🌀 Supplying First Name, Last Name, Checkbox for accepting the privacy policy."
-  event: "(🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel"
-  image: "HomeAdvisor screen: 'We need to verify a few details to complete your account' asking for First/Last name"
-  check: "🟢"
-
-- figure: "9.10.14"
-  caption: "🟠 \"Welcome Back, Stephen.\""
-  event: "(🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel"
-  image: "HomeAdvisor homepage banner: 'Welcome back, Stephen.'"
-  check: "🟢"
-
-- figure: "9.10.15"
-  caption: "🌐 X post wrong @angi"
-  event: "(🌀🌐) 9/10 10:30am - [Post/X] Ask @Angi For CancellationSteps"
-  image: "X post to @Angi: 'I've made 5 attempts to cancel...'"
-  check: "🟢"
-
-- figure: "9.10.16"
-  caption: "🔴 Customer Help Service public reaction and reply, directing me to a private conversation. (Note: This reply is hidden from the default “Most Relevant” view and is only visible under the “All Comments” filter.)"
-  event: "(🔴🌀) 9/10 1:58pm - [Comment] Reaction and Reply on FB"
-  image: "Facebook comment reply from 'Customer Help Service': 'Kindly click on my profile...'"
-  check: "🟢"
-
-- figure: "9.10.17"
-  caption: "🔴 Profile details for Customer Help Service"
-  event: "(🌀🔴) 9/10 1:59pm - [App] Attempt to Send Message to CHS"
-  image: "Facebook options menu for Customer Help Service profile showing profile link"
-  check: "🟢"
-
-- figure: "9.10.18"
-  caption: "🔴 Accepting the private message from Customer Help Service."
-  event: "(🌀🔴) 9/10 1:59pm - [App] Attempt to Send Message to CHS"
-  image: "Facebook profile page for Customer Help Service showing 'Sent you a friend request' and 'Message' button"
-  check: "🟢"
-
-- figure: "9.10.19"
-  caption: "🔴 Private message from Customer Help Service asking me for a WhatsApp number."
-  event: "(🔴🌀) 9/10 1:59pm - [Message] CHS Identifies As Angi, Wants My WhatsApp"
-  image: "Messenger chat: 'Hello... Please DM your reachable WhatsApp number... Angi'"
-  check: "🟢"
-
-- figure: "9.10.20"
-  caption: "🌀 My reply, providing my email and a request to process the cancellation and provide written communication in the chat."
-  event: "(🌀🔴) 9/10 3:43pm - [Message] Accept the message and reply"
-  image: "Messenger chat reply: 'I do not use WhatsApp... My account is under the email address...'"
-  check: "🟢"
-
-- figure: "9.10.21"
-  caption: "🔴 They ask for my full name, email, and phone number. 🌀 I do not provide my phone number."
-  event: "(🔴🌀) 9/10 4:57pm - [Message] CHS asks for my phone number"
-  image: "Messenger chat: CHS asking for Full Names, Email Address, Phone Number"
-  check: "🟢"
-
-- figure: "9.11.1"
-  caption: "🏦 Robinhood execution confirmation for the purchase of 6 ANGI Put options on Sept 11."
-  event: "(💹🌀) 9/11 6:30am - [Transaction] First ANGI Put Option Fill"
-  image: "Robinhood order fill screen: 'Buy ANGI $10 Put 12/19'"
-  check: "🟢"
-
-- figure: "9.11.2"
-  caption: "🟠 The Post is now gone from the Posts section. But there is still a Reel that has my comment on it."
-  event: "(🌀🟠) 9/11 11:30am - [App] Reel with my Comment Exists"
-  image: "Angi Facebook page showing 'Reels' tab selected"
-  check: "🟢"
-
-- figure: "9.11.3"
-  caption: "🌐 The Customer Help Service's reply is hidden by Facebook's default comment filter."
-  event: "(🌀🟠) 9/11 11:30am - [App] Reel with my Comment Exists"
-  image: "Facebook reel comments section showing 'Most relevant' filter with only Marcus's comment visible"
-  check: "🟢"
-
-- figure: "9.11.4"
-  caption: "🔴 The CHS Comment appears in the thread when the “All comments” option is selected."
-  event: "(🌀🟠) 9/11 11:30am - [App] Reel with my Comment Exists"
-  image: "Messenger chat screen showing CHS asking 'Can we call right away'"
-  check: "🟢"
-
-- figure: "9.11.5"
-  caption: "🔴 Request to take a call right away, 🌀 and my refusal. (Note: this was our final interaction.)"
-  event: "(🔴🌀) 9/11 4:27pm - [Message] Request for a call right away"
-  image: "Messenger chat screen showing Marcus replying 'No, I am not available for a phone call'"
-  check: "🟢"
-
-- figure: "9.12.1"
-  caption: "🟠 Tammy’s Angie's List settings page where she cancelled her membership. (Redacted: Tammy’s phone number)"
-  event: "(🌹🟠) 9/12 8:18am - [Web] Tammy cancels via Angie's List"
-  image: "Angi settings page: 'Welcome back, Tammy' showing personal info"
-  check: "🟢"
-
-- figure: "9.12.2"
-  caption: "🟠 Email confirmation from Angi that Tammy's Angi Key membership had been cancelled."
-  event: "(🟠🌹) 9/12 8:20am - [Email] Angi Key Membership Cancellation"
-  image: "Email from Angi: 'Your Angi Key Membership was cancelled.'"
-  check: "🟢"
-
-- figure: "9.12.3"
-  caption: "🟠 Email confirmation that Tammy's ”booking plan” was cancelled."
-  event: "(🟠🌹) 9/12 8:22am - [Email] Angi 'Booking Plan' Cancellation"
-  image: "Email from Angi: 'Your plan was cancelled.'"
-  check: "🟢"
-
-- figure: "9.12.4"
-  caption: "🟠 Tammy's HomeAdvisor settings page showing membership benefits still available until September 11, 2026."
-  event: "(🌹🟠) 9/12 8:40am - [Web] Ambiguous HomeAdvisor Membership Status"
-  image: "Angi/HomeAdvisor page: 'Welcome back, Tammy' showing 'Membership Details... Your benefits are still available...'"
-  check: "🟢"
-
-- figure: "9.13.1"
-  caption: "⚖️ Submission confirmation screen for FTC Report #192792633."
-  event: "(🌀🏛️) 9/13 10:24am - [Web] Submit: FTC Report 192792633"
-  image: "FTC ReportFraud.ftc.gov confirmation screen: 'Report submitted! ... Report Number 192792633'"
-  check: "🟢"
-
-- figure: "9.13.2"
-  caption: "⚖️ Submission confirmation screen for CFPB Complaint #250914-24063002."
-  event: "(🌀🏛️) 9/13 7:39pm - [Web] Opened: CFPB Complaint 250914-24063002"
-  image: "CFPB confirmation screen: 'You have successfully submitted your complaint! ... 250914-24063002'"
-  check: "🟢"
-
-- figure: "9.13.3"
-  caption: "⚖️ Submission confirmation screen for Oregon DOJ Complaint #972424."
-  event: "(🌀⭐) 9/13 7:09pm - [Web] Submit: OR DOJ Complaint 972424"
-  image: "Oregon DOJ confirmation screen: 'Thank you... confirmation number is: 972424'"
-  check: "🟢"
-
-- figure: "9.13.4"
-  caption: "🟠 Angi brand account replies to my public comment, requesting a second private conversation."
-  event: "(🟠🌀) 9/12 12:08pm - [Comment] Angi Reply on FB thread"
-  image: "Facebook comment reply from Angi: 'Hi Marcus, please send us a direct message...'"
-  check: "🟢"
-
-- figure: "9.13.5"
-  caption: "🟠🔴 Public replies from both Customer Help Service and Angi now appear when showing All Comments."
-  event: "(🌀🟠) 9/13 11:33pm - [Comment] Coordinate Your Teams"
-  image: "Facebook comment thread showing replies from both 'Customer Help Service' and 'Angi'"
-  check: "🟢"
-
-- figure: "9.13.6"
-  caption: "🌀 Public reply to Angi that I have been working with Customer Help Service since September 10th, advise they coordinate their teams."
-  event: "(🌀🟠) 9/13 11:33pm - [Comment] Coordinate Your Teams"
-  image: "Facebook comment by Marcus Litchfield: '@Angi I have already been in a private DM...'"
-  check: "🟢"
-
-- figure: "9.13.7"
-  caption: "🌀 DM to Customer Help Service, screenshot of the Angi brand account responding to the thread. Request written confirmation of cancellation."
-  event: "(🌀🔴) 9/13 11:34pm - [Message] CHS: Angi Has Commented"
-  image: "Messenger chat sending screenshot of Angi's comment to CHS"
-  check: "🟢"
-
-- figure: "9.14.1"
-  caption: "🔴 Customer Help Service asks for my phone number at 3:43am."
-  event: "(🔴🌀) 9/14 3:43am - [Message] Where Is The Reachable Phone Number?"
-  image: "Messenger chat message from CHS: 'Where is the reachable phone number'"
-  check: "🟢"
-
-- figure: "9.14.2"
-  caption: "🔴 Facebook profile for \"Customer Help Service\" showing 1 friend"
-  event: "(🔴🌀) 9/14 5:50am - [App] CHS Has a Friend"
-  image: "Facebook profile page for Customer Help Service showing '1 friend'"
-  check: "🟢"
-
-- figure: "9.14.3"
-  caption: "🔴 Friend of CHS showing location as Heard Island and McDonald Islands."
-  event: "(🔴🌀) 9/14 5:50am - [App] CHS Has a Friend"
-  image: "Facebook profile details for 'Naya Andrea' showing location 'Heard Island and McDonald Islands'"
-  check: "🟢"
-
-- figure: "9.14.4"
-  caption: "🌀 Request for no further contact again from Customer Help Service unless it is with written confirmation of cancellation."
-  event: "(🌀🔴) 9/14 5:55am - [Message] Final message to Customer Help Service"
-  image: "Messenger chat: 'I have explicitly stated... Do not contact me again unless...'"
-  check: "🟢"
-
-- figure: "9.15.3"
-  caption: "🟠 Expanded \"How to Cancel My Angi Key Membership\" from panel on FAQ page at https://www.angi.com/landing/faq"
-  event: "(🌀🟠) 9/15 9:45am - [Web] Path to Cancellation Steps Discovered"
-  image: "Angi FAQ page showing expanded panel 'How do I cancel my Angi Key Membership?'"
-  check: "🟢"
-
-- figure: "9.15.4"
-  caption: "🏦 Call log to U.S. Bank (800-872-2657) regarding chargeback, duration 23:50."
-  event: "(🌀🏦) 9/15 3:57pm - US Bank Chargeback, Phone Call"
-  image: "Mobile call log showing outgoing call to U.S. Bank, 23 mins 50 sec"
-  check: "🟢"
-
-- figure: "9.16.1"
-  caption: "🏦 U.S. Bank transaction detail showing provisional credit of +$29.99."
-  event: "(🏦🌀) 9/16 - [Transaction] Provisional Credit Issued"
-  image: "Bank transaction screen: +$29.99 Prov Cred Prov Cred Pay*"
-  check: "🟢"
-
-- figure: "9.18.1"
-  caption: "🌐 Deleted X post to @Angi."
-  event: "(🌀🌐) 9/18 8:23pm - [Post/X] Removed @angi Post"
-  image: "X post by Marcus Litchfield: '@Angi I've made 5 attempts to cancel...'"
-  check: "🟢"
-
-- figure: "9.18.2"
-  caption: "🏦 +$29.99 debit purchase return merchant details from Monarch Money"
-  event: "(🏦🌀) 9/18 - [Transaction] Debit Purchase Return"
-  image: "Transaction detail: Debit Purchase Ret - Visa Pay* Homeadvisorindianapolisin"
-  check: "🟢"
-
-- figure: "9.19.1"
-  caption: "🌀 My direct message to the Angi brand, one final opportunity to do right by me and clear things up."
-  event: "(🌀🟠) 9/19 5:25am - [Message] Direct Message to Angi Brand"
-  image: "Messenger chat to Angi: 'I am following up on your public comment...'"
-  check: "🟢"
-
-- figure: "9.19.2"
-  caption: "🟠 Angi asserts that the Customer Help Service is not associated with Angi."
-  event: "(🟠🌀) 9/19 10:28am - [Message] CHS Is Not Us, Account Under Wife's Name?"
-  image: "Messenger chat from Angi: 'The Facebook page for Customer Help Service is not associated with Angi...'"
-  check: "🟢"
-
-- figure: "9.19.3"
-  caption: "🌀 My reply to Angi informing them that the Customer Help Service is still accessible from the Angi Page, including a link to a video depicting navigation steps."
-  event: "(🌀🟠) 9/19 4:33pm - [Message] Provide Tammy's Info (Ignored)"
-  image: "Messenger chat to Angi: 'I have ceased all communication... This illegitimate entity... remains accessible'"
-  check: "🟢"
-
-- figure: "9.19.4"
-  caption: "🌀 Initiating the process of reporting CHS to Facebook."
-  event: "(🌀🌐) 9/19 5:08pm - [App] Reported CHS Account to Facebook"
-  image: "Facebook menu for Customer Help Service: 'Report profile'"
-  check: "🟢"
-
-- figure: "9.19.5"
-  caption: "🌀 Reporting CHS as \"Fraud or scam\""
-  event: "(🌀🌐) 9/19 5:08pm - [App] Reported CHS Account to Facebook"
-  image: "Facebook report screen selecting 'Fraud or scam'"
-  check: "🟢"
-
-- figure: "9.21.1"
-  caption: "🌐 Confirmation from Facebook that the CHS was removed subsequent to my request."
-  event: "(🌐🌀) 9/21 7:32am - [Message] Facebook Removes CHS"
-  image: "Facebook Support message: 'We removed the profile you reported'"
-  check: "🟢"
-
-- figure: "9.21.2"
-  caption: "🌐 CHS is now inactive in messenger"
-  event: "(🌀🌐) 9/21 10:19am - [App] Verified CHS Removal"
-  image: "Messenger chat showing 'This person is unavailable on Messenger.'"
-  check: "🟢"
-
-- figure: "9.21.3"
-  caption: "🌐 CHS comments have been removed. It now appears to others as if Angi is the only direct response to my request for a working method to cancel."
-  event: "(🌀🌐) 9/21 10:19am - [App] Verified CHS Removal"
-  image: "Facebook comments thread showing only Marcus and Angi, no CHS"
-  check: "🟢"
-
-- figure: "9.21.4"
-  caption: "🔴 Nameless 😥 reaction from the now-removed Customer Help Service."
-  event: "(🌀🌐) 9/21 10:19am - [App] Verified CHS Removal"
-  image: "Facebook reactions list showing a sad face with no name next to it"
-  check: "🟢"
-
-- figure: "9.22.1"
-  caption: "🟠 Our HomeAdvisor welcome email from Jan 6, 2020."
-  event: "(🌹🌀) 9/22 9:10am - [Email] Tammy Finds HomeAdvisor Welcome Email"
-  image: "Email: 'Tammy, Welcome to HomeAdvisor!' dated Jan 6, 2020"
-  check: "🟢"
-
-- figure: "9.23.1"
-  caption: "🏦 Call log to U.S. Bank to withdraw dispute, duration 19:32."
-  event: "(🌀🏦) 9/23 9:53am - [Call] US Bank - Prevent Double Recovery"
-  image: "Mobile call log showing outgoing call to U.S. Bank, 19 mins 32 sec"
-  check: "🟢"
-
-- figure: "9.26.1"
-  caption: "🏛️ CFPB status update showing US Bank response \"Closed with explanation\"."
-  event: "(🏛️🌀) 9/26 2:24pm - [Email] Closed: CFPB 250914-24063002"
-  image: "CFPB portal status: 'Closed with explanation' for complaint 250914-24063002"
-  check: "🟢"
-
-- figure: "9.26.2"
-  caption: "🏦 Letter from U.S. Bank confirming provisional credit application."
-  event: "(🏛️🌀) 9/26 2:24pm - [Email] Closed: CFPB 250914-24063002"
-  image: "Letter from US Bank: 'Important information about your U.S. Bank Visa Check Card...'"
-  check: "🟢"
-
-- figure: "9.26.3"
-  caption: "🏦 Formal response letter from U.S. Bank regarding the dispute."
-  event: "(🏛️🌀) 9/26 2:24pm - [Email] Closed: CFPB 250914-24063002"
-  image: "Letter from US Bank Enterprise Complaints: 'Re: Consumer Financial Protection Bureau case #250914-24063002'"
-  check: "🟢"
-
-- figure: "10.3.1"
-  caption: "🟠 Angi.com billing information in my wife's account cannot be removed through any evident means. A valid card must be provided. I have been unable to remove my debit card information from Angi's systems."
-  event: "(🌹🟠) 10/3 ~5:00pm - [Web] Discovery of Forced Data Retention"
-  image: "Angi payment settings screen showing 'Update payment method' button but no delete option"
-  check: "🟢"
-
-- figure: "10.6.1"
-  caption: "️ Submission confirmation for SEC TCR #17597-937-502-732."
-  event: "(🌀🏛️) 10/6 4:35pm - [Web] SEC TCR 17597-937-502-732"
-  image: "SEC TCR Submission Confirmation screen: 'Submission Number: 17597-937-502-732'"
-  check: "🟢"
-
-- figure: "10.13.1"
-  caption: "❌ FTC ReportFraud.ftc.gov displaying \"Government Shutdown Notice\"."
-  event: "(🌀🏛️) 10/13 10:15am - [Web] FTC Complaint Blocked by Shutdown"
-  image: "FTC ReportFraud.ftc.gov screen showing 'Government Shutdown Notice'"
-  check: "🟢"
-
-- figure: "10.13.2"
-  caption: "️ Submission confirmation for CFPB Complaint #251013-24920571."
-  event: "(🌀🏛️) 10/13 11:36am - [Web] Opened: CFPB Complaint 251013-24920571"
-  image: "CFPB confirmation screen: 'ID FOR COMPLAINT SENT TO ANGI, INC. 251013-24920571'"
-  check: "🟢"
-
-- figure: "10.13.4"
-  caption: "⭐ Submission confirmation for Colorado Attorney General Complaint #C-000050111."
-  event: "(🌀⭐) 10/13 3:35pm - [Web] Filed: CO AG Complaint C-000050111"
-  image: "Colorado Attorney General complaint submission screen: 'complaint #C-000050111'"
-  check: "🟢"
-
-- figure: "10.16.1"
-  caption: "️ Photo of printed Report v4.3 and USB drive prepared for FTC delivery."
-  event: "(🌀🏛️) 10/16 11:35am - [Priority Mail] Sent: Report v4.3 to FTC"
-  image: "Photo of spiral bound report and USB drive on a red surface"
-  check: "🟢"
-
-- figure: "10.16.2"
-  caption: "️ Close-up of the spiral-bound Report v4.3."
-  event: "(🌀🏛️) 10/16 11:35am - [Priority Mail] Sent: Report v4.3 to FTC"
-  image: "Close up photo of the open spiral bound report title page"
-  check: "🟢"
-
-- figure: "10.16.6"
-  caption: "️ Regulations.gov comment form for FTC Strategic Plan FY 2026-2030."
-  event: "(🌀🏛️) 10/16 12:20pm - [Comment] Regulations.gov FTC Strategic Plan"
-  image: "Regulations.gov comment submission form for 'Draft FTC Strategic Plan FY 2026-2030'"
-  check: "🟢"
-
-- figure: "10.16.8"
-  caption: "️ Regulations.gov submission confirmation (Tracking: mgt-u2s0-6hc5)."
-  event: "(🌀🏛️) 10/16 12:20pm - [Comment] Regulations.gov FTC Strategic Plan"
-  image: "Regulations.gov success screen: 'Comment Tracking Number mgt-u2s0-6hc5'"
-  check: "🟢"
-
-- figure: "10.16.11"
-  caption: "🌀 Sent formal demand to Angi via email."
-  event: "(🌀🟠) 10/16 7:53pm - [Email] Formal Data Deletion Demand"
-  image: "Email to Shannon Shaw: 'FORMAL DEMAND FOR DATA DELETION...'"
-  check: "🟢"
-
-- figure: "10.20.4"
-  caption: "🟠 Clip of our HomeAdvisor welcome email from 2020. The Terms and Conditions and Privacy Policy links are broken."
-  event: "(🌀🟠) 10/20 1:33pm - [Email] 2020 Terms of Service Inaccessible"
-  image: "HomeAdvisor email footer showing links for Terms & Conditions and Privacy Policy"
-  check: "🟢"
-
-- figure: "10.20.5"
-  caption: "❌ ce.homeadvisor.com returns NXDOMAIN"
-  event: "(🌀🟠) 10/20 1:33pm - [Email] 2020 Terms of Service Inaccessible"
-  image: "Chrome browser error for ce.homeadvisor.com: 'DNS_PROBE_FINISHED_NXDOMAIN'"
-  check: "🟢"
-
-- figure: "10.21.2"
-  caption: "🟠 \"Welcome back!\" deceptive login screen screenshot uploaded to Consumer Reports."
-  event: "(🌀🔊) 10/21 1:15pm - [Web] Consumer Reports Dark Patterns Tip"
-  image: "HomeAdvisor login screen showing 'Welcome back!'"
-  check: "🟢"
-
-- figure: "10.21.3"
-  caption: "🟠 \"First Time User\" deceptive screen screenshot uploaded to Consumer Reports."
-  event: "(🌀🔊) 10/21 1:15pm - [Web] Consumer Reports Dark Patterns Tip"
-  image: "HomeAdvisor screen showing 'Welcome back, First Time User.'"
-  check: "🟢"
-
-- figure: "10.21.4"
-  caption: "🟠 Forced retention payment method screen screenshot uploaded to Consumer Reports."
-  event: "(🌀🔊) 10/21 1:15pm - [Web] Consumer Reports Dark Patterns Tip"
-  image: "Angi payment settings screen showing 'Update payment method' button"
-  check: "🟢"
-
-- figure: "10.21.5"
-  caption: "🔊 Submission success screen for Consumer Reports Dark Pattern Tip."
-  event: "(🌀🔊) 10/21 1:15pm - [Web] Consumer Reports Dark Patterns Tip"
-  image: "Consumer Reports success message: 'Success! You have successfully submitted a post.'"
-  check: "🟢"
-
-- figure: "10.21.7"
-  caption: "📰 Submission success screen for ProPublica Tip."
-  event: "(🌀📰) 10/21 6:47pm - [Web] Submitted ProPublica Tip"
-  image: "ProPublica success screen: 'Thanks for submitting a tip.'"
-  check: "🟢"
-
-- figure: "10.22.11"
-  caption: "🌐 Updated X profile bio disclosing financial position and SEC whistleblower status."
-  event: "(🌀🌐) 10/22 ~2pm - [Post/X] Distribute on X bio"
-  image: "X profile for Marcus Litchfield showing updated bio"
-  check: "🟢"
-
-- figure: "10.24.2"
-  caption: "🌐 Facebook post containing the narrated video of the deceptive registration funnel."
-  event: "(🌀🌐) 10/24 11:36am - [Post/Facebook,X] Narrated Registration Funnel Demo"
-  image: "Facebook post by Marcus Litchfield: 'Angi's Deceptive Registration Funnel...'"
-  check: "🟢"
-
-- figure: "10.25.1"
-  caption: "🔊Facebook notifications confirming membership in CFPB Support and Elliott Advocacy groups."
-  event: "(🌀🔊) 10/25 - Joined Consumer Advocacy Groups"
-  image: "Facebook notifications: 'You became a member of Consumer Financial Protection Bureau (CFPB) Support Forum'"
-  check: "🟢"
-
-- figure: "10.27.1"
-  caption: "✉️ USPS Tracking confirming delivery of FTC Report v4.3 to Washington DC."
-  event: "(✉️🌀) 10/27 5:32am - [Priority Mail] Delivered: FTC Report v4.3"
-  image: "USPS Tracking screen: 'Delivered to Agent: WASHINGTON, DC 20580'"
-  check: "🟢"
-
-- figure: "10.27.4"
-  caption: "✉️ Detailed USPS tracking history for the FTC delivery."
-  event: "(✉️🌀) 10/27 5:32am - [Priority Mail] Delivered: FTC Report v4.3"
-  image: "USPS Tracking History details for FTC Report delivery"
-  check: "🟢"
-
-- figure: "10.27.5"
-  caption: "🟠 Email from Jaime Padgett: Litchenfield deflection"
-  event: "(🟠🌀) 10/27 1:11pm - [Email] The Litchenfield Deflection"
-  image: "Email from Jaime Padgett: 'Mr. Litchfield, I am in-house counsel at Angi...'"
-  check: "🟢"
-
-- figure: "10.27.6"
-  caption: "🌹 Tammy exercises rights, delegates to me, instructs no further contact"
-  event: "(🌹🟠) 10/27 5:54pm - [Email] Tammy Exercises Her Data Subject Rights"
-  image: "Email from Tammy Litchfield to PrivacyOfficer: 'FORMAL EXERCISE OF DATA SUBJECT RIGHTS...'"
-  check: "🟢"
-
-- figure: "10.27.7"
-  caption: "🌀 I assert my rights, correct Angi's factual inaccuracies, and neutralize their procedural motion."
-  event: "(🌀🟠) 10/27 7:20pm - [Email] I Respond to Angi Legal Counsel"
-  image: "Email from Stephen Marcus Litchfield to Jamie Padgett: 'Thank you for your email of October 27...'"
-  check: "🟢"
-
-- figure: "10.28.1"
-  caption: "🟠 Angi responds: request completed, but complied in part and denied in part."
-  event: "(🟠🌀) 10/28 9:48am - [Email] Complied in Part, Denied in Part"
-  image: "Email from Angi: 'Your request to delete information at Angi has been completed'"
-  check: "🟢"
-
-- figure: "10.28.2"
-  caption: "🟠 Service Desk ticket resolved: INC-2549943 CCPA Delete Data (#1)"
-  event: "(🟠🌀) 10/28 9:52am - [Email] Service Desk: Request Resolved"
-  image: "Email from Service Desk: 'INC-2549943: Ticket Resolved - Data Request: CCPA Delete Data'"
-  check: "🟢"
-
-- figure: "10.28.3"
-  caption: "🟠 Tammy's Phone Number, Email Address, Home Address, and my 2667 card info remain in system"
-  event: "(🌀🟠) 10/28 8:40pm - [Web] Data has not been deleted"
-  image: "Angi account Payment Method screen showing Visa **** 2667"
-  check: "🟢"
-
-- figure: "10.28.4"
-  caption: "❌ My homeadvisor account is now inaccessible"
-  event: "(🌀🟠) 10/28 8:53pm - [Web] Cannot Log In to HomeAdvisor account"
-  image: "HomeAdvisor login error screen: 'Uh-Oh. An error occurred while logging you in...'"
-  check: "🟢"
-
-- figure: "10.28.5"
-  caption: "🌀 Request is NOT resolved"
-  event: "(🌀🟠) 10/28 10:01pm - [Email] Respond: Not Resolved"
-  image: "Email from Marcus Litchfield to Service Desk: 'This is to confirm that ticket INC-2549943 is not resolved.'"
-  check: "🟢"
-
-- figure: "10.28.6"
-  caption: "🟠 Jeanne emails Tammy, instructing her to initiate a privacy request (Cease-contact violation #1)"
-  event: "(🟠🌹) 10/28 11:14pm - [Email] Angi Violates Cease-Contact Instructions"
-  image: "Email from Angi Home Owner (Jeanne): 'Angi Follow Up... To initiate your request...'"
-  check: "🟢"
-
-- figure: "10.28.7"
-  caption: "🟠 Form to initiate a privacy request."
-  event: "(🟠🌹) 10/28 11:14pm - [Email] Angi Violates Cease-Contact Instructions"
-  image: "Angi website form: 'California Consumer Privacy Act' request form"
-  check: "🟢"
-
-- figure: "10.30.1"
-  caption: "🌀 Request for comments for Seeking Alpha article."
-  event: "(🌀🟠) 10/30 5:23am - [Email] Request for Comments for Article"
-  image: "Email from Marcus Litchfield to mediarelations: 'Request for Comment: Seeking Alpha Article...'"
-  check: "🟢"
-
-- figure: "10.31.1"
-  caption: "🟠 Devin contacts Tammy: routing to Accounting to \"Locate and Remove\" card. (Cease-contact violation #2)"
-  event: "(🟠🌹) 10/31 1:03pm - [Email] To Accounting: Locate and Remove Card"
-  image: "Email from Home Owner (Devin): 'We have provided your information to our Accounting Team...'"
-  check: "🟢"
-
-- figure: "10.31.2"
-  caption: "🟠 Screenshot of Recording R showing card 2667 is retrievable from my.angi.com after 5pm October 31"
-  event: "(🌀🟠) 10/31 6:45pm - [Web] Card Remains in System After Deadline"
-  image: "Angi Payment Method screen showing Visa **** 2667 and 'Update payment method'"
-  check: "🟢"
-
-- figure: "11.1.2"
-  caption: "🟠 Screenshot of \"Update payment method\" button used in OCPA complaint."
-  event: "(🌀⭐) 11/1 9:39pm - [Web] Filed: Oregon DOJ OCPA Complaint"
-  image: "Angi Payment Method screen showing 'Update payment method' button"
-  check: "🟢"
-
-- figure: "11.1.3"
-  caption: "⭐ Oregon DOJ Consumer Protection website (Privacy section)."
-  event: "(🌀⭐) 11/1 9:39pm - [Web] Filed: Oregon DOJ OCPA Complaint"
-  image: "Oregon Department of Justice Consumer Protection website showing 'Consumer Privacy'"
-  check: "🟢"
-
-- figure: "11.1.4"
-  caption: "⭐ SmartSheet form for Oregon Consumer Privacy Act Complaint."
-  event: "(🌀⭐) 11/1 9:39pm - [Web] Filed: Oregon DOJ OCPA Complaint"
-  image: "Smartsheet 'Oregon Consumer Privacy Act Complaint' form"
-  check: "🟢"
-
-- figure: "11.1.5"
-  caption: "⭐ Submission confirmation for Oregon DOJ OCPA Complaint"
-  event: "(🌀⭐) 11/1 9:39pm - [Web] Filed: Oregon DOJ OCPA Complaint"
-  image: "Smartsheet confirmation screen: 'Thank you for submitting your privacy complaint.'"
-  check: "🟢"
-
-- figure: "11.3.1"
-  caption: "🟠 Service Desk contacts Tammy, INC-2551970 CCPA Delete Data (#2) resolved (Cease-contact violation #3)"
-  event: "(🟠🌹) 11/3 10:23am - [Email] INC-2551970: Ticket Resolved"
-  image: "Email from Service Desk: 'INC-2551970: Ticket Resolved - Data Request: CCPA Delete Data'"
-  check: "🟢"
-
-- figure: "11.3.5"
-  caption: "Android PDF split tool used to prepare SEC upload."
-  event: "(🌀🏛️) 11/3 1:10pm - [Web] Submit SEC Supplemental TCR"
-  image: "Android file manager screen showing split PDF files"
-  check: "🟢"
-
-- figure: "11.3.6"
-  caption: "️ SEC TCR file upload screen showing split files."
-  event: "(🌀🏛️) 11/3 1:10pm - [Web] Submit SEC Supplemental TCR"
-  image: "SEC TCR file upload screen listing 5 parts of the forensic timeline"
-  check: "🟢"
-
-- figure: "11.3.8"
-  caption: "️ Submission confirmation for SEC Supplemental TCR #17622-040-479-957."
-  event: "(🌀🏛️) 11/3 1:10pm - [Web] Submit SEC Supplemental TCR"
-  image: "SEC TCR submission confirmation screen: 'Submission Number: 17622-040-479-957'"
-  check: "🟢"
-
-- figure: "11.4.3"
-  caption: "🟠 Sr. Counsel issues false assertions, misrepresents Stripe's role as data processor, then simultaneously issues a legal threat in the form of a fatal paradox."
-  event: "(🟠🌀) 11/4 2:45pm - [Email] Legal Threat & Fatal Paradox"
-  image: "Email from Jaime Padgett: 'Hi, Mr. Litchfield, Thank you for your follow up questions...'"
-  check: "🟢"
-
-- figure: "12.22.1"
-  caption: "⚖️ Mark O. Hatfield Courthouse"
-  event: "(🌀⚖️) 12/22 ~3pm - [Delivery] Filing Packet to Clerk's Office"
-  image: "Photo of the exterior of the Mark O. Hatfield United States Courthouse"
-  check: "🟢"
-
-- figure: "12.22.2"
-  caption: "⚖️ Federal Case 3:25-cv-2394-SI"
-  event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
-  image: "Complaint document stamped with case number 3:25-cv-2394-SI"
-  check: "🟢"
-
-- figure: "12.22.3"
-  caption: "⚖️ Seal of the Court"
-  event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
-  image: "Summons document stamped with the Seal of the Court"
-  check: "🟢"
-
-- figure: "12.23.1"
-  caption: "🚙 Barrister Malstroms receipt for process service"
-  event: "(🌀🚙) 12/23 [Delivery] Service Packet to Process Server"
-  image: "Receipt from Barrister Malstroms"
-  check: "🟢"
-
-- figure: "12.26.1"
-  caption: "️ Submission confirmation for FTC Report #195498563."
-  event: "(🌀️) 12/25 9:41am - [Web] Filed: FTC Report 195498563"
-  image: "FTC ReportFraud.ftc.gov confirmation screen: 'Report submitted! ... Report Number 195498563'"
-  check: "🟢"
-
-- figure: "1.2.1"
-  caption: "🚙 Email from Barrister Malstroms confirming service on Angi Inc."
-  event: "(🚙🌀) 1/2 12:43 - [Email] Barrister Malstroms: Angi Served"
-  image: "Email from Barrister Malstroms: 'TSB Status on (ANGI, INC.)' showing served status"
-  check: "🟢"
-
-- figure: "1.5.1"
-  caption: "✉️ USPS tracking showing delivery of address correction to Clerk of Court."
-  event: "(🌀⚖️) 1/5 8:03am - [Certified Mail] Delivered: Address Correction to Clerk"
-  image: "USPS Tracking screen: 'Delivered to Agent: PORTLAND, OR'"
-  check: "🟢"
-
-- figure: "1.6.1"
-  caption: "⚖️ CourtListener: Docket Alert"
-  event: "(⚖️🌀) 1/6 10:31am - [Email] Docket Alert: Address Correction"
-  image: "CourtListener Docket Alert email"
-  check: "🟢"
-
-- figure: "1.6.7"
-  caption: "✉️ USPS tracking showing delivery of Audit Report to Ernst & Young."
-  event: "(✉️🌀) 1/6 10:48pm - [Certified Mail] Delivered: Audit Committee Report to EY"
-  image: "USPS Tracking screen: 'Delivered: DENVER, CO'"
-  check: "🟢"
-
-- figure: "1.6.8"
-  caption: "✉️ USPS tracking showing delivery of Address Correction to Angi."
-  event: "(✉️🌀) 1/6 12:05pm - [Certified Mail] Delivered: Address Correction to Angi"
-  image: "USPS Tracking screen: 'Delivered: SALEM, OR'"
-  check: "🟢"
-
-- figure: "1.8.0"
-  caption: "✉️ USPS tracking showing delivery of v8.8-slim to FTC."
-  event: "(✉️🌀) 1/8 8:13am - [Certified Mail] Delivered: v8.8-slim to FTC"
-  image: "USPS Tracking screen: 'Delivered: WASHINGTON, DC'"
-  check: "🟢"
-
-- figure: "1.8.1"
-  caption: "️🚨 CFPB email alert that company response is past due (Case 251116-25920284)."
-  event: "(️🌀) 1/8 9:00pm - [Email] 🚨ALERTED: CFPB 251116-25920284"
-  image: "CFPB email: 'We have alerted the company its final response is past due.'"
-  check: "🟢"
-
-- figure: "1.10.1"
-  caption: "✉️ USPS tracking for CM/ECF Motion delivered to Clerk."
-  event: "(✉️🌀) 1/10 10:43am - [Certified Mail] Delivered: CM/ECF Motion to Clerk"
-  image: "USPS Tracking screen: 'Delivered: PORTLAND, OR'"
-  check: "🟢"
-
-- figure: "1.10.2"
-  caption: "✉️ USPS tracking for Service Return delivered to Clerk."
-  event: "(✉️🌀) 1/10 10:43am - [Certified Mail] Delivered: Service Return to Clerk"
-  image: "USPS Tracking screen: 'Delivered: PORTLAND, OR'"
-  check: "🟢"
-
-- figure: "1.10.3"
-  caption: "✉️ USPS tracking for CM/ECF Motion delivered to Angi."
-  event: "(✉️🌀) 1/10 11:01am - [Certified Mail] Delivered: CM/ECF Filing Motion to Angi"
-  image: "USPS Tracking screen: 'Delivered: SALEM, OR'"
-  check: "🟢"
-
-- figure: "1.10.4"
-  caption: "✉️ USPS tracking for Certificate of Service (Pre-Trial Docs) delivered to Clerk."
-  event: "(✉️🌀) 1/10 11:01am - [Certified Mail] Delivered: COS for Pre-Trial Docs"
-  image: "USPS Tracking screen: 'Delivered: PORTLAND, OR'"
-  check: "🟢"
-
-- figure: "1.12.1"
-  caption: "⚖️ CourtListener: Docket Alert (3 New Entries)"
-  event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
-  image: "Docket alert listing entries 7, 8, and 9"
-  check: "🟢"
-
-- figure: "1.13.1"
-  caption: "💳 Seerat: Stripe Privacy needs more I info"
-  event: "(💳🌀) 1/13 12:36am - [Email] Stripe Requests More Info"
-  image: "Email from Stripe Privacy (Seerat) asking for identifying website"
-  check: "🟢"
-
-- figure: "1.13.2"
-  caption: "⚖️ Application for CM/ECF Registration"
-  event: "(🌀⚖️) 1/13 2:31pm - [Email] Submitted CM/ECF Filing Application"
-  image: "Application form for CM/ECF Registration as a Self-Represented Party"
-  check: "🟢"
-
-- figure: "1.13.3"
-  caption: "⚖️ NEF: CM/ECF e-Filing Motion"
-  event: "(⚖️🌀) 1/13 2:40pm - [NEF] CM/ECF Filing Application"
-  image: "Notice of Electronic Filing for Application for CM/ECF Registration"
-  check: "🟢"
-
-- figure: "1.13.4"
-  caption: "⚖️ PACER: Account Number (Registration Confirmation)"
-  event: "(🌀⚖️) 1/13 3:58pm - [Web] Registered for Upgraded PACER Account"
-  image: "PACER confirmation screen: 'Thank You for registering!'"
-  check: "🟢"
-
-- figure: "1.13.5"
-  caption: "💳 Give Seerat more info"
-  event: "(🌀💳) 1/13 5:35pm - [Email] Respond to Stripe With More Info"
-  image: "Stripe Charge Lookup Tool showing 'We found your charge'"
-  check: "🟢"
-
-- figure: "1.16.1"
-  caption: "⚖️ SI: ORDER - The Court GRANTS the Application (Doc 11)."
-  event: "(⚖️🌀) 1/16 10:09am - [NEF] ORDER: CM/ECF Fling Access GRANTED"
-  image: "Docket Entry 11: 'ORDER - The Court GRANTS the Application...'"
-  check: "🟢"
-
-- figure: "1.16.2"
-  caption: "⚖️ NextGen CM/ECF Registration Processed Email."
-  event: "(⚖️🌀) 1/16 11:00am - [Email] NextGen Registration Processed"
-  image: "Email from US District Court: 'Your e-filing registration request... has been approved'"
-  check: "🟢"
-
-- figure: "1.16.3"
-  caption: "⚖️ E-filing status in PACER is Active"
-  event: "(⚖️🌀) 1/16 11:00am - [Email] NextGen Registration Processed"
-  image: "PACER Manage My Account screen showing 'Status Active'"
-  check: "🟢"
-
-- figure: "1.16.4"
-  caption: "⚖️ SI: ORDER - Redundant Motion Denied as Moot (Doc 12)."
-  event: "(⚖️🌀) 1/16 12:25pm - [NEF] ORDER: Redundant Motion Moot"
-  image: "Docket Entry 12: 'ORDER... DENIED AS MOOT'"
-  check: "🟢"
-
-- figure: "1.16.5"
-  caption: "🟠 Log in to angi.com with tenamyw@gmail.com"
-  event: "(🌀🟠) 1/16 6:51pm - [Web] Current Account Access"
-  image: "Screenshot from video Y: Login screen at angi.com"
-  check: "🟢"
-
-- figure: "1.16.6"
-  caption: "🟠 Registration funnel indicates account removal"
-  event: "(🌀🟠) 1/16 6:51pm - [Web] Current Account Access"
-  image: "Screenshot from video Y: 'We need a few details to complete your account'"
-  check: "🟢"
-
-- figure: "1.16.7"
-  caption: "🟠 Log in to homeadvisor.com with marclitchfield@gmail.com"
-  event: "(🌀🟠) 1/16 6:51pm - [Web] Current Account Access"
-  image: "Screenshot from video Z: Login screen at homeadvisor.com"
-  check: "🟢"
-
-- figure: "1.16.8"
-  caption: "❌ \"Uh-oh\" error indicates account has been disabled"
-  event: "(🌀🟠) 1/16 6:51pm - [Web] Current Account Access"
-  image: "Screenshot from video Z: 'Uh-Oh' error message"
-  check: "🟢"
-
-- figure: "1.16.9"
-  caption: "🟠 Checking the registration funnel"
-  event: "(🌀🟠) 1/16 6:51pm - [Web] Current Account Access"
-  image: "Screenshot from video Z: Registration steps with alias"
-  check: "🟢"
-
-- figure: "1.16.10"
-  caption: "🟠 Banner welcoming back the newly created user"
-  event: "(🌀🟠) 1/16 6:51pm - [Web] Current Account Access"
-  image: "Screenshot from video Z: 'Welcome back, January 16.'"
-  check: "🟢"
-
-- figure: "1.20.1"
-  caption: "⚖️ NEF for First Amended Complaint (Docket Entry 13)."
-  event: "(🌀⚖️) 1/20 8:37am - [NEF] Filed: First Amended Complaint"
-  image: "Notice of Electronic Filing for First Amended Complaint"
-  check: "🟢"
-
-- figure: "1.20.2"
-  caption: "✉️ USPS tracking showing \"Delivered to Individual\" in Happy Valley (Return to Sender)."
-  event: "(✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ"
-  image: "USPS Tracking screen: 'Delivered: HAPPY VALLEY, OR'"
-  check: "🟢"
-
-- figure: "1.20.3"
-  caption: "✉️ Photo of returned manila envelope (Audit Committee Report)."
-  event: "(✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ"
-  image: "Photo of returned manila envelope"
-  check: "🟢"
-
-- figure: "1.20.4"
-  caption: "✉️ Close-up of USPS Yellow Label \"Forward Time Exp\" error."
-  event: "(✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ"
-  image: "Close-up of yellow label: 'FORWARD TIME EXP RTN TO SEND'"
-  check: "🟢"
-
-- figure: "1.20.5"
-  caption: "🟠 Angi 8-K report showing Denver as the principal address."
-  event: "(✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ"
-  image: "Angi 8-K document header showing Denver address"
-  check: "🟢"
-
-- figure: "1.20.6"
-  caption: "🌐 Angi main website contact page showing Indianapolis address."
-  event: "(✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ"
-  image: "Angi website contact page showing Indianapolis address"
-  check: "🟢"
-
-- figure: "1.20.7"
-  caption: "✉️ USPS tracking history showing the forwarding loop from Denver back to Oregon."
-  event: "(✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ"
-  image: "USPS Tracking History details showing path: Portland -> Denver -> Phoenix -> Portland"
-  check: "🟢"
-
-- figure: "1.21.1"
-  caption: "⚖️ NEF for Certificate of Service for CM/ECF Access (Docket Entry 14)."
-  event: "(🌀⚖️) 1/21 10:54pm - [NEF] Filed: COS for CM/ECF Access"
-  image: "Notice of Electronic Filing for Certificate of Service"
-  check: "🟢"
-
-- figure: "1.21.2"
-  caption: "⚖️ NEF for Certificate of Service for First Amended Complaint (Docket Entry 15)."
-  event: "(🌀⚖️) 1/21 10:57pm - [NEF] Filed: COS for FAC"
-  image: "Notice of Electronic Filing for Certificate of Service"
-  check: "🟢"
-
-- figure: "1.21.3"
-  caption: "⚖️ NEF for Notice of Service of Initial Disclosures (Docket Entry 16)."
-  event: "(🌀⚖️) 1/21 10:57pm - [NEF] Filed: Notice of 26(a)(1) Service"
-  image: "Notice of Electronic Filing for Notice of Service of Initial Disclosures"
-  check: "🟢"
-
-- figure: "1.22.1"
-  caption: "✉️ USPS tracking showing delivery of First Amended Complaint to Clerk."
-  event: "(✉️🌀) 1/22 8:30am - [Certified Mail] Delivered: FAC to Clerk"
-  image: "USPS Tracking screen: 'Delivered to Agent: PORTLAND, OR'"
-  check: "🟢"
-
-- figure: "1.22.2"
-  caption: "✉️ USPS tracking showing delivery of First Amended Complaint to Angi."
-  event: "(✉️🌀) 1/22 11:26am - [Certified Mail] Delivered: FAC to Angi"
-  image: "USPS Tracking screen: 'Delivered: SALEM, OR'"
-  check: "🟢"
-
-- figure: "1.27.1"
-  caption: "🌐 Updated Reddit Profile"
-  event: "(🌀🌐) 1/27 ~8am - [Post/Reddit] Update Case Summary Post"
-  image: "Reddit post 'Litchfield v. Angi Inc.' summary"
-  check: "🟢"
-
-- figure: "1.27.2"
-  caption: "💳 Tammy's \"Invalid Token\" authorizing with stripe"
-  event: "(🌹💳) 1/27 1:58pm - [App] Tammy Authorizes Within Stripe Platform"
-  image: "Stripe error screen: 'Invalid token'"
-  check: "🟢"
+9.10.1:
+  caption: 🏦 Screenshot of merchant details from Monarch Money of unexpected charge from homeadvisorhandy.com. (Redacted: debit card details)
+  event: (🏦🌀) 9/10 8:34am - [Transaction] Unexpected $29.99 Charge
+  image: Transaction Explanation: Recurring Debit Purchase Pay* Homeadvisorhandy.com $29.99
+  check: 🟢
+
+9.10.2:
+  caption: ❌ Chrome Browser error attempting to navigate to homeadvisorhandy.com, resulting in DNS_PROBE_FINISHED_NXDOMAIN Chrome browser error.
+  event: (🏦🌀) 9/10 8:34am - [Transaction] Unexpected $29.99 Charge
+  image: Chrome browser error screen showing 'This site can't be reached... DNS_PROBE_FINISHED_NXDOMAIN'
+  check: 🟢
+
+9.10.3:
+  caption: 🟠 Angi Key Membership renewal notice delivered to tenamyw@gmail.com, undetected until after cancellation.
+  event: (🟠🌹) 9/10 8:36am - [Email] Angi Renewal Notice
+  image: Email from Angi: 'Your membership has successfully renewed on 9/11/2025' with payment receipt
+  check: 🟢
+
+9.10.4:
+  caption: 🟠 first login/registration verification code email from homeadvisor.com delivered to marclitchfield@gmail.com
+  event: (🌀🟠) 9/10 8:36am - [Web] Sign In
+  image: Email from HomeAdvisor: 'Log in with this 6-digit code to continue' (Code 205704)
+  check: 🟢
+
+9.10.5:
+  caption: 🟠 homeadvisor.com settings page appears to offer no cancellation option or method of updating or removing billing information. (Note: it appeared this way at the time because this was a "shell" account that was obstructing my cancellation).
+  event: (🌀🟠) 9/10~9:00am - [Web] Attempt to Cancel HomeAdvisor
+  image: HomeAdvisor settings page showing 'Welcome back, Stephen' and sections for Personal Information, Password, Address, and Payment Method
+  check: 🟢
+
+9.10.6:
+  caption: 🌀 5 logged disconnected calls attempting to cancel membership (plus one for verification of accuracy)
+  event: (🌀🟠) 9/10 9:36am - [Phone] Call #5
+  image: Android Call History showing 6 outgoing calls to 888-811-ANGI
+  check: 🟢
+
+9.10.7:
+  caption: 🌀 My comment on Angi’s latest Facebook post, requesting cancellation steps. (Note: This post was found to be removed or deranked the next day).
+  event: (🌀🟠) 9/10 9:52am - [Comment] Attempt to cancel via Facebook
+  image: Facebook comment on Angi page: 'I have made 5 attempts to cancel...'
+  check: 🟢
+
+9.10.8:
+  caption: 🟠 homeadvisor.com site does not appear to have a link to a contact email or chat.
+  event: (🌀🟠) 9/10~10:00am - [Web] Looking For Contact Method
+  image: HomeAdvisor website footer showing social media icons and 'Sign up for Free Project Cost Information' form
+  check: 🟢
+
+9.10.9:
+  caption: 🟠 "Log In" and "Sign Up" choices. 🌀 I chose "Log In".
+  event: (🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel
+  image: HomeAdvisor mobile screen showing 'Log In' and 'Sign Up' buttons
+  check: 🟢
+
+9.10.10:
+  caption: 🟠 "Welcome Back" and "Don't have an account? Click here" messages. 🌀 I supplied my email address.
+  event: (🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel
+  image: HomeAdvisor login screen: 'Welcome back!', email field, and 'Don't have an account? Sign Up.'
+  check: 🟢
+
+9.10.11:
+  caption: 🟠 6-digit login code email
+  event: (🟠🌀) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel
+  image: Email from HomeAdvisor: 'Here is your 6 digit code 009514'
+  check: 🟢
+
+9.10.12:
+  caption: 🌀 Supplying code to verify my email
+  event: (🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel
+  image: HomeAdvisor screen: 'Check your email to continue' with code input field
+  check: 🟢
+
+9.10.13:
+  caption: 🟠 We need a few details to complete your account. 🌀 Supplying First Name, Last Name, Checkbox for accepting the privacy policy.
+  event: (🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel
+  image: HomeAdvisor screen: 'We need to verify a few details to complete your account' asking for First/Last name
+  check: 🟢
+
+9.10.14:
+  caption: 🟠 "Welcome Back, Stephen."
+  event: (🌀🟠) 9/10~10:16am - [Web] Discovery of Deceptive Registration Funnel
+  image: HomeAdvisor homepage banner: 'Welcome back, Stephen.'
+  check: 🟢
+
+9.10.15:
+  caption: 🌐 X post wrong @angi
+  event: (🌀🌐) 9/10 10:30am - [Post/X] Ask @Angi For CancellationSteps
+  image: X post to @Angi: 'I've made 5 attempts to cancel...'
+  check: 🟢
+
+9.10.16:
+  caption: 🔴 Customer Help Service public reaction and reply, directing me to a private conversation. (Note: This reply is hidden from the default “Most Relevant” view and is only visible under the “All Comments” filter.)
+  event: (🔴🌀) 9/10 1:58pm - [Comment] Reaction and Reply on FB
+  image: Facebook comment reply from 'Customer Help Service': 'Kindly click on my profile...'
+  check: 🟢
+
+9.10.17:
+  caption: 🔴 Profile details for Customer Help Service
+  event: (🌀🔴) 9/10 1:59pm - [App] Attempt to Send Message to CHS
+  image: Facebook options menu for Customer Help Service profile showing profile link
+  check: 🟢
+
+9.10.18:
+  caption: 🔴 Accepting the private message from Customer Help Service.
+  event: (🌀🔴) 9/10 1:59pm - [App] Attempt to Send Message to CHS
+  image: Facebook profile page for Customer Help Service showing 'Sent you a friend request' and 'Message' button
+  check: 🟢
+
+9.10.19:
+  caption: 🔴 Private message from Customer Help Service asking me for a WhatsApp number.
+  event: (🔴🌀) 9/10 1:59pm - [Message] CHS Identifies As Angi, Wants My WhatsApp
+  image: Messenger chat: 'Hello... Please DM your reachable WhatsApp number... Angi'
+  check: 🟢
+
+9.10.20:
+  caption: 🌀 My reply, providing my email and a request to process the cancellation and provide written communication in the chat.
+  event: (🌀🔴) 9/10 3:43pm - [Message] Accept the message and reply
+  image: Messenger chat reply: 'I do not use WhatsApp... My account is under the email address...'
+  check: 🟢
+
+9.10.21:
+  caption: 🔴 They ask for my full name, email, and phone number. 🌀 I do not provide my phone number.
+  event: (🔴🌀) 9/10 4:57pm - [Message] CHS asks for my phone number
+  image: Messenger chat: CHS asking for Full Names, Email Address, Phone Number
+  check: 🟢
+
+9.11.1:
+  caption: 🏦 Robinhood execution confirmation for the purchase of 6 ANGI Put options on Sept 11.
+  event: (💹🌀) 9/11 6:30am - [Transaction] First ANGI Put Option Fill
+  image: Robinhood order fill screen: 'Buy ANGI $10 Put 12/19'
+  check: 🟢
+
+9.11.2:
+  caption: 🟠 The Post is now gone from the Posts section. But there is still a Reel that has my comment on it.
+  event: (🌀🟠) 9/11 11:30am - [App] Reel with my Comment Exists
+  image: Angi Facebook page showing 'Reels' tab selected
+  check: 🟢
+
+9.11.3:
+  caption: 🌐 The Customer Help Service's reply is hidden by Facebook's default comment filter.
+  event: (🌀🟠) 9/11 11:30am - [App] Reel with my Comment Exists
+  image: Facebook reel comments section showing 'Most relevant' filter with only Marcus's comment visible
+  check: 🟢
+
+9.11.4:
+  caption: 🔴 The CHS Comment appears in the thread when the “All comments” option is selected.
+  event: (🌀🟠) 9/11 11:30am - [App] Reel with my Comment Exists
+  image: Messenger chat screen showing CHS asking 'Can we call right away'
+  check: 🟢
+
+9.11.5:
+  caption: 🔴 Request to take a call right away, 🌀 and my refusal. (Note: this was our final interaction.)
+  event: (🔴🌀) 9/11 4:27pm - [Message] Request for a call right away
+  image: Messenger chat screen showing Marcus replying 'No, I am not available for a phone call'
+  check: 🟢
+
+9.12.1:
+  caption: 🟠 Tammy’s Angie's List settings page where she cancelled her membership. (Redacted: Tammy’s phone number)
+  event: (🌹🟠) 9/12 8:18am - [Web] Tammy cancels via Angie's List
+  image: Angi settings page: 'Welcome back, Tammy' showing personal info
+  check: 🟢
+
+9.12.2:
+  caption: 🟠 Email confirmation from Angi that Tammy's Angi Key membership had been cancelled.
+  event: (🟠🌹) 9/12 8:20am - [Email] Angi Key Membership Cancellation
+  image: Email from Angi: 'Your Angi Key Membership was cancelled.'
+  check: 🟢
+
+9.12.3:
+  caption: 🟠 Email confirmation that Tammy's ”booking plan” was cancelled.
+  event: (🟠🌹) 9/12 8:22am - [Email] Angi 'Booking Plan' Cancellation
+  image: Email from Angi: 'Your plan was cancelled.'
+  check: 🟢
+
+9.12.4:
+  caption: 🟠 Tammy's HomeAdvisor settings page showing membership benefits still available until September 11, 2026.
+  event: (🌹🟠) 9/12 8:40am - [Web] Ambiguous HomeAdvisor Membership Status
+  image: Angi/HomeAdvisor page: 'Welcome back, Tammy' showing 'Membership Details... Your benefits are still available...'
+  check: 🟢
+
+9.13.1:
+  caption: ⚖️ Submission confirmation screen for FTC Report #192792633.
+  event: (🌀🏛️) 9/13 10:24am - [Web] Submit: FTC Report 192792633
+  image: FTC ReportFraud.ftc.gov confirmation screen: 'Report submitted! ... Report Number 192792633'
+  check: 🟢
+
+9.13.2:
+  caption: ⚖️ Submission confirmation screen for CFPB Complaint #250914-24063002.
+  event: (🌀🏛️) 9/13 7:39pm - [Web] Opened: CFPB Complaint 250914-24063002
+  image: CFPB confirmation screen: 'You have successfully submitted your complaint! ... 250914-24063002'
+  check: 🟢
+
+9.13.3:
+  caption: ⚖️ Submission confirmation screen for Oregon DOJ Complaint #972424.
+  event: (🌀⭐) 9/13 7:09pm - [Web] Submit: OR DOJ Complaint 972424
+  image: Oregon DOJ confirmation screen: 'Thank you... confirmation number is: 972424'
+  check: 🟢
+
+9.13.4:
+  caption: 🟠 Angi brand account replies to my public comment, requesting a second private conversation.
+  event: (🟠🌀) 9/12 12:08pm - [Comment] Angi Reply on FB thread
+  image: Facebook comment reply from Angi: 'Hi Marcus, please send us a direct message...'
+  check: 🟢
+
+9.13.5:
+  caption: 🟠🔴 Public replies from both Customer Help Service and Angi now appear when showing All Comments.
+  event: (🌀🟠) 9/13 11:33pm - [Comment] Coordinate Your Teams
+  image: Facebook comment thread showing replies from both 'Customer Help Service' and 'Angi'
+  check: 🟢
+
+9.13.6:
+  caption: 🌀 Public reply to Angi that I have been working with Customer Help Service since September 10th, advise they coordinate their teams.
+  event: (🌀🟠) 9/13 11:33pm - [Comment] Coordinate Your Teams
+  image: Facebook comment by Marcus Litchfield: '@Angi I have already been in a private DM...'
+  check: 🟢
+
+9.13.7:
+  caption: 🌀 DM to Customer Help Service, screenshot of the Angi brand account responding to the thread. Request written confirmation of cancellation.
+  event: (🌀🔴) 9/13 11:34pm - [Message] CHS: Angi Has Commented
+  image: Messenger chat sending screenshot of Angi's comment to CHS
+  check: 🟢
+
+9.14.1:
+  caption: 🔴 Customer Help Service asks for my phone number at 3:43am.
+  event: (🔴🌀) 9/14 3:43am - [Message] Where Is The Reachable Phone Number?
+  image: Messenger chat message from CHS: 'Where is the reachable phone number'
+  check: 🟢
+
+9.14.2:
+  caption: 🔴 Facebook profile for "Customer Help Service" showing 1 friend
+  event: (🔴🌀) 9/14 5:50am - [App] CHS Has a Friend
+  image: Facebook profile page for Customer Help Service showing '1 friend'
+  check: 🟢
+
+9.14.3:
+  caption: 🔴 Friend of CHS showing location as Heard Island and McDonald Islands.
+  event: (🔴🌀) 9/14 5:50am - [App] CHS Has a Friend
+  image: Facebook profile details for 'Naya Andrea' showing location 'Heard Island and McDonald Islands'
+  check: 🟢
+
+9.14.4:
+  caption: 🌀 Request for no further contact again from Customer Help Service unless it is with written confirmation of cancellation.
+  event: (🌀🔴) 9/14 5:55am - [Message] Final message to Customer Help Service
+  image: Messenger chat: 'I have explicitly stated... Do not contact me again unless...'
+  check: 🟢
+
+9.15.3:
+  caption: 🟠 Expanded "How to Cancel My Angi Key Membership" from panel on FAQ page at https://www.angi.com/landing/faq
+  event: (🌀🟠) 9/15 9:45am - [Web] Path to Cancellation Steps Discovered
+  image: Angi FAQ page showing expanded panel 'How do I cancel my Angi Key Membership?'
+  check: 🟢
+
+9.15.4:
+  caption: 🏦 Call log to U.S. Bank (800-872-2657) regarding chargeback, duration 23:50.
+  event: (🌀🏦) 9/15 3:57pm - US Bank Chargeback, Phone Call
+  image: Mobile call log showing outgoing call to U.S. Bank, 23 mins 50 sec
+  check: 🟢
+
+9.16.1:
+  caption: 🏦 U.S. Bank transaction detail showing provisional credit of +$29.99.
+  event: (🏦🌀) 9/16 - [Transaction] Provisional Credit Issued
+  image: Bank transaction screen: +$29.99 Prov Cred Prov Cred Pay*
+  check: 🟢
+
+9.18.1:
+  caption: 🌐 Deleted X post to @Angi.
+  event: (🌀🌐) 9/18 8:23pm - [Post/X] Removed @angi Post
+  image: X post by Marcus Litchfield: '@Angi I've made 5 attempts to cancel...'
+  check: 🟢
+
+9.18.2:
+  caption: 🏦 +$29.99 debit purchase return merchant details from Monarch Money
+  event: (🏦🌀) 9/18 - [Transaction] Debit Purchase Return
+  image: Transaction detail: Debit Purchase Ret - Visa Pay* Homeadvisorindianapolisin
+  check: 🟢
+
+9.19.1:
+  caption: 🌀 My direct message to the Angi brand, one final opportunity to do right by me and clear things up.
+  event: (🌀🟠) 9/19 5:25am - [Message] Direct Message to Angi Brand
+  image: Messenger chat to Angi: 'I am following up on your public comment...'
+  check: 🟢
+
+9.19.2:
+  caption: 🟠 Angi asserts that the Customer Help Service is not associated with Angi.
+  event: (🟠🌀) 9/19 10:28am - [Message] CHS Is Not Us, Account Under Wife's Name?
+  image: Messenger chat from Angi: 'The Facebook page for Customer Help Service is not associated with Angi...'
+  check: 🟢
+
+9.19.3:
+  caption: 🌀 My reply to Angi informing them that the Customer Help Service is still accessible from the Angi Page, including a link to a video depicting navigation steps.
+  event: (🌀🟠) 9/19 4:33pm - [Message] Provide Tammy's Info (Ignored)
+  image: Messenger chat to Angi: 'I have ceased all communication... This illegitimate entity... remains accessible'
+  check: 🟢
+
+9.19.4:
+  caption: 🌀 Initiating the process of reporting CHS to Facebook.
+  event: (🌀🌐) 9/19 5:08pm - [App] Reported CHS Account to Facebook
+  image: Facebook menu for Customer Help Service: 'Report profile'
+  check: 🟢
+
+9.19.5:
+  caption: 🌀 Reporting CHS as "Fraud or scam"
+  event: (🌀🌐) 9/19 5:08pm - [App] Reported CHS Account to Facebook
+  image: Facebook report screen selecting 'Fraud or scam'
+  check: 🟢
+
+9.21.1:
+  caption: 🌐 Confirmation from Facebook that the CHS was removed subsequent to my request.
+  event: (🌐🌀) 9/21 7:32am - [Message] Facebook Removes CHS
+  image: Facebook Support message: 'We removed the profile you reported'
+  check: 🟢
+
+9.21.2:
+  caption: 🌐 CHS is now inactive in messenger
+  event: (🌀🌐) 9/21 10:19am - [App] Verified CHS Removal
+  image: Messenger chat showing 'This person is unavailable on Messenger.'
+  check: 🟢
+
+9.21.3:
+  caption: 🌐 CHS comments have been removed. It now appears to others as if Angi is the only direct response to my request for a working method to cancel.
+  event: (🌀🌐) 9/21 10:19am - [App] Verified CHS Removal
+  image: Facebook comments thread showing only Marcus and Angi, no CHS
+  check: 🟢
+
+9.21.4:
+  caption: 🔴 Nameless 😥 reaction from the now-removed Customer Help Service.
+  event: (🌀🌐) 9/21 10:19am - [App] Verified CHS Removal
+  image: Facebook reactions list showing a sad face with no name next to it
+  check: 🟢
+
+9.22.1:
+  caption: 🟠 Our HomeAdvisor welcome email from Jan 6, 2020.
+  event: (🌹🌀) 9/22 9:10am - [Email] Tammy Finds HomeAdvisor Welcome Email
+  image: Email: 'Tammy, Welcome to HomeAdvisor!' dated Jan 6, 2020
+  check: 🟢
+
+9.23.1:
+  caption: 🏦 Call log to U.S. Bank to withdraw dispute, duration 19:32.
+  event: (🌀🏦) 9/23 9:53am - [Call] US Bank - Prevent Double Recovery
+  image: Mobile call log showing outgoing call to U.S. Bank, 19 mins 32 sec
+  check: 🟢
+
+9.26.1:
+  caption: 🏛️ CFPB status update showing US Bank response "Closed with explanation".
+  event: (🏛️🌀) 9/26 2:24pm - [Email] Closed: CFPB 250914-24063002
+  image: CFPB portal status: 'Closed with explanation' for complaint 250914-24063002
+  check: 🟢
+
+9.26.2:
+  caption: 🏦 Letter from U.S. Bank confirming provisional credit application.
+  event: (🏛️🌀) 9/26 2:24pm - [Email] Closed: CFPB 250914-24063002
+  image: Letter from US Bank: 'Important information about your U.S. Bank Visa Check Card...'
+  check: 🟢
+
+9.26.3:
+  caption: 🏦 Formal response letter from U.S. Bank regarding the dispute.
+  event: (🏛️🌀) 9/26 2:24pm - [Email] Closed: CFPB 250914-24063002
+  image: Letter from US Bank Enterprise Complaints: 'Re: Consumer Financial Protection Bureau case #250914-24063002'
+  check: 🟢
+
+10.3.1:
+  caption: 🟠 Angi.com billing information in my wife's account cannot be removed through any evident means. A valid card must be provided. I have been unable to remove my debit card information from Angi's systems.
+  event: (🌹🟠) 10/3 ~5:00pm - [Web] Discovery of Forced Data Retention
+  image: Angi payment settings screen showing 'Update payment method' button but no delete option
+  check: 🟢
+
+10.6.1:
+  caption: ️ Submission confirmation for SEC TCR #17597-937-502-732.
+  event: (🌀🏛️) 10/6 4:35pm - [Web] SEC TCR 17597-937-502-732
+  image: SEC TCR Submission Confirmation screen: 'Submission Number: 17597-937-502-732'
+  check: 🟢
+
+10.13.1:
+  caption: ❌ FTC ReportFraud.ftc.gov displaying "Government Shutdown Notice".
+  event: (🌀🏛️) 10/13 10:15am - [Web] FTC Complaint Blocked by Shutdown
+  image: FTC ReportFraud.ftc.gov screen showing 'Government Shutdown Notice'
+  check: 🟢
+
+10.13.2:
+  caption: ️ Submission confirmation for CFPB Complaint #251013-24920571.
+  event: (🌀🏛️) 10/13 11:36am - [Web] Opened: CFPB Complaint 251013-24920571
+  image: CFPB confirmation screen: 'ID FOR COMPLAINT SENT TO ANGI, INC. 251013-24920571'
+  check: 🟢
+
+10.13.4:
+  caption: ⭐ Submission confirmation for Colorado Attorney General Complaint #C-000050111.
+  event: (🌀⭐) 10/13 3:35pm - [Web] Filed: CO AG Complaint C-000050111
+  image: Colorado Attorney General complaint submission screen: 'complaint #C-000050111'
+  check: 🟢
+
+10.16.1:
+  caption: ️ Photo of printed Report v4.3 and USB drive prepared for FTC delivery.
+  event: (🌀🏛️) 10/16 11:35am - [Priority Mail] Sent: Report v4.3 to FTC
+  image: Photo of spiral bound report and USB drive on a red surface
+  check: 🟢
+
+10.16.2:
+  caption: ️ Close-up of the spiral-bound Report v4.3.
+  event: (🌀🏛️) 10/16 11:35am - [Priority Mail] Sent: Report v4.3 to FTC
+  image: Close up photo of the open spiral bound report title page
+  check: 🟢
+
+10.16.6:
+  caption: ️ Regulations.gov comment form for FTC Strategic Plan FY 2026-2030.
+  event: (🌀🏛️) 10/16 12:20pm - [Comment] Regulations.gov FTC Strategic Plan
+  image: Regulations.gov comment submission form for 'Draft FTC Strategic Plan FY 2026-2030'
+  check: 🟢
+
+10.16.8:
+  caption: ️ Regulations.gov submission confirmation (Tracking: mgt-u2s0-6hc5).
+  event: (🌀🏛️) 10/16 12:20pm - [Comment] Regulations.gov FTC Strategic Plan
+  image: Regulations.gov success screen: 'Comment Tracking Number mgt-u2s0-6hc5'
+  check: 🟢
+
+10.16.11:
+  caption: 🌀 Sent formal demand to Angi via email.
+  event: (🌀🟠) 10/16 7:53pm - [Email] Formal Data Deletion Demand
+  image: Email to Shannon Shaw: 'FORMAL DEMAND FOR DATA DELETION...'
+  check: 🟢
+
+10.20.4:
+  caption: 🟠 Clip of our HomeAdvisor welcome email from 2020. The Terms and Conditions and Privacy Policy links are broken.
+  event: (🌀🟠) 10/20 1:33pm - [Email] 2020 Terms of Service Inaccessible
+  image: HomeAdvisor email footer showing links for Terms & Conditions and Privacy Policy
+  check: 🟢
+
+10.20.5:
+  caption: ❌ ce.homeadvisor.com returns NXDOMAIN
+  event: (🌀🟠) 10/20 1:33pm - [Email] 2020 Terms of Service Inaccessible
+  image: Chrome browser error for ce.homeadvisor.com: 'DNS_PROBE_FINISHED_NXDOMAIN'
+  check: 🟢
+
+10.21.2:
+  caption: 🟠 "Welcome back!" deceptive login screen screenshot uploaded to Consumer Reports.
+  event: (🌀🔊) 10/21 1:15pm - [Web] Consumer Reports Dark Patterns Tip
+  image: HomeAdvisor login screen showing 'Welcome back!'
+  check: 🟢
+
+10.21.3:
+  caption: 🟠 "First Time User" deceptive screen screenshot uploaded to Consumer Reports.
+  event: (🌀🔊) 10/21 1:15pm - [Web] Consumer Reports Dark Patterns Tip
+  image: HomeAdvisor screen showing 'Welcome back, First Time User.'
+  check: 🟢
+
+10.21.4:
+  caption: 🟠 Forced retention payment method screen screenshot uploaded to Consumer Reports.
+  event: (🌀🔊) 10/21 1:15pm - [Web] Consumer Reports Dark Patterns Tip
+  image: Angi payment settings screen showing 'Update payment method' button
+  check: 🟢
+
+10.21.5:
+  caption: 🔊 Submission success screen for Consumer Reports Dark Pattern Tip.
+  event: (🌀🔊) 10/21 1:15pm - [Web] Consumer Reports Dark Patterns Tip
+  image: Consumer Reports success message: 'Success! You have successfully submitted a post.'
+  check: 🟢
+
+10.21.7:
+  caption: 📰 Submission success screen for ProPublica Tip.
+  event: (🌀📰) 10/21 6:47pm - [Web] Submitted ProPublica Tip
+  image: ProPublica success screen: 'Thanks for submitting a tip.'
+  check: 🟢
+
+10.22.11:
+  caption: 🌐 Updated X profile bio disclosing financial position and SEC whistleblower status.
+  event: (🌀🌐) 10/22 ~2pm - [Post/X] Distribute on X bio
+  image: X profile for Marcus Litchfield showing updated bio
+  check: 🟢
+
+10.24.2:
+  caption: 🌐 Facebook post containing the narrated video of the deceptive registration funnel.
+  event: (🌀🌐) 10/24 11:36am - [Post/Facebook,X] Narrated Registration Funnel Demo
+  image: Facebook post by Marcus Litchfield: 'Angi's Deceptive Registration Funnel...'
+  check: 🟢
+
+10.25.1:
+  caption: 🔊Facebook notifications confirming membership in CFPB Support and Elliott Advocacy groups.
+  event: (🌀🔊) 10/25 - Joined Consumer Advocacy Groups
+  image: Facebook notifications: 'You became a member of Consumer Financial Protection Bureau (CFPB) Support Forum'
+  check: 🟢
+
+10.27.1:
+  caption: ✉️ USPS Tracking confirming delivery of FTC Report v4.3 to Washington DC.
+  event: (✉️🌀) 10/27 5:32am - [Priority Mail] Delivered: FTC Report v4.3
+  image: USPS Tracking screen: 'Delivered to Agent: WASHINGTON, DC 20580'
+  check: 🟢
+
+10.27.4:
+  caption: ✉️ Detailed USPS tracking history for the FTC delivery.
+  event: (✉️🌀) 10/27 5:32am - [Priority Mail] Delivered: FTC Report v4.3
+  image: USPS Tracking History details for FTC Report delivery
+  check: 🟢
+
+10.27.5:
+  caption: 🟠 Email from Jaime Padgett: Litchenfield deflection
+  event: (🟠🌀) 10/27 1:11pm - [Email] The Litchenfield Deflection
+  image: Email from Jaime Padgett: 'Mr. Litchfield, I am in-house counsel at Angi...'
+  check: 🟢
+
+10.27.6:
+  caption: 🌹 Tammy exercises rights, delegates to me, instructs no further contact
+  event: (🌹🟠) 10/27 5:54pm - [Email] Tammy Exercises Her Data Subject Rights
+  image: Email from Tammy Litchfield to PrivacyOfficer: 'FORMAL EXERCISE OF DATA SUBJECT RIGHTS...'
+  check: 🟢
+
+10.27.7:
+  caption: 🌀 I assert my rights, correct Angi's factual inaccuracies, and neutralize their procedural motion.
+  event: (🌀🟠) 10/27 7:20pm - [Email] I Respond to Angi Legal Counsel
+  image: Email from Stephen Marcus Litchfield to Jamie Padgett: 'Thank you for your email of October 27...'
+  check: 🟢
+
+10.28.1:
+  caption: 🟠 Angi responds: request completed, but complied in part and denied in part.
+  event: (🟠🌀) 10/28 9:48am - [Email] Complied in Part, Denied in Part
+  image: Email from Angi: 'Your request to delete information at Angi has been completed'
+  check: 🟢
+
+10.28.2:
+  caption: 🟠 Service Desk ticket resolved: INC-2549943 CCPA Delete Data (#1)
+  event: (🟠🌀) 10/28 9:52am - [Email] Service Desk: Request Resolved
+  image: Email from Service Desk: 'INC-2549943: Ticket Resolved - Data Request: CCPA Delete Data'
+  check: 🟢
+
+10.28.3:
+  caption: 🟠 Tammy's Phone Number, Email Address, Home Address, and my 2667 card info remain in system
+  event: (🌀🟠) 10/28 8:40pm - [Web] Data has not been deleted
+  image: Angi account Payment Method screen showing Visa **** 2667
+  check: 🟢
+
+10.28.4:
+  caption: ❌ My homeadvisor account is now inaccessible
+  event: (🌀🟠) 10/28 8:53pm - [Web] Cannot Log In to HomeAdvisor account
+  image: HomeAdvisor login error screen: 'Uh-Oh. An error occurred while logging you in...'
+  check: 🟢
+
+10.28.5:
+  caption: 🌀 Request is NOT resolved
+  event: (🌀🟠) 10/28 10:01pm - [Email] Respond: Not Resolved
+  image: Email from Marcus Litchfield to Service Desk: 'This is to confirm that ticket INC-2549943 is not resolved.'
+  check: 🟢
+
+10.28.6:
+  caption: 🟠 Jeanne emails Tammy, instructing her to initiate a privacy request (Cease-contact violation #1)
+  event: (🟠🌹) 10/28 11:14pm - [Email] Angi Violates Cease-Contact Instructions
+  image: Email from Angi Home Owner (Jeanne): 'Angi Follow Up... To initiate your request...'
+  check: 🟢
+
+10.28.7:
+  caption: 🟠 Form to initiate a privacy request.
+  event: (🟠🌹) 10/28 11:14pm - [Email] Angi Violates Cease-Contact Instructions
+  image: Angi website form: 'California Consumer Privacy Act' request form
+  check: 🟢
+
+10.30.1:
+  caption: 🌀 Request for comments for Seeking Alpha article.
+  event: (🌀🟠) 10/30 5:23am - [Email] Request for Comments for Article
+  image: Email from Marcus Litchfield to mediarelations: 'Request for Comment: Seeking Alpha Article...'
+  check: 🟢
+
+10.31.1:
+  caption: 🟠 Devin contacts Tammy: routing to Accounting to "Locate and Remove" card. (Cease-contact violation #2)
+  event: (🟠🌹) 10/31 1:03pm - [Email] To Accounting: Locate and Remove Card
+  image: Email from Home Owner (Devin): 'We have provided your information to our Accounting Team...'
+  check: 🟢
+
+10.31.2:
+  caption: 🟠 Screenshot of Recording R showing card 2667 is retrievable from my.angi.com after 5pm October 31
+  event: (🌀🟠) 10/31 6:45pm - [Web] Card Remains in System After Deadline
+  image: Angi Payment Method screen showing Visa **** 2667 and 'Update payment method'
+  check: 🟢
+
+11.1.2:
+  caption: 🟠 Screenshot of "Update payment method" button used in OCPA complaint.
+  event: (🌀⭐) 11/1 9:39pm - [Web] Filed: Oregon DOJ OCPA Complaint
+  image: Angi Payment Method screen showing 'Update payment method' button
+  check: 🟢
+
+11.1.3:
+  caption: ⭐ Oregon DOJ Consumer Protection website (Privacy section).
+  event: (🌀⭐) 11/1 9:39pm - [Web] Filed: Oregon DOJ OCPA Complaint
+  image: Oregon Department of Justice Consumer Protection website showing 'Consumer Privacy'
+  check: 🟢
+
+11.1.4:
+  caption: ⭐ SmartSheet form for Oregon Consumer Privacy Act Complaint.
+  event: (🌀⭐) 11/1 9:39pm - [Web] Filed: Oregon DOJ OCPA Complaint
+  image: Smartsheet 'Oregon Consumer Privacy Act Complaint' form
+  check: 🟢
+
+11.1.5:
+  caption: ⭐ Submission confirmation for Oregon DOJ OCPA Complaint
+  event: (🌀⭐) 11/1 9:39pm - [Web] Filed: Oregon DOJ OCPA Complaint
+  image: Smartsheet confirmation screen: 'Thank you for submitting your privacy complaint.'
+  check: 🟢
+
+11.3.1:
+  caption: 🟠 Service Desk contacts Tammy, INC-2551970 CCPA Delete Data (#2) resolved (Cease-contact violation #3)
+  event: (🟠🌹) 11/3 10:23am - [Email] INC-2551970: Ticket Resolved
+  image: Email from Service Desk: 'INC-2551970: Ticket Resolved - Data Request: CCPA Delete Data'
+  check: 🟢
+
+11.3.5:
+  caption: Android PDF split tool used to prepare SEC upload.
+  event: (🌀🏛️) 11/3 1:10pm - [Web] Submit SEC Supplemental TCR
+  image: Android file manager screen showing split PDF files
+  check: 🟢
+
+11.3.6:
+  caption: ️ SEC TCR file upload screen showing split files.
+  event: (🌀🏛️) 11/3 1:10pm - [Web] Submit SEC Supplemental TCR
+  image: SEC TCR file upload screen listing 5 parts of the forensic timeline
+  check: 🟢
+
+11.3.8:
+  caption: ️ Submission confirmation for SEC Supplemental TCR #17622-040-479-957.
+  event: (🌀🏛️) 11/3 1:10pm - [Web] Submit SEC Supplemental TCR
+  image: SEC TCR submission confirmation screen: 'Submission Number: 17622-040-479-957'
+  check: 🟢
+
+11.4.3:
+  caption: 🟠 Sr. Counsel issues false assertions, misrepresents Stripe's role as data processor, then simultaneously issues a legal threat in the form of a fatal paradox.
+  event: (🟠🌀) 11/4 2:45pm - [Email] Legal Threat & Fatal Paradox
+  image: Email from Jaime Padgett: 'Hi, Mr. Litchfield, Thank you for your follow up questions...'
+  check: 🟢
+
+12.22.1:
+  caption: ⚖️ Mark O. Hatfield Courthouse
+  event: (🌀⚖️) 12/22 ~3pm - [Delivery] Filing Packet to Clerk's Office
+  image: Photo of the exterior of the Mark O. Hatfield United States Courthouse
+  check: 🟢
+
+12.22.2:
+  caption: ⚖️ Federal Case 3:25-cv-2394-SI
+  event: (⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi
+  image: Complaint document stamped with case number 3:25-cv-2394-SI
+  check: 🟢
+
+12.22.3:
+  caption: ⚖️ Seal of the Court
+  event: (⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi
+  image: Summons document stamped with the Seal of the Court
+  check: 🟢
+
+12.23.1:
+  caption: 🚙 Barrister Malstroms receipt for process service
+  event: (🌀🚙) 12/23 [Delivery] Service Packet to Process Server
+  image: Receipt from Barrister Malstroms
+  check: 🟢
+
+12.26.1:
+  caption: ️ Submission confirmation for FTC Report #195498563.
+  event: (🌀️) 12/25 9:41am - [Web] Filed: FTC Report 195498563
+  image: FTC ReportFraud.ftc.gov confirmation screen: 'Report submitted! ... Report Number 195498563'
+  check: 🟢
+
+1.2.1:
+  caption: 🚙 Email from Barrister Malstroms confirming service on Angi Inc.
+  event: (🚙🌀) 1/2 12:43 - [Email] Barrister Malstroms: Angi Served
+  image: Email from Barrister Malstroms: 'TSB Status on (ANGI, INC.)' showing served status
+  check: 🟢
+
+1.5.1:
+  caption: ✉️ USPS tracking showing delivery of address correction to Clerk of Court.
+  event: (🌀⚖️) 1/5 8:03am - [Certified Mail] Delivered: Address Correction to Clerk
+  image: USPS Tracking screen: 'Delivered to Agent: PORTLAND, OR'
+  check: 🟢
+
+1.6.1:
+  caption: ⚖️ CourtListener: Docket Alert
+  event: (⚖️🌀) 1/6 10:31am - [Email] Docket Alert: Address Correction
+  image: CourtListener Docket Alert email
+  check: 🟢
+
+1.6.7:
+  caption: ✉️ USPS tracking showing delivery of Audit Report to Ernst & Young.
+  event: (✉️🌀) 1/6 10:48pm - [Certified Mail] Delivered: Audit Committee Report to EY
+  image: USPS Tracking screen: 'Delivered: DENVER, CO'
+  check: 🟢
+
+1.6.8:
+  caption: ✉️ USPS tracking showing delivery of Address Correction to Angi.
+  event: (✉️🌀) 1/6 12:05pm - [Certified Mail] Delivered: Address Correction to Angi
+  image: USPS Tracking screen: 'Delivered: SALEM, OR'
+  check: 🟢
+
+1.8.0:
+  caption: ✉️ USPS tracking showing delivery of v8.8-slim to FTC.
+  event: (✉️🌀) 1/8 8:13am - [Certified Mail] Delivered: v8.8-slim to FTC
+  image: USPS Tracking screen: 'Delivered: WASHINGTON, DC'
+  check: 🟢
+
+1.8.1:
+  caption: ️🚨 CFPB email alert that company response is past due (Case 251116-25920284).
+  event: (️🌀) 1/8 9:00pm - [Email] 🚨ALERTED: CFPB 251116-25920284
+  image: CFPB email: 'We have alerted the company its final response is past due.'
+  check: 🟢
+
+1.10.1:
+  caption: ✉️ USPS tracking for CM/ECF Motion delivered to Clerk.
+  event: (✉️🌀) 1/10 10:43am - [Certified Mail] Delivered: CM/ECF Motion to Clerk
+  image: USPS Tracking screen: 'Delivered: PORTLAND, OR'
+  check: 🟢
+
+1.10.2:
+  caption: ✉️ USPS tracking for Service Return delivered to Clerk.
+  event: (✉️🌀) 1/10 10:43am - [Certified Mail] Delivered: Service Return to Clerk
+  image: USPS Tracking screen: 'Delivered: PORTLAND, OR'
+  check: 🟢
+
+1.10.3:
+  caption: ✉️ USPS tracking for CM/ECF Motion delivered to Angi.
+  event: (✉️🌀) 1/10 11:01am - [Certified Mail] Delivered: CM/ECF Filing Motion to Angi
+  image: USPS Tracking screen: 'Delivered: SALEM, OR'
+  check: 🟢
+
+1.10.4:
+  caption: ✉️ USPS tracking for Certificate of Service (Pre-Trial Docs) delivered to Clerk.
+  event: (✉️🌀) 1/10 11:01am - [Certified Mail] Delivered: COS for Pre-Trial Docs
+  image: USPS Tracking screen: 'Delivered: PORTLAND, OR'
+  check: 🟢
+
+1.12.1:
+  caption: ⚖️ CourtListener: Docket Alert (3 New Entries)
+  event: (🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2
+  image: Docket alert listing entries 7, 8, and 9
+  check: 🟢
+
+1.13.1:
+  caption: 💳 Seerat: Stripe Privacy needs more I info
+  event: (💳🌀) 1/13 12:36am - [Email] Stripe Requests More Info
+  image: Email from Stripe Privacy (Seerat) asking for identifying website
+  check: 🟢
+
+1.13.2:
+  caption: ⚖️ Application for CM/ECF Registration
+  event: (🌀⚖️) 1/13 2:31pm - [Email] Submitted CM/ECF Filing Application
+  image: Application form for CM/ECF Registration as a Self-Represented Party
+  check: 🟢
+
+1.13.3:
+  caption: ⚖️ NEF: CM/ECF e-Filing Motion
+  event: (⚖️🌀) 1/13 2:40pm - [NEF] CM/ECF Filing Application
+  image: Notice of Electronic Filing for Application for CM/ECF Registration
+  check: 🟢
+
+1.13.4:
+  caption: ⚖️ PACER: Account Number (Registration Confirmation)
+  event: (🌀⚖️) 1/13 3:58pm - [Web] Registered for Upgraded PACER Account
+  image: PACER confirmation screen: 'Thank You for registering!'
+  check: 🟢
+
+1.13.5:
+  caption: 💳 Give Seerat more info
+  event: (🌀💳) 1/13 5:35pm - [Email] Respond to Stripe With More Info
+  image: Stripe Charge Lookup Tool showing 'We found your charge'
+  check: 🟢
+
+1.16.1:
+  caption: ⚖️ SI: ORDER - The Court GRANTS the Application (Doc 11).
+  event: (⚖️🌀) 1/16 10:09am - [NEF] ORDER: CM/ECF Fling Access GRANTED
+  image: Docket Entry 11: 'ORDER - The Court GRANTS the Application...'
+  check: 🟢
+
+1.16.2:
+  caption: ⚖️ NextGen CM/ECF Registration Processed Email.
+  event: (⚖️🌀) 1/16 11:00am - [Email] NextGen Registration Processed
+  image: Email from US District Court: 'Your e-filing registration request... has been approved'
+  check: 🟢
+
+1.16.3:
+  caption: ⚖️ E-filing status in PACER is Active
+  event: (⚖️🌀) 1/16 11:00am - [Email] NextGen Registration Processed
+  image: PACER Manage My Account screen showing 'Status Active'
+  check: 🟢
+
+1.16.4:
+  caption: ⚖️ SI: ORDER - Redundant Motion Denied as Moot (Doc 12).
+  event: (⚖️🌀) 1/16 12:25pm - [NEF] ORDER: Redundant Motion Moot
+  image: Docket Entry 12: 'ORDER... DENIED AS MOOT'
+  check: 🟢
+
+1.16.5:
+  caption: 🟠 Log in to angi.com with tenamyw@gmail.com
+  event: (🌀🟠) 1/16 6:51pm - [Web] Current Account Access
+  image: Screenshot from video Y: Login screen at angi.com
+  check: 🟢
+
+1.16.6:
+  caption: 🟠 Registration funnel indicates account removal
+  event: (🌀🟠) 1/16 6:51pm - [Web] Current Account Access
+  image: Screenshot from video Y: 'We need a few details to complete your account'
+  check: 🟢
+
+1.16.7:
+  caption: 🟠 Log in to homeadvisor.com with marclitchfield@gmail.com
+  event: (🌀🟠) 1/16 6:51pm - [Web] Current Account Access
+  image: Screenshot from video Z: Login screen at homeadvisor.com
+  check: 🟢
+
+1.16.8:
+  caption: ❌ "Uh-oh" error indicates account has been disabled
+  event: (🌀🟠) 1/16 6:51pm - [Web] Current Account Access
+  image: Screenshot from video Z: 'Uh-Oh' error message
+  check: 🟢
+
+1.16.9:
+  caption: 🟠 Checking the registration funnel
+  event: (🌀🟠) 1/16 6:51pm - [Web] Current Account Access
+  image: Screenshot from video Z: Registration steps with alias
+  check: 🟢
+
+1.16.10:
+  caption: 🟠 Banner welcoming back the newly created user
+  event: (🌀🟠) 1/16 6:51pm - [Web] Current Account Access
+  image: Screenshot from video Z: 'Welcome back, January 16.'
+  check: 🟢
+
+1.20.1:
+  caption: ⚖️ NEF for First Amended Complaint (Docket Entry 13).
+  event: (🌀⚖️) 1/20 8:37am - [NEF] Filed: First Amended Complaint
+  image: Notice of Electronic Filing for First Amended Complaint
+  check: 🟢
+
+1.20.2:
+  caption: ✉️ USPS tracking showing "Delivered to Individual" in Happy Valley (Return to Sender).
+  event: (✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ
+  image: USPS Tracking screen: 'Delivered: HAPPY VALLEY, OR'
+  check: 🟢
+
+1.20.3:
+  caption: ✉️ Photo of returned manila envelope (Audit Committee Report).
+  event: (✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ
+  image: Photo of returned manila envelope
+  check: 🟢
+
+1.20.4:
+  caption: ✉️ Close-up of USPS Yellow Label "Forward Time Exp" error.
+  event: (✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ
+  image: Close-up of yellow label: 'FORWARD TIME EXP RTN TO SEND'
+  check: 🟢
+
+1.20.5:
+  caption: 🟠 Angi 8-K report showing Denver as the principal address.
+  event: (✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ
+  image: Angi 8-K document header showing Denver address
+  check: 🟢
+
+1.20.6:
+  caption: 🌐 Angi main website contact page showing Indianapolis address.
+  event: (✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ
+  image: Angi website contact page showing Indianapolis address
+  check: 🟢
+
+1.20.7:
+  caption: ✉️ USPS tracking history showing the forwarding loop from Denver back to Oregon.
+  event: (✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ
+  image: USPS Tracking History details showing path: Portland -> Denver -> Phoenix -> Portland
+  check: 🟢
+
+1.21.1:
+  caption: ⚖️ NEF for Certificate of Service for CM/ECF Access (Docket Entry 14).
+  event: (🌀⚖️) 1/21 10:54pm - [NEF] Filed: COS for CM/ECF Access
+  image: Notice of Electronic Filing for Certificate of Service
+  check: 🟢
+
+1.21.2:
+  caption: ⚖️ NEF for Certificate of Service for First Amended Complaint (Docket Entry 15).
+  event: (🌀⚖️) 1/21 10:57pm - [NEF] Filed: COS for FAC
+  image: Notice of Electronic Filing for Certificate of Service
+  check: 🟢
+
+1.21.3:
+  caption: ⚖️ NEF for Notice of Service of Initial Disclosures (Docket Entry 16).
+  event: (🌀⚖️) 1/21 10:57pm - [NEF] Filed: Notice of 26(a)(1) Service
+  image: Notice of Electronic Filing for Notice of Service of Initial Disclosures
+  check: 🟢
+
+1.22.1:
+  caption: ✉️ USPS tracking showing delivery of First Amended Complaint to Clerk.
+  event: (✉️🌀) 1/22 8:30am - [Certified Mail] Delivered: FAC to Clerk
+  image: USPS Tracking screen: 'Delivered to Agent: PORTLAND, OR'
+  check: 🟢
+
+1.22.2:
+  caption: ✉️ USPS tracking showing delivery of First Amended Complaint to Angi.
+  event: (✉️🌀) 1/22 11:26am - [Certified Mail] Delivered: FAC to Angi
+  image: USPS Tracking screen: 'Delivered: SALEM, OR'
+  check: 🟢
+
+1.27.1:
+  caption: 🌐 Updated Reddit Profile
+  event: (🌀🌐) 1/27 ~8am - [Post/Reddit] Update Case Summary Post
+  image: Reddit post 'Litchfield v. Angi Inc.' summary
+  check: 🟢
+
+1.27.2:
+  caption: 💳 Tammy's "Invalid Token" authorizing with stripe
+  event: (🌹💳) 1/27 1:58pm - [App] Tammy Authorizes Within Stripe Platform
+  image: Stripe error screen: 'Invalid token'
+  check: 🟢
 
