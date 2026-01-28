@@ -1166,7 +1166,7 @@
   time: 2025-10-24 1:09 PM PT
   channel: Web
   messages:
-    - 🌀Author: [This is] 'a demonstration that Angi is holding my debit card information in their system against my will.'
+    - 🌀Author: This is a demonstration that Angi is holding my debit card information in their system against my will.'
   narrative: Author records a narrated video demonstrating the inability to remove payment data.
   deliveries:
     - 🌐: v6.5 -> Facebook, X
@@ -1374,7 +1374,7 @@
   time: 2025-10-29 1:01 AM PT
   channel: Email
   messages:
-    - 🟠Angi/Service Desk: [#INC-2549943] New comment on Marclitchfield's ticket
+    - 🟠Angi/Service Desk: "[#INC-2549943] New comment on Marclitchfield's ticket"
     - 🌀Author: This is to confirm that ticket INC-2549943 is not resolved.
   narrative: Internal email forwarding the author's comment on the ticket status.
   deliveries:
