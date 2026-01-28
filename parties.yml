@@ -1,0 +1,286 @@
+parties:
+
+  "🌀Author":
+    name: "Stephen Marcus Litchfield"
+    role: "Plaintiff"
+    title: "Forensic Researcher"
+    function: "Pro Se Litigant"
+
+  "🌹Tammy":
+    name: "Tammy Litchfield"
+    role: "Data Subject"
+    title: "Plaintiff's Wife"
+
+  "🟠Angi":
+    name: "Angi Inc."
+    role: "Defendant"
+    function: "Merchant"
+
+  "🟠Angi/Audit Committee":
+    name: "Audit Committee"
+    role: "Governance"
+    function: "Internal Controls Oversight"
+
+  "🟠Angi/CEO":
+    name: "Jeffrey W. Kip"
+    role: "Corporate Officer"
+    title: "Chief Executive Officer"
+
+  "🟠Angi/Chief Legal Officer":
+    name: "Shannon Shaw"
+    role: "Corporate Officer"
+    title: "Chief Legal Officer"
+
+  "🟠Angi/Privacy Officer":
+    name: "Privacy Officer"
+    role: "Compliance"
+    function: "Data Privacy Response Team"
+
+  "🟠Angi/Sr. Counsel":
+    name: "Jaime Padgett"
+    role: "Corporate Counsel"
+    title: "Director/Sr. Corporate Counsel"
+
+  "🟠Angi/Support/SP":
+    name: "SP"
+    role: "Customer Support"
+    title: "Facebook Page Support Agent"
+
+  "🟠Angi/Jeanne":
+    name: "Jeanne"
+    role: "Customer Support"
+    function: "Support Representative"
+
+  "🟠Angi/Devin":
+    name: "Devin"
+    role: "Customer Support"
+    function: "Support Representative"
+
+  "🟠Angi/Service Desk":
+    name: "Service Desk"
+    role: "IT Operations"
+    function: "Data Request Team"
+
+  "🟠Angi/IVR":
+    name: "Angi Phone System"
+    role: "Automated System"
+    function: "Interactive Voice Response (1-888-811-2644)"
+
+  "🔴CHS":
+    name: "Customer Help Service"
+    role: "Impersonator"
+    function: "Fraudulent Account"
+
+  "📙Perkins Coie/Mr. McCullough":
+    name: "Michael McCullough"
+    role: "Defense Counsel"
+    title: "Associate Attorney"
+    firm: "Perkins Coie LLP"
+
+  "📙Perkins Coie/Ms. Kimmel":
+    name: "Shannon Kimmel"
+    role: "Defense Team"
+    firm: "Perkins Coie LLP"
+
+ "⚖️US District/Judge Simon":
+    name: "Hon. Michael H. Simon"
+    role: "Judiciary"
+    title: "Presiding Judge"
+    district: "Oregon"
+
+  "⚖️US District/Clerk":
+    name: "Clerk of the Court"
+    role: "Judiciary"
+    function: "Court Administration"
+
+  "⚖️PACER":
+    name: "PACER"
+    role: "Judiciary"
+    function: "Public Access to Court Electronic Records"
+  
+  "🚙Barrister Malstroms":
+    name: "Barrister Malstroms"
+    role: "Process Server"
+    function: "Served Angi via CT Corp (1/2)"
+
+  "🚙CT Corp":
+    name: "CT Corporation System"
+    role: "Registered Agent"
+    function: "Accept Service for Angi Inc."
+
+  "🚙CT Corp/Eden":
+    name: "Eden Cloverglade"
+    role: "Registered Agent Employee"
+    function: "Accepted Service (1/2)"
+
+  "💳Stripe/Privacy/Seerat":
+    name: "Seerat"
+    role: "Data Processor"
+    title: "Privacy Team Member"
+
+  "💳Stripe/Privacy/Frank":
+    name: "Frank"
+    role: "Data Processor"
+    title: "Privacy Team Member"
+
+  "💳Stripe/Support/Lia":
+    name: "Lia"
+    role: "Data Processor"
+    title: "Support Team Member"
+
+  "🏦US Bank":
+    name: "US Bank National Association"
+    role: "Financial Institution"
+    function: "Plaintiff's Bank"
+
+  "🏦US Bank/Dee":
+    name: "Dee"
+    role: "Customer Support"
+    function: "Phone Agent (9/15 Call)"
+
+  "🏦US Bank/Chelsea":
+    name: "Chelsea"
+    role: "Customer Support"
+    function: "Phone Agent (9/23 Call)"
+
+  "💹Robinhood":
+    name: "Robinhood"
+    role: "Brokerage"
+    function: "Plaintiff's Brokerage"
+
+  "🔍EY":
+    name: "Ernst & Young"
+    role: "Auditor"
+    function: "Angi's External Auditor"
+
+  "⭐OR DOJ":
+    name: "Oregon Department of Justice"
+    role: "Regulator"
+    title: "Consumer Protection"
+
+  "⭐OR DOJ/Ms. Andrews":
+    name: "Michelle Andrews"
+    role: "Regulator"
+    title: "Contact for Case FF7819-25"
+
+  "⭐CO AG":
+    name: "Phil Weiser"
+    role: "Regulator"
+    title: "Colorado Attorney General"
+    function: "Consumer Protection"
+
+  "🏛️FTC":
+    name: "Federal Trade Commission"
+    role: "Regulator"
+    function: "Bureau of Consumer Protection"
+
+  "🏛️SEC":
+    name: "Securities and Exchange Commission"
+    role: "Regulator"
+    function: "Office of the Whistleblower"
+
+  "🏛️CFPB":
+    name: "Consumer Financial Protection Bureau"
+    role: "Regulator"
+    function: "Federal Agency"
+
+  "🏛️Regulations.gov":
+    name: "Regulations.gov"
+    role: "Platform"
+    function: "Federal Rulemaking Portal"
+
+  "✉️USPS":
+    name: "United States Postal Service"
+    role: "Mail Service"
+    function: "Certified & Priority Mail Delivery"
+
+  "🔊CR":
+    name: "Consumer Reports"
+    role: "Advocacy"
+    function: "Dark Patterns Tip Line"
+
+  "🌐Facebook":
+    name: "Facebook (Meta)"
+    role: "Platform"
+    function: "Social Media / Moderation"
+
+  "🌐Google/News":
+    name: "Google News"
+    role: "Platform"
+    function: "News Aggregator"
+
+  "🌐X":
+    name: "X (formerly Twitter)"
+    role: "Platform"
+    function: "Social Media"
+
+  "🌐Reddit":
+    name: "Reddit"
+    role: "Platform"
+    function: "Online Community"
+
+  "🌐Hacker News":
+    name: "Hacker News"
+    role: "Platform"
+    function: "Tech News Aggregator"
+
+  "📰NYT":
+    name: "The New York Times"
+    role: "Media"
+    function: "World News"
+
+  "📰ProPublica":
+    name: "ProPublica"
+    role: "Media"
+    title: "Investigative Team"
+
+  "📰Washington Post":
+    name: "The Washington Post"
+    role: "Media"
+    function: "World News"
+
+  "📰Bloomberg":
+    name: "Bloomberg"
+    role: "Media"
+    function: "Financial News"
+    
+  "📰The Oregonian":
+    name: "The Oregonian"
+    role: "Media"
+    function: "Local News"
+    
+  "📰WSJ":
+    name: "The Wall Street Journal"
+    role: "Media"
+    function: "Financial News"
+    
+  "📰Krebs on Security":
+    name: "Brian Krebs"
+    role: "Media"
+    title: "Security Journalist"
+
+  "📰TastyLive":
+    name: "TastyLive"
+    role: "Media"
+    function: "Financial News"
+    
+  "📰Ars Technica":
+    name: "Ars Technica"
+    role: "Media"
+    function: "Tech News"
+
+  "📰TechCrunch":
+    name: "TechCrunch"
+    role: "Media"
+    function: "Tech News"
+  
+  "📰The Verge":
+    name: "The Verge"
+    role: "Media"
+    function: "Tech News"
+
+  "📰Newser":
+    name: "Newser.com"
+    role: "Media/Spam"
+    function: "Source of Dark PR Flood"
+    
