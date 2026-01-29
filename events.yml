@@ -1846,6 +1846,19 @@ events:
   narrative: Author posted a summary of the lawsuit on Reddit.
   check: 🟢
 
+- event: (🌀🏛️) 12/31 3:26pm - [Web] FILED: SEC TCR 17672-236-170-589
+  initiator: 🌀Author
+  receiver: 🏛️SEC
+  time: 2025-12-31 15:26:00 PT
+  channel: Web
+  messages:
+    - 🌀Author: 'Reported: Litigation... Supplements: 17658-243-256-826'
+    - 🏛️SEC: 'Submission Number 17672-236-170-589'
+  narrative: Author filed a supplemental SEC TCR reporting the commencement of federal litigation.
+  deliveries:
+    - 📘: v8.8-civil -> SEC
+  check: 🟢
+  
 - event: (🌀🟠) 1/1 7:37am - [Email] Audit Committee: Investigation Demand
   initiator: 🌀Author
   receiver: 🟠Angi/Audit Committee
