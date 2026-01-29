@@ -1793,21 +1793,21 @@ events:
     12.22.1: Photo of the exterior of the Mark O. Hatfield United States Courthouse
   check: 🟢
 
-  - event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
-    initiator: ⚖️US District/Clerk
-    receiver: 🌀Author
-    time: 2025-12-22 15:22:00 PT
-    channel: Delivery
-    messages:
-      - ⚖️US District/Clerk: 'Wrote the case number on the pleadings: 3:25-cv-2394-SI'
-      - ⚖️DOCKET: 'Entry 1 - Complaint... Entry 2 - Summons... Entry 5 - Schedule of Digital Evidence'
-    narrative: The clerk accepted the filings, assigned a case number and judge, and issued the summons.
-    figures:
-      12.22.2: Complaint document stamped with case number 3:25-cv-2394-SI
-      12.22.3: Summons document stamped with the Seal of the Court
-    deliveries:
-      - 📘: v8.8-civil -> Federal Court
-    check: 🟢
+- event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
+  initiator: ⚖️US District/Clerk
+  receiver: 🌀Author
+  time: 2025-12-22 15:22:00 PT
+  channel: Delivery
+  messages:
+    - ⚖️US District/Clerk: 'Wrote the case number on the pleadings: 3:25-cv-2394-SI'
+    - ⚖️DOCKET: 'Entry 1 - Complaint... Entry 2 - Summons... Entry 5 - Schedule of Digital Evidence'
+  narrative: The clerk accepted the filings, assigned a case number and judge, and issued the summons.
+  figures:
+    12.22.2: Complaint document stamped with case number 3:25-cv-2394-SI
+    12.22.3: Summons document stamped with the Seal of the Court
+  deliveries:
+    - 📘: v8.8-civil -> Federal Court
+  check: 🟢
 
 - event: (🌀🚙) 12/23 [Delivery] Service Packet to Process Server
   initiator: 🌀Author
@@ -2166,29 +2166,29 @@ events:
     1.10.2: USPS Tracking screen 'Delivered: PORTLAND, OR'
   check: 🟢
 
-  - event: (✉️🌀) 1/10 11:01am - [Certified Mail] Delivered: CM/ECF Filing Motion to Angi
-    initiator: ✉️USPS
-    receiver: 🌀Author
-    time: 2026-01-10 11:01:00 PT
-    channel: Certified Mail
-    messages:
-      - ✉️USPS: 'Delivered SALEM, OR 97301 on January 10, 2026 at 11:01 am'
-    narrative: USPS confirmed delivery of the CM/ECF motion copy to Angi's registered agent.
-    figures:
-      1.10.3: USPS Tracking screen 'Delivered: SALEM, OR'
-    check: 🟢
+- event: (✉️🌀) 1/10 11:01am - [Certified Mail] Delivered: CM/ECF Filing Motion to Angi
+  initiator: ✉️USPS
+  receiver: 🌀Author
+  time: 2026-01-10 11:01:00 PT
+  channel: Certified Mail
+  messages:
+    - ✉️USPS: 'Delivered SALEM, OR 97301 on January 10, 2026 at 11:01 am'
+  narrative: USPS confirmed delivery of the CM/ECF motion copy to Angi's registered agent.
+  figures:
+    1.10.3: USPS Tracking screen 'Delivered: SALEM, OR'
+  check: 🟢
 
-  - event: (✉️🌀) 1/10 10:43am - [Certified Mail] Delivered: COS for Pre-Trial Docs
-    initiator: ✉️USPS
-    receiver: 🌀Author
-    time: 2026-01-10 10:43:00 PT
-    channel: Certified Mail
-    messages:
-      - ✉️USPS: 'Delivered PORTLAND, OR 97204 on January 10, 2026 at 10:43 am'
-    narrative: USPS confirmed delivery of the certificate of service for pre-trial docs to the court.
-    figures:
-      1.10.4: USPS Tracking screen 'Delivered: PORTLAND, OR'
-    check: 🟢
+- event: (✉️🌀) 1/10 10:43am - [Certified Mail] Delivered: COS for Pre-Trial Docs
+  initiator: ✉️USPS
+  receiver: 🌀Author
+  time: 2026-01-10 10:43:00 PT
+  channel: Certified Mail
+  messages:
+    - ✉️USPS: 'Delivered PORTLAND, OR 97204 on January 10, 2026 at 10:43 am'
+  narrative: USPS confirmed delivery of the certificate of service for pre-trial docs to the court.
+  figures:
+    1.10.4: USPS Tracking screen 'Delivered: PORTLAND, OR'
+  check: 🟢
 
 - event: (🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2
   initiator: ⚖️US District/Clerk
