@@ -95,7 +95,7 @@ events:
   channel: Phone
   messages:
     - 🌀Author: 'Selected Option 1'
-    - 🟠Angi/IVR: 'Choose from one of the following options... (1) Find a pro... (2) Booked prepriced... (3) Help with project... (4) Angie's List member...'
+    - 🟠Angi/IVR: 'Choose from one of the following options... (1) Find a pro... (2) Booked prepriced... (3) Help with project... (4) Angie''s List member...'
     - 🟠Angi/IVR: 'Disconnected'
   narrative: Fourth call attempt. Selected "Homeowner" but found no billing/cancellation options. Disconnected after 2:39.
   check: 🟢
@@ -146,7 +146,7 @@ events:
   channel: Web
   messages:
     - 🌀Author: 'Chose "Log In"... Supplied virtual gmail alias'
-    - 🟠Angi/HomeAdvisor: 'Welcome back! ... Don't have an account? Sign Up.'
+    - 🟠Angi/HomeAdvisor: 'Welcome back! ... Don''t have an account? Sign Up.'
     - 🟠Angi/HomeAdvisor: '[Email] Log in with this 6-digit code to continue.'
     - 🌀Author: 'Supplied the code'
     - 🟠Angi/HomeAdvisor: 'We need a few details to complete your account.'
@@ -417,7 +417,7 @@ events:
   narrative: Failed chargeback attempt via bank app.
   check: 🟢
 
-- event: (🌀🏛️) 9/13 10:24am - [Web] Submit FTC Report 192792633
+- event: (🌀🏛️) 9/13 10:24am - [Web] Submit: FTC Report 192792633
   initiator: 🌀Author
   receiver: 🏛️FTC
   time: 2025-09-13 10:24 AM PT
@@ -430,7 +430,7 @@ events:
     9.13.1: FTC ReportFraud.ftc.gov confirmation screen 'Report submitted!'
   check: 🟢
 
-- event: (🌀🏛️) 9/13 7:39pm - [Web] Opened CFPB Complaint 250914-24063002
+- event: (🌀🏛️) 9/13 7:39pm - [Web] Opened: CFPB Complaint 250914-24063002
   initiator: 🌀Author
   receiver: 🏛️CFPB
   time: 2025-09-13 7:39 PM PT
@@ -445,7 +445,7 @@ events:
     - 🚛: v1 -> CFPB
   check: 🟢
 
-- event: (🌀⭐) 9/13 7:09pm - [Web] Submit OR DOJ Complaint 972424
+- event: (🌀⭐) 9/13 7:09pm - [Web] Submit: OR DOJ Complaint 972424
   initiator: 🌀Author
   receiver: ⭐OR DOJ
   time: 2025-09-13 7:09 PM PT
@@ -470,6 +470,7 @@ events:
   narrative: Second failed chargeback attempt via app.
   check: 🟢
 
+
 # PART II: NEGLIGENCE IN PLATFORM MODERATION
 
 - event: (🟠🌀) 9/12 12:08pm - [Comment] Angi Reply on FB thread
@@ -478,8 +479,8 @@ events:
   time: 2025-09-12 12:08 PM PT
   channel: Comment
   messages:
-    - 🟠Angi/Support/SP: 'Hi Marcus, please send us a direct message with the contact info... so we can escalate this issue to the correct team. -SP'
-  narrative: Angi posted a public reply to the author's comment over 50 hours later. It was the only reply visible under the default filter.
+    - 🟠Angi/Support/SP: 'Hi Marcus, please send us a direct message with the contact info associated with your account and additional details so we can escalate this issue to the correct team. -SP'
+  narrative: Angi posted a public reply to the public Facebook comment over 50 hours later. It is the only reply visible under the default "Most Relevant" filter.
   figures:
     9.13.4: Facebook comment reply from Angi 'Hi Marcus, please send us a direct message...'
   check: 🟢
@@ -490,8 +491,8 @@ events:
   time: 2025-09-13 11:33 PM PT
   channel: Comment
   messages:
-    - 🌀Author: '@Angi I have already been in a private DM with your "Customer Help Service" since September 10th... Please advise your teams to coordinate.'
-  narrative: Author publicly notified Angi of the existing conversation with the "Customer Help Service" present in the same thread.
+    - 🌀Author: '@Angi I have already been in a private DM with your "Customer Help Service" since September 10th. I have provided my full name and email and am still awaiting a written confirmation of my cancellation. Please advise your teams to coordinate.'
+  narrative: Author observed the public comment from Angi. When "All Comments" filter is chosen, both replies (Angi and CHS) appear. Author replied to Angi, notifying them of the interaction with CHS.
   figures:
     9.13.5: Facebook comment thread showing replies from both 'Customer Help Service' and 'Angi'
     9.13.6: Facebook comment by Marcus Litchfield '@Angi I have already been in a private DM...'
@@ -503,8 +504,8 @@ events:
   time: 2025-09-13 11:34 PM PT
   channel: Message
   messages:
-    - 🌀Author: 'I see your official Angi brand account has now commented... I am still awaiting a written confirmation that my membership has been canceled.'
-  narrative: Author sent a DM to the 'Customer Help Service' acknowledging the official Angi comment and reiterating the request for written cancellation.
+    - 🌀Author: 'I see your official Angi brand account has now commented on my public post. As I have stated here multiple times, I am still awaiting a written confirmation that my membership has been canceled. Please process this without further delay.'
+  narrative: Author sent a DM to Customer Help Service with a screenshot of the Facebook thread, restating the request for written confirmation.
   figures:
     9.13.7: Messenger chat sending screenshot of Angi's comment to CHS
   check: 🟢
@@ -516,7 +517,7 @@ events:
   channel: Message
   messages:
     - 🔴CHS: 'Where is the reachable phone number'
-  narrative: The 'Customer Help Service' ignored the previous message and again requested a phone number.
+  narrative: CHS ignored the previous message and again requested a phone number. This was the last communication received from CHS.
   figures:
     9.14.1: Messenger chat message from CHS 'Where is the reachable phone number'
   check: 🟢
@@ -528,7 +529,7 @@ events:
   channel: App
   messages:
     - 🔴CHS: 'The Customer Help Service now has 1 friend.'
-  narrative: Author observed the 'Customer Help Service' account had added a friend with a suspicious profile location (Heard Island and McDonald Islands).
+  narrative: Author observed the Customer Help Service account had added a friend ("Naya Andrea") with a suspicious profile location (Heard Island and McDonald Islands).
   figures:
     9.14.2: Facebook profile page for Customer Help Service showing '1 friend'
     9.14.3: Facebook profile details for 'Naya Andrea' showing location 'Heard Island and McDonald Islands'
@@ -540,8 +541,8 @@ events:
   time: 2025-09-14 5:55 AM PT
   channel: Message
   messages:
-    - 🌀Author: 'I have explicitly stated... Do not contact me again unless it is with a written confirmation... This matter is now being escalated...'
-  narrative: Author sent a final message to 'Customer Help Service' stating refusal to call and intention to escalate to regulators.
+    - 🌀Author: 'I have explicitly stated, multiple times in writing, that this matter must be resolved in this chat... Do not contact me again unless it is with a written confirmation of my cancellation. This matter is now being escalated...'
+  narrative: Author sent a final message to Customer Help Service stating refusal to call and intention to escalate to regulators.
   figures:
     9.14.4: Messenger chat 'I have explicitly stated... Do not contact me again unless...'
   check: 🟢
@@ -552,8 +553,8 @@ events:
   time: 2025-09-15 8:51 AM PT
   channel: App
   messages:
-    - 🟠Angi/Page: 'the original Post... is now visible toward the top of the Angi feed.'
-  narrative: The Facebook post that had disappeared previously became visible again. (Captured in Screen Recording D).
+    - 🟠Angi/Page: 'The original Post that I commented on to request a working method to cancel is now visible toward the top of the Angi feed.'
+  narrative: The Facebook post that had disappeared previously became visible again in the Posts section. (Captured in Screen Recording D).
   check: 🟢
 
 - event: (🌀🟠) 9/15 9:45am - [Web] Path to Cancellation Steps Discovered
@@ -563,7 +564,8 @@ events:
   channel: Web
   messages:
     - 🟠Angi: 'How do I cancel my Angi Key Membership? ... Web: Log in to your account here and scroll to click "Manage Membership"'
-  narrative: Author discovered cancellation steps buried in the FAQ section of the website. (Captured in Screen Recording E).
+    - 🟠Angi: 'Contact (866) 623-6088 or start a live chat...'
+  narrative: Author discovered cancellation steps buried in the FAQ section of the website after navigating through the footer. (Captured in Screen Recording E).
   figures:
     9.15.3: Angi FAQ page showing expanded panel 'How do I cancel my Angi Key Membership?'
   check: 🟢
@@ -650,7 +652,7 @@ events:
   messages:
     - 🟠Angi/Support: 'The Facebook page for Customer Help Service is not associated with Angi and does not appear to be a legitimate entity.'
     - 🟠Angi/Support: 'We were not able to locate a membership associated with your name... Is it possible the membership is under your wife''s name...?'
-  narrative: Angi support replied confirming CHS is illegitimate and requesting wife's details to locate the account.
+  narrative: Angi support replied confirming CHS is illegitimate and requesting wife's details to locate the account. This was the only private Facebook message received from Angi Support.
   figures:
     9.19.2: Messenger chat from Angi 'The Facebook page for Customer Help Service is not associated with Angi...'
   check: 🟢
@@ -663,7 +665,7 @@ events:
   messages:
     - 🌀Author: 'I have ceased all communication and interactions with the Customer Help Service... To be clear, this illegitimate entity... remains accessible...'
     - 🌀Author: 'Name: Tammy Litchfield... Email: tenamyw@gmail.com... Card Ending: 2667'
-  narrative: Author replied providing Tammy's account info and pointing out the CHS account was still active on Angi's page. (Captured in Screen Recording F).
+  narrative: Author replied providing Tammy's account info and pointing out the CHS account was still active on Angi's page. (Captured in Screen Recording F). Angi did not reply.
   figures:
     9.19.3: Messenger chat to Angi 'I have ceased all communication... This illegitimate entity... remains accessible'
   check: 🟢
@@ -676,7 +678,7 @@ events:
   messages:
     - 🌀Author: 'I initiated the process of reporting the Customer Help Service to Facebook.'
     - 🌀Author: 'Selected Scam, fraud or false information -> Fraud or scam'
-  narrative: Author reported the 'Customer Help Service' account to Facebook as fraudulent.
+  narrative: Author reported the 'Customer Help Service' account to Facebook as fraudulent after Angi failed to remove it.
   figures:
     9.19.4: Facebook menu for Customer Help Service 'Report profile'
     9.19.5: Facebook report screen selecting 'Fraud or scam'
@@ -812,6 +814,7 @@ events:
     - 🌀Author: 'U.S. Bank ultimately fulfilled its role in managing the financial dispute. The human-led phone support was excellent.'
   narrative: Author submitted feedback to the CFPB regarding US Bank's handling of the dispute.
   check: 🟢
+
 
 # PART III: FORCED FINANCIAL DATA RETENTION
 
@@ -1227,9 +1230,10 @@ events:
     - 🚛: v4.3 -> FTC
   check: 🟢
 
-  # PART IV: MATERIALLY WEAK INTERNAL CONTROLS
 
-  - event: (🟠🌀) 10/27 1:11pm - [Email] The Litchenfield Deflection
+# PART IV: MATERIALLY WEAK INTERNAL CONTROLS
+
+- event: (🟠🌀) 10/27 1:11pm - [Email] The Litchenfield Deflection
   initiator: 🟠Angi/Sr. Counsel
   receiver: 🌀Author
   time: 2025-10-27 13:11:00 PT
@@ -1352,6 +1356,18 @@ events:
   figures:
     10.28.6: Email from Angi Home Owner (Jeanne) 'Angi Follow Up... To initiate your request...'
     10.28.7: Angi website form 'California Consumer Privacy Act' request form
+  check: 🟢
+
+- event: (🟠🟠) 10/29 1:01am - [Email] Service Desk Internal Forward
+  initiator: 🟠Angi/Service Desk
+  receiver: 🟠Angi/Privacy Officer
+  time: 2025-10-29 01:01:00 PT
+  channel: Email
+  messages:
+    - 🟠Angi/Service Desk: '[#INC-2549943]: New comment on Marclitchfield''s ticket... This is to confirm that ticket INC-2549943 is not resolved.'
+  narrative: Internal email forwarded Author's comment to Privacy Officer, Counsel, and PR, confirming internal awareness of the dispute. (Revealed in 10/31 email).
+  deliveries:
+    - 🌐: v6.9 -> Facebook, X
   check: 🟢
 
 - event: (🌀🟠) 10/30 5:23am - [Email] Request for Comments for Article
@@ -1518,8 +1534,216 @@ events:
     - 🟠Angi: 'prompted me to "complete" the account, similar to the experience at homeadvisor.com'
   narrative: Author verified that the account appeared to be deleted or disabled, preventing login. (Captured in Screen Recording V).
   check: 🟢
+  
+# PART V: DARK PR
 
-# PART V: FEDERAL LITIGATION
+- event: (🌐📰) 11/2 4:47am - [App] Google News Flooded with Angi Newser Spam
+  initiator: 🌐Google/News
+  receiver: 📰Newser
+  time: 2025-11-02 04:47:00 PT
+  channel: App
+  messages:
+    - 🌐Google News/Newser: 'Angi Inc. stock momentum explained - July 2025 Highlights & Low Risk Investment Opportunities... Redirected to WhatsApp Group Invitation'
+    - 🌐Google News/Newser: 'Visual trend scoring systems applied to Angi Inc... Redirected to WhatsApp Group Invitation'
+    - 🌐Google News/Newser: 'Applying big data sentiment scoring on Angi Inc... Redirected to WhatsApp Group Invitation'
+  narrative: Google News has become flooded with spam on the topic of "Angi". The vast majority of the stories are from "newser.com".
+  figures:
+    11.2.1: Google News search results showing flood of Newser spam articles
+    11.2.2: Redirect from Newser article to "Daniel Wealth Investment Team" WhatsApp group
+  check: 🟢
+
+- event: (🌐📰) 11/2 6:11am - [App] Newser Redirect Behavior Change
+  initiator: 🌐Google/News
+  receiver: 📰Newser
+  time: 2025-11-02 06:11:00 PT
+  channel: App
+  messages:
+    - 🌐Google News/Newser: '(intermittently) 404 Page not found'
+  narrative: The behavior of the newser articles appears to have changed; they no longer all redirect to WhatsApp, but many now 404.
+  figures:
+    11.2.4: Newser article resulting in a 404 Page Not Found error
+    11.2.5: Newser article resulting in a 403 Forbidden error
+  check: 🟢
+
+- event: (🌐📰) 11/2 12:28pm - [App] Newser Spam Flood Resumes
+  initiator: 🌐Google/News
+  receiver: 📰Newser
+  time: 2025-11-02 12:28:00 PT
+  channel: App
+  messages:
+    - 🌐Google News/Newser: 'How Angi Inc. stock performs in stagflation... Redirected to WhatsApp Group Invitation'
+  narrative: The Newser spam flood resumed, reverting to the WhatsApp redirect behavior. Author reported them as "Spam or Scam".
+  figures:
+    11.2.10: Reporting Newser articles as "Spam or Scam" via Google News app
+    11.2.11: Google News feed showing one legitimate article amidst Newser spam
+  check: 🟢
+
+- event: (🌀🌐) 11/2 1:00pm - [App] Submit Feedback to Google News
+  initiator: 🌀Author
+  receiver: 🌐Google/News
+  time: 2025-11-02 13:00:00 PT
+  channel: App
+  messages:
+    - 🌀Author: 'ANGI NEWSER SPAM FLOOD: articles from newser.com... redirected me to a WhatsApp Group Invite... Please promptly remove these invalid results...'
+    - 🌐Google: 'Thanks for sharing your feedback!'
+  narrative: Author submitted feedback to Google regarding the spam flood.
+  figures:
+    11.2.12: Google Feedback submission confirmation regarding Newser spam
+  check: 🟢
+
+- event: (🌀🌐) 11/3 4:11pm - [App] Report Newser Angi Reflood to Google News
+  initiator: 🌀Author
+  receiver: 🌐Google/News
+  time: 2025-11-03 16:11:00 PT
+  channel: App
+  messages:
+    - 🌀Author: 'CRITICAL ONGOING SPAM FLOOD OF ANGI SEARCH RESULTS... the "Angi" spam flood of fake newser.com articles is back!'
+  narrative: The news flood returned. Author captured a narrated screen recording (U) and submitted feedback again.
+  figures:
+    11.3.10: Second Google Feedback submission regarding Newser spam reflood
+  deliveries:
+    - 🌐: v7.3 -> Facebook, X
+  check: 🟢
+
+- event: (🌐📰) 11/4 1:24am - [App] 68% of Angi News is Fake
+  initiator: 🌐Google/News
+  receiver: 📰Newser
+  time: 2025-11-04 01:24:00 PT
+  channel: App
+  messages:
+    - 🌀Author: '68 of the 100 google news stories about Angi are spam... #AngiNewser #SpamFlood'
+  narrative: Author documented that 68% of the news results for "Angi" were fake newser stubs.
+  figures:
+    11.4.2: Long screenshot of Google News results marked with 'X' showing 68% spam rate
+  check: 🟢
+
+- event: (🌀) 11/4 8:44am - Resignation
+  initiator: 🌀Author
+  receiver: 🌀Author
+  time: 2025-11-04 08:44:00 PT
+  channel: Internal
+  messages:
+    - 🌀Author: 'I resigned from my job and career this morning. I am now a former Staff Software Engineer.'
+  narrative: Author resigned from their job.
+  check: 🟢
+
+- event: (🟠🌀) 11/4 2:45pm - [Email] Legal Threat & Fatal Paradox (ref)
+  initiator: 🟠Angi/Sr. Counsel
+  receiver: 🌀Author
+  time: 2025-11-04 14:45:00 PT
+  channel: Email
+  messages:
+    - 🟠Angi/Sr. Counsel: '(Reference to the "Fatal Paradox" email documented in Part IV)'
+  narrative: The fatal paradox email occurred on the same day as the resignation and the day before the earnings call.
+  check: 🟢
+
+- event: (🟠) 11/5 6am - [Web] Angi Earnings Call
+  initiator: 🟠Angi
+  receiver: 🌀Author
+  time: 2025-11-05 06:00:00 PT
+  channel: Web
+  messages:
+    - 🟠Angi/CEO: 'We will progressively be delivering... platform pieces which both have the chance to improve conversion... and will allow our team to test, develop, and deploy faster...'
+    - 🟠Angi/CEO: 'I think we''ve been very much held back... by the legacy technology and tech debt.'
+  narrative: Author registered for and recorded Angi's Q3 earnings call to understand the technical infrastructure state.
+  figures:
+    11.5.1: Screenshot of earnings call webinar
+  check: 🟢
+
+- event: (🌀🏛️) 11/15 6:15pm - [Web] Opened: CFPB Complaint 251116-25920284
+  initiator: 🌀Author
+  receiver: 🏛️CFPB
+  time: 2025-11-15 18:15:00 PT
+  channel: Web
+  messages:
+    - 🌀Author: 'This complaint supplements and supersedes all prior related filings... provides dispositive proof of the company''s bad faith...'
+    - 🏛️CFPB: 'ID FOR COMPLAINT SENT TO ANGI INC. 251116-25920284'
+  narrative: Author filed a comprehensive CFPB complaint documenting the "Fatal Paradox" and internal control failures.
+  figures:
+    11.15.1: Submission confirmation for CFPB Complaint #251116-25920284
+  deliveries:
+    - 🚛: v8.1-slim -> CFPB
+  check: 🟢
+
+- event: (🌀🏛️) 11/16 5:32pm - [Web] Filed: FTC Report 193806821
+  initiator: 🌀Author
+  receiver: 🏛️FTC
+  time: 2025-11-16 17:32:00 PT
+  channel: Web
+  messages:
+    - 🌀Author: 'SUPERSEDING COMPLAINT... Forensic Evidence of Systemic Dark Patterns and ROSCA Violations...'
+    - 🏛️FTC: 'Report Number 193806821'
+  narrative: Author filed a superseding report with the FTC providing comprehensive forensic evidence.
+  deliveries:
+    - 🚛: v8.1-slim -> FTC
+  check: 🟢
+
+- event: (⭐🌀) 11/19 - [Email] Closed: OR DOJ FF7819-25
+  initiator: ⭐OR DOJ
+  receiver: 🌀Author
+  time: 2025-11-19 12:00:00 PT
+  channel: Email
+  messages:
+    - ⭐OR DOJ: 'the business has not responded to your complaint. We cannot order a business to respond... With this letter, we are closing your complaint file.'
+  narrative: Oregon DOJ closed the complaint due to lack of response from Angi.
+  figures:
+    11.19.1: Email from Oregon DOJ closing file FF7819-25
+  check: 🟢
+
+- event: (🏛️🌀) 11/20 2:43pm - [Email] Closed: CFPB 251013-24920571 Referred
+  initiator: 🏛️CFPB
+  receiver: 🌀Author
+  time: 2025-11-20 14:43:00 PT
+  channel: Email
+  messages:
+    - 🏛️CFPB: 'We are unable to send your complaint to the company... We referred your complaint to the Federal Trade Commission.'
+  narrative: The first CFPB complaint was closed and referred to the FTC as Angi could not be contacted.
+  figures:
+    11.20.1: Email from CFPB closing case 251013-24920571
+    11.20.2: CFPB portal status showing "Referral to FTC"
+  check: 🟢
+
+- event: (🏛️🌀) 12/11 9:35am - [Email] Closed: CFPB 251102-25508055 Referred
+  initiator: 🏛️CFPB
+  receiver: 🌀Author
+  time: 2025-12-11 09:35:00 PT
+  channel: Email
+  messages:
+    - 🏛️CFPB: 'CFPB referred complaint to the Federal Trade Commission (FTC)...'
+  narrative: The second CFPB complaint was closed and referred to the FTC.
+  figures:
+    12.11.1: CFPB portal status for 251102-25508055 showing "Referred to FTC"
+    12.11.2: Detailed view of CFPB referral status
+  check: 🟢
+
+- event: (🌀🏛️) 12/15 10:45am - [Web] FILED: SEC TCR 17658-243-256-826
+  initiator: 🌀Author
+  receiver: 🏛️SEC
+  time: 2025-12-15 10:45:00 PT
+  channel: Web
+  messages:
+    - 🌀Author: 'EVIDENCE OF WHISTLEBLOWER RETALIATION... This submission documents bad faith conduct and retaliatory intimidation...'
+    - 🏛️SEC: 'Submission Number: 17658-243-256-826'
+  narrative: Author reported Angi's Rule 21F-17 violations and restated the full dark numbers thesis for the SEC.
+  figures:
+    12.15.1: Submission confirmation for SEC TCR #17658-243-256-826
+  deliveries:
+    - 🚛: v8.5-sec -> SEC
+  check: 🟢
+
+- event: (🌀🌐) 12/15 5:46pm - Announced SEC TCR 17658-243-256-826
+  initiator: 🌀Author
+  receiver: 🌐X
+  time: 2025-12-15 17:46:00 PT
+  channel: Post/X
+  messages:
+    - 🌀Author: '🚨 $ANGI SEC WHISTLEBLOWER RETALIATION REPORT... This filing reports Angi Inc. for Whistleblower Retaliation and confirmed Internal Control Failures...'
+  narrative: Author publicly announced the new SEC whistleblower report on X and Facebook.
+  deliveries:
+    - 🌐: v8.7 -> Facebook, X
+  check: 🟢
+
+# PART VI: FEDERAL LITIGATION
 
 - event: (🌀🟠) 12/21 9:50am - [Web] Verification on the Eve of Filing
   initiator: 🌀Author
@@ -1529,7 +1753,9 @@ events:
   messages:
     - 🌀Author: 'I''m going to do a quick... demonstration of the deceptive registration funnel... "Welcome back, Void!"'
     - 🌀Author: 'I''m also going to check Angi.com... That one logged me in too... Two deceptive registration funnels.'
-  narrative: Author verified and recorded that the deceptive registration funnels were still operational on both HomeAdvisor and Angi websites just before filing the lawsuit. (Captured in Screen Recording X).
+  narrative: Author verified and recorded that the deceptive registration funnels were still operational on both HomeAdvisor and Angi websites just before filing the lawsuit.
+  figures:
+    12.21.1: Screen Recording X Eve-Of-Filing
   check: 🟢
 
 - event: (🌀⚖️) 12/22 ~3pm - [Delivery] Filing Packet to Clerk's Office
@@ -1683,7 +1909,7 @@ events:
   messages:
     - 🌀Author: 'Sent Address Correction to Angi HQ in Denver via Certified Mail'
     - ✉️USPS: 'Tracking 9589071052700950160424'
-  narrative: Author mailed the audit committee report to Angi HQ (Note: Context implies Audit Report).
+  narrative: Author mailed the audit committee report to Angi HQ.
   check: 🟢
 
 - event: (🌀🔍) 1/2 10:25am - [Certified Mail] Sent: Audit Committee Report to EY
@@ -1765,7 +1991,7 @@ events:
     1.6.1: CourtListener Docket Alert email
   check: 🟢
 
-- event: (✉️🌀) 1/6 10:48pm - [Certified Mail] Delivered: Audit Committee Report to EY
+- event: (✉️🌀) 1/6 10:48am - [Certified Mail] Delivered: Audit Committee Report to EY
   initiator: ✉️USPS
   receiver: 🌀Author
   time: 2026-01-06 10:48:00 PT
@@ -1867,7 +2093,7 @@ events:
   time: 2026-01-12 13:27:00 PT
   channel: Email
   messages:
-    - ⚖️DOCKET: 'Entry 7 - COS Pre-Trial Documents... Entry 8 - Service Return... Entry 9 - Motion for CM/ECF Filing'
+    - ⚖️DOCKET: 'Entry 7 - COS: Pre-Trial Documents... Entry 8 - Service Return... Entry 9 - Motion for CM/ECF Filing'
   narrative: Recent filings appeared on the docket.
   figures:
     1.12.1: Docket alert listing entries 7, 8, and 9
@@ -2000,7 +2226,7 @@ events:
   narrative: Stripe requested that the email address associated with the transaction (Tammy's) contact them directly for authentication.
   check: 🟢
 
-- event: (🌀⚖️) 1/20 8:37am - [NEF] Filed First Amended Complaint
+- event: (🌀⚖️) 1/20 8:37am - [NEF] Filed: First Amended Complaint
   initiator: 🌀Author
   receiver: ⚖️US District/Clerk
   time: 2026-01-20 08:37:00 PT
@@ -2025,7 +2251,7 @@ events:
   narrative: Author emailed Angi's in-house counsel with the FAC, a proposal for an extension, and preliminary discovery documents including initial disclosures.
   check: 🟢
 
-- event: (✉️🌀) 1/20 12:23pm - [Certified Mail] Returned Audit Report from Angi HQ
+- event: (✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ
   initiator: ✉️USPS
   receiver: 🌀Author
   time: 2026-01-20 12:23:00 PT
@@ -2064,7 +2290,7 @@ events:
   narrative: Tammy emailed Stripe authorizing Stephen, but Stripe's automated system required a login confirmation she could not complete.
   check: 🟢
 
-- event: (🌀⚖️) 1/21 10:54pm - [NEF] Filed COS for CM/ECF Access
+- event: (🌀⚖️) 1/21 10:54pm - [NEF] Filed: COS for CM/ECF Access
   initiator: 🌀Author
   receiver: ⚖️US District/Clerk
   time: 2026-01-21 22:54:00 PT
@@ -2076,7 +2302,7 @@ events:
     1.21.1: Notice of Electronic Filing for Certificate of Service
   check: 🟢
 
-- event: (🌀⚖️) 1/21 10:57pm - [NEF] Filed COS for FAC
+- event: (🌀⚖️) 1/21 10:57pm - [NEF] Filed: COS for FAC
   initiator: 🌀Author
   receiver: ⚖️US District/Clerk
   time: 2026-01-21 22:57:00 PT
@@ -2088,7 +2314,7 @@ events:
     1.21.2: Notice of Electronic Filing for Certificate of Service
   check: 🟢
 
-- event: (🌀⚖️) 1/21 10:57pm - [NEF] Filed Notice of 26(a)(1) Service
+- event: (🌀⚖️) 1/21 10:57pm - [NEF] Filed: Notice of 26(a)(1) Service
   initiator: 🌀Author
   receiver: ⚖️US District/Clerk
   time: 2026-01-21 22:57:00 PT
