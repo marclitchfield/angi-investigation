@@ -1,15 +1,4 @@
 events:
-  checks:
-    - Event title exactly matches timeline entry.
-    - Initiator and Receiver are valid in parties.yml.
-    - Channel is valid in channels.yml.
-    - Event time is correct and matches the evidence, or designated as approximate.
-    - All messages senders are valid in parties.yml.
-    - All messages in timeline event are faithfully represented.
-    - Figures are valid in figures.yml.
-    - Figure descriptions faithfully describe the timeline image.
-    - Narrative faithfully summarizes the narrative in the timeline event.
-
 # PART I: OBSTRUCTIVE CANCELLATION METHODS
 
 - event: (🏦🌀) 9/10 8:34am - [Transaction] Unexpected $29.99 Charge
@@ -2562,3 +2551,15 @@ events:
     - 📙Perkins Coie/Mr. McCullough: 'This extension will have no effect on document or evidence preservation obligations... We will review them and confer as needed on any discovery issues after the Answer and Pleading process is complete.'
   narrative: Defense counsel acknowledged the preservation obligations and deferred discovery discussions until after pleadings are closed.
   check: 🟢
+
+
+checks:
+    - Event title exactly matches timeline entry.
+    - Initiator and Receiver are valid in parties.yml.
+    - Channel is valid in channels.yml.
+    - Event time is correct and matches the evidence, or designated as approximate.
+    - All messages senders are valid in parties.yml.
+    - All messages in timeline event are faithfully represented.
+    - Figures are valid in figures.yml.
+    - Figure descriptions faithfully describe the timeline image.
+    - Narrative faithfully summarizes the narrative in the timeline event.
