@@ -1,4 +1,4 @@
-events:
+,events:
 
 # PART I: OBSTRUCTIVE CANCELLATION METHODS
 
@@ -2037,6 +2037,18 @@ events:
   narrative: CFPB alerted Angi that their response to the latest complaint was past due.
   figures:
     1.8.1: CFPB email 'We have alerted the company its final response is past due.'
+  check: 🟢
+
+- event: (✉️🌀) 1/9 12:06pm - [Certified Mail] Delivered: Pretrial Docs to Angi
+  initiator: ✉️USPS
+  receiver: 🌀Author
+  time: 2026-01-09 12:06:00 PT
+  channel: Certified Mail
+  messages:
+    - ✉️USPS: 'Delivered SALEM, OR 97301 on January 9, 2026 at 12:06 pm'
+  narrative: USPS confirmed delivery of the pretrial documents to Angi's registered agent.
+  figures:
+    1.9.1: USPS Tracking screen 'Delivered: SALEM, OR'
   check: 🟢
 
 - event: (✉️🌀) 1/10 10:43am - [Certified Mail] Delivered: CM/ECF Motion to Clerk
