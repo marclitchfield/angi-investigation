@@ -588,6 +588,54 @@ figures:
     image: Smartsheet confirmation screen: 'Thank you for submitting your privacy complaint.'
     check: 🟢
 
+  11.2.1:
+    caption: 🌐 Google News search results showing flood of Newser spam articles.
+    event: (🌐📰) 11/2 4:47am - [App] Google News Flooded with Angi Newser Spam
+    image: Google News search results showing flood of Newser spam articles
+    check: 🟢
+
+  11.2.2:
+    caption: 🌐 Redirect from Newser article to "Daniel Wealth Investment Team" WhatsApp group.
+    event: (🌐📰) 11/2 4:47am - [App] Google News Flooded with Angi Newser Spam
+    image: Redirect from Newser article to "Daniel Wealth Investment Team" WhatsApp group Invitation
+    check: 🟢
+
+  11.2.4:
+    caption: ❌ Newser article resulting in a 404 Page Not Found error.
+    event: (🌐📰) 11/2 6:11am - [App] Newser Redirect Behavior Change
+    image: Newser article resulting in a 404 Page Not Found error
+    check: 🟢
+
+  11.2.5:
+    caption: ❌ Newser article resulting in a 403 Forbidden error.
+    event: (🌐📰) 11/2 6:11am - [App] Newser Redirect Behavior Change
+    image: Newser article resulting in a 403 Forbidden error
+    check: 🟢
+
+  11.2.10:
+    caption: 🌐 Reporting Newser articles as "Spam or Scam" via Google News app.
+    event: (🌐📰) 11/2 12:28pm - [App] Newser Spam Flood Resumes
+    image: Reporting Newser articles as "Spam or Scam" via Google News app
+    check: 🟢
+
+  11.2.11:
+    caption: 🌐 Google News feed showing one legitimate article amidst Newser spam.
+    event: (🌐📰) 11/2 12:28pm - [App] Newser Spam Flood Resumes
+    image: Google News feed showing one legitimate article amidst Newser spam
+    check: 🟢
+
+  11.2.12:
+    caption: 🌐 Google Feedback submission confirmation regarding Newser spam.
+    event: (🌀🌐) 11/2 1:00pm - [App] Submit Feedback to Google News
+    image: Google Feedback submission confirmation regarding Newser spam
+    check: 🟢
+
+  11.2.14:
+    caption: 🏛️ CFPB confirmation screen: ID FOR COMPLAINT SENT TO ANGI INC. 251102-25508055.
+    event: (🌀🏛️) 11/2 3:30pm - [Web] Opened CFPB Complaint 251102-25508055
+    image: CFPB confirmation screen 'ID FOR COMPLAINT SENT TO ANGI INC. 251102-25508055'
+    check: 🟢
+
   11.3.1:
     caption: 🟠 Service Desk contacts Tammy, INC-2551970 CCPA Delete Data (#2) resolved (Cease-contact violation #3)
     event: (🟠🌹) 11/3 10:23am - [Email] INC-2551970: Ticket Resolved
@@ -612,10 +660,76 @@ figures:
     image: SEC TCR submission confirmation screen: 'Submission Number: 17622-040-479-957'
     check: 🟢
 
+  11.3.10:
+    caption: 🌐 Second Google Feedback submission regarding Newser spam reflood.
+    event: (🌀🌐) 11/3 4:11pm - [App] Report Newser Angi Reflood to Google News
+    image: Second Google Feedback submission regarding Newser spam reflood
+    check: 🟢
+
+  11.4.2:
+    caption: 📰 Long screenshot of Google News results marked with 'X' showing 68% spam rate.
+    event: (🌐📰) 11/4 1:24am - [App] 68% of Angi News is Fake
+    image: Long screenshot of Google News results marked with 'X' showing 68% spam rate
+    check: 🟢
+
   11.4.3:
     caption: 🟠 Sr. Counsel issues false assertions, misrepresents Stripe's role as data processor, then simultaneously issues a legal threat in the form of a fatal paradox.
     event: (🟠🌀) 11/4 2:45pm - [Email] Legal Threat & Fatal Paradox
     image: Email from Jaime Padgett: 'Hi, Mr. Litchfield, Thank you for your follow up questions...'
+    check: 🟢
+
+  11.5.1:
+    caption: 🟠 Screenshot of Angi Q3 earnings call webinar.
+    event: (🟠) 11/5 6am - [Web] Angi Earnings Call
+    image: Screenshot of earnings call webinar
+    check: 🟢
+
+  11.15.1:
+    caption: 🏛️ Submission confirmation for CFPB Complaint #251116-25920284.
+    event: (🌀🏛️) 11/15 6:15pm - [Web] Opened: CFPB Complaint 251116-25920284
+    image: Submission confirmation for CFPB Complaint #251116-25920284
+    check: 🟢
+
+  11.19.1:
+    caption: ⭐ Email from Oregon DOJ closing file FF7819-25.
+    event: (⭐🌀) 11/19 - [Email] Closed: OR DOJ FF7819-25
+    image: Email from Oregon DOJ closing file FF7819-25
+    check: 🟢
+
+  11.20.1:
+    caption: 🏛️ Email from CFPB closing case 251013-24920571.
+    event: (🏛️🌀) 11/20 2:43pm - [Email] Closed: CFPB 251013-24920571 Referred
+    image: Email from CFPB closing case 251013-24920571
+    check: 🟢
+
+  11.20.2:
+    caption: 🏛️ CFPB portal status showing "Referral to FTC".
+    event: (🏛️🌀) 11/20 2:43pm - [Email] Closed: CFPB 251013-24920571 Referred
+    image: CFPB portal status showing "Referral to FTC"
+    check: 🟢
+
+  12.11.1:
+    caption: 🏛️ CFPB portal status for 251102-25508055 showing "Referred to FTC".
+    event: (🏛️🌀) 12/11 9:35am - [Email] Closed: CFPB 251102-25508055 Referred
+    image: CFPB portal status for 251102-25508055 showing "Referred to FTC"
+    check: 🟢
+
+  12.11.2:
+    caption: 🏛️ Detailed view of CFPB referral status.
+    event: (🏛️🌀) 12/11 9:35am - [Email] Closed: CFPB 251102-25508055 Referred
+    image: Detailed view of CFPB referral status
+    check: 🟢
+
+  12.15.1:
+    caption: 🏛️ Submission confirmation for SEC TCR #17658-243-256-826.
+    event: (🌀🏛️) 12/15 10:45am - [Web] FILED: SEC TCR 17658-243-256-826
+    image: Submission confirmation for SEC TCR #17658-243-256-826
+    check: 🟢
+
+  12.21.1:
+    caption: 🟠 Screen Recording X: Eve-Of-Filing verification.
+    event: (🌀🟠) 12/21 9:50am - [Web] Verification on the Eve of Filing
+    image: Screen Recording X Eve-Of-Filing
     check: 🟢
 
   12.22.1:
@@ -678,6 +792,12 @@ figures:
     image: USPS Tracking screen: 'Delivered: SALEM, OR'
     check: 🟢
 
+  1.7.1:
+    caption: ✉️ Photo of Certified Mail receipts for Jan 7 mailings.
+    event: (🌀⚖️) 1/7 5:19pm - [Certified Mail] Sent: CM/ECF Filing Motion to Clerk
+    image: Photo of Certified Mail receipts for Jan 7 mailings
+    check: 🟢
+
   1.8.0:
     caption: ✉️ USPS tracking showing delivery of v8.8-slim to FTC.
     event: (✉️🌀) 1/8 8:13am - [Certified Mail] Delivered: v8.8-slim to FTC
@@ -688,6 +808,12 @@ figures:
     caption: ️🚨 CFPB email alert that company response is past due (Case 251116-25920284).
     event: (️🌀) 1/8 9:00pm - [Email] 🚨ALERTED: CFPB 251116-25920284
     image: CFPB email: 'We have alerted the company its final response is past due.'
+    check: 🟢
+
+  1.9.1:
+    caption: ✉️ USPS Tracking screen: 'Delivered: SALEM, OR' (Pre-Trial Docs).
+    event: (✉️🌀) 1/9 12:06pm - [Certified Mail] Delivered: Pretrial Docs to Angi
+    image: USPS Tracking screen 'Delivered: SALEM, OR'
     check: 🟢
 
   1.10.1:
@@ -850,6 +976,18 @@ figures:
     caption: ✉️ USPS tracking history showing the forwarding loop from Denver back to Oregon.
     event: (✉️🌀) 1/20 12:23pm - [Certified Mail] Returned: Audit Report from Angi HQ
     image: USPS Tracking History details showing path: Portland -> Denver -> Phoenix -> Portland
+    check: 🟢
+
+  1.20.8:
+    caption: ️ Photo of laser printer.
+    event: (🌀️) 1/20 ~9pm - Printing the FAC
+    image: Photo of laser printer
+    check: 🟢
+
+  1.20.9:
+    caption: ️ Photo of USPS Kiosk receipt for late night mailing.
+    event: (🌀️) 1/20 ~9pm - Printing the FAC
+    image: Photo of USPS Kiosk receipt for late night mailing
     check: 🟢
 
   1.21.1:
