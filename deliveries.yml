@@ -243,7 +243,7 @@ deliveries:
 
   - version: v8.0
     date: 2025-11-12
-    event: "Not listed in events.yml"
+    event: "(🌀🌐) 11/12 ~12pm - [Post] Published v8.0"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
@@ -305,14 +305,14 @@ deliveries:
 
   - version: v9.1
     date: 2026-01-02
-    event: "Not listed in events.yml"
+    event: "(🌀🌐) 1/2 ~2pm - [Post] Published v9.1"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v9.2
     date: 2026-01-06
-    event: "Not listed in events.yml"
+    event: "(🌀🌐) 1/6 ~2pm - [Post] Published v9.2"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
