@@ -12,7 +12,6 @@ deliveries:
     method: Web (Uploaded)
     status: Delivered
     reference: Complaint 972424
-deliveries: 
 
   - version: v2
     date: 2025-10-05
