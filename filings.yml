@@ -228,3 +228,5 @@ filings:
     event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
     check: 🟢
     
+checks: 
+  - Must have valid event in events.yml
