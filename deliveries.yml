@@ -1,6 +1,7 @@
 deliveries:
   - version: v1
     date: 2025-09-13
+    event: "(🌀🏛️) 9/13 7:39pm - [Web] Opened: CFPB Complaint 250914-24063002"
     recipient: 🏛️CFPB
     method: Web (Uploaded)
     status: Delivered
@@ -8,6 +9,7 @@ deliveries:
 
   - version: v1
     date: 2025-09-13
+    event: "(🌀⭐) 9/13 7:09pm - [Web] Submit: OR DOJ Complaint 972424"
     recipient: ⭐OR DOJ
     method: Web (Uploaded)
     status: Delivered
@@ -15,6 +17,7 @@ deliveries:
 
   - version: v2
     date: 2025-10-05
+    event: "(🌀⭐) 10/5 1:24pm - [Email] Update OR DOJ FF7819-25 with v2"
     recipient: ⭐OR DOJ
     method: Email (Attached)
     status: Delivered
@@ -22,6 +25,7 @@ deliveries:
 
   - version: v3.1
     date: 2025-10-06
+    event: "(🌀🏛️) 10/6 4:35pm - [Web] SEC TCR 17597-937-502-732"
     recipient: 🏛️SEC
     method: Web (Uploaded)
     status: Delivered
@@ -29,6 +33,7 @@ deliveries:
 
   - version: v3.2
     date: 2025-10-06
+    event: "(🌀🌐) 10/6 6:41pm - [Post/Facebook] Investigation Announcement"
     recipient: 🌐Facebook
     method: Post
     status: Published
@@ -36,12 +41,14 @@ deliveries:
 
   - version: v3.3
     date: 2025-10-08
+    event: "(🌀📰) 10/8 8:37am - [Web] Submit NYT Tip"
     recipient: 📰NYT
     method: Web (Tip)
     status: Delivered
 
   - version: v4
     date: 2025-10-13
+    event: "(🌀🏛️) 10/13 11:36am - [Web] Opened CFPB Complaint 251013-24920571"
     recipient: 🏛️CFPB
     method: Web (Uploaded)
     status: Delivered
@@ -49,6 +56,7 @@ deliveries:
 
   - version: v4
     date: 2025-10-13
+    event: "(🌀⭐) 10/13 3:35pm - [Web] Filed CO AG Complaint C-000050111"
     recipient: ⭐CO AG
     method: Web (Uploaded)
     status: Delivered
@@ -56,6 +64,7 @@ deliveries:
 
   - version: v4.3
     date: 2025-10-16
+    event: "(🌀🏛️) 10/16 11:35am - [Priority Mail] Sent Report v4.3 to FTC"
     recipient: 🏛️FTC
     method: Priority Mail
     status: Delivered
@@ -64,6 +73,7 @@ deliveries:
 
   - version: v4.3-P
     date: 2025-10-16
+    event: "(🌀🏛️) 10/16 12:20pm - [Comment] Regulations.gov FTC Strategic Plan"
     recipient: 🏛️FTC (Regulations.gov)
     method: Comment
     status: Filtered
@@ -72,12 +82,14 @@ deliveries:
 
   - version: v5.2
     date: 2025-10-21
+    event: "(🌀📰) 10/21 6:47pm - [Web] Submitted ProPublica Tip"
     recipient: 📰ProPublica
     method: Web
     status: Delivered
 
   - version: v5.2
     date: 2025-10-21
+    event: "(🌀📰) 10/21 ~7-10pm - [Email] Next Media Tier"
     recipient: 📰Washington Post
     method: Email
     status: Delivered
@@ -85,12 +97,14 @@ deliveries:
 
   - version: v5.2
     date: 2025-10-21
+    event: "(🌀📰) 10/21 ~7-10pm - [Email] Next Media Tier"
     recipient: 📰The Oregonian
     method: Email
     status: Delivered
 
   - version: v5.3
     date: 2025-10-21
+    event: "(🌀📰) 10/21 ~7-10pm - [Email] Next Media Tier"
     recipient: 📰Washington Post
     method: Email
     status: Delivered
@@ -98,6 +112,7 @@ deliveries:
 
   - version: v5.4
     date: 2025-10-22
+    event: "(🌀📰) 10/22 5:48am - Tip Bloomberg"
     recipient: 📰Bloomberg
     method: Email
     status: Delivered
@@ -105,24 +120,28 @@ deliveries:
 
   - version: v6.2
     date: 2025-10-22
+    event: "(🌀🌐) 10/22 ~2pm - [Post/X] Distribute on X bio"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v6.5
     date: 2025-10-24
+    event: "(🌀🟠) 10/24 1:09pm - [Web] Forced Data Retention Narrated"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v6.5
     date: 2025-10-25
+    event: "(🌀📰) 10/25 - Next Tier of Media Pitches"
     recipient: 📰Krebs on Security
     method: Web
     status: Delivered
 
   - version: v6.5
     date: 2025-10-25
+    event: "(🌀📰) 10/25 - Next Tier of Media Pitches"
     recipient: 📰New York Times
     method: Signal
     status: Delivered
@@ -130,6 +149,7 @@ deliveries:
 
   - version: v6.5
     date: 2025-10-25
+    event: "(🌀📰) 10/25 - Next Tier of Media Pitches"
     recipient: 📰Wall Street Journal
     method: Email
     status: Delivered
@@ -137,48 +157,56 @@ deliveries:
 
   - version: v6.5
     date: 2025-10-25
+    event: "(🌀📰) 10/25 - Next Tier of Media Pitches"
     recipient: 📰TastyLive
     method: Post/X
     status: Delivered
 
   - version: v6.6
     date: 2025-10-25
+    event: "(🌀🌐) 10/25 3:59pm - [Post] Published v6.6"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v6.7
     date: 2025-10-27
+    event: "(🌀🟠) 10/27 7:20pm - [Email] I Respond to Angi Legal Counsel"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v6.8
     date: 2025-10-28
+    event: "(🟠🌀) 10/28 9:52am - [Email] Service Desk: Request Resolved"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v6.10
     date: 2025-10-29
+    event: "(🟠🟠) 10/29 1:01am - [Email] Service Desk Internal Forward"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v6.11
     date: 2025-10-30
+    event: "(🌀🟠) 10/30 5:23am - [Email] Request for Comments for Article"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v6.12
     date: 2025-11-01
+    event: "(🌀⭐) 11/1 9:39pm - [Web] Filed Oregon DOJ OCPA Complaint"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v6.12
     date: 2025-11-01
+    event: "(🌀⭐) 11/1 9:39pm - [Web] Filed Oregon DOJ OCPA Complaint"
     recipient: ⭐OR DOJ
     method: Web (Uploaded)
     status: Delivered
@@ -186,12 +214,14 @@ deliveries:
 
   - version: v7.1
     date: 2025-11-03
+    event: "(🌀⭐) 11/3 7:59am - [Email] Colorado AG update"
     recipient: ⭐CO AG
     method: Email
     status: Delivered
 
   - version: v7.2
     date: 2025-11-03
+    event: "(🌀🏛️) 11/3 1:10pm - [Web] Submit SEC Supplemental TCR"
     recipient: 🏛️SEC
     method: Web (Uploaded)
     status: Delivered
@@ -199,24 +229,28 @@ deliveries:
 
   - version: v7.3
     date: 2025-11-03
+    event: "(🌀🌐) 11/3 4:11pm - [App] Report Newser Angi Reflood to Google News"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v7.4
     date: 2025-11-04
+    event: "(🟠🌀) 11/4 2:45pm - [Email] Legal Threat & Fatal Paradox"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v8.0
     date: 2025-11-12
+    event: "Not listed in events.yml"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v8.1-slim
     date: 2025-11-15
+    event: "(🌀🏛️) 11/15 6:15pm - [Web] Opened: CFPB Complaint 251116-25920284"
     recipient: 🏛️CFPB
     method: Web (Uploaded)
     status: Delivered
@@ -224,6 +258,7 @@ deliveries:
 
   - version: v8.1-slim
     date: 2025-11-16
+    event: "(🌀🏛️) 11/16 5:32pm - [Web] Filed: FTC Report 193806821"
     recipient: 🏛️FTC
     method: Web (Uploaded)
     status: Filed
@@ -231,6 +266,7 @@ deliveries:
 
   - version: v8.5-sec
     date: 2025-12-15
+    event: "(🌀🏛️) 12/15 10:45am - [Web] FILED: SEC TCR 17658-243-256-826"
     recipient: 🏛️SEC
     method: Web (Uploaded)
     status: Delivered
@@ -238,18 +274,21 @@ deliveries:
 
   - version: v8.6
     date: 2025-12-15
+    event: "(🌀🌐) 12/15 5:46pm - Announced SEC TCR 17658-243-256-826"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v8.7
     date: 2025-12-15
+    event: "(🌀🌐) 12/15 5:46pm - Announced SEC TCR 17658-243-256-826"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v8.8-civil
     date: 2025-12-22
+    event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
     recipient: ⚖️US District Court
     method: In-Person (USB)
     status: Filed
@@ -257,6 +296,7 @@ deliveries:
 
   - version: v8.8-slim
     date: 2025-12-25
+    event: "(🌀️) 12/25 9:41am - [Web] Filed FTC Report 195498563"
     recipient: 🏛️FTC
     method: Priority Mail
     status: Delivered
@@ -265,20 +305,22 @@ deliveries:
 
   - version: v9.1
     date: 2026-01-02
+    event: "Not listed in events.yml"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v9.2
     date: 2026-01-06
+    event: "Not listed in events.yml"
     recipient: 🌐Facebook, X
     method: Post
     status: Published
 
   - version: v10.1-civil
     date: 2026-01-20
+    event: "(🌀⚖️) 1/20 8:37am - [NEF] Filed: First Amended Complaint"
     recipient: ⚖️US District Court
     method: CM/ECF
     status: Filed
     reference: Docket Entry 13 (Exhibit A)
-    
