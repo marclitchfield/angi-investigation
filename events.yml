@@ -1664,6 +1664,17 @@ events:
     - 🚛: v8.1-slim -> CFPB
   check: 🟢
 
+- event: "(🌀🏛️) 11/16 5:07pm - [Web] Invalid FTC Report (No Attachment)"
+  initiator: 🌀Author
+  receiver: 🏛️FTC
+  time: 2025-11-16 17:07:00 PT
+  channel: Web
+  messages:
+    - 🌀Author: 'Attempted to file report 193790411.'
+    - 🏛️FTC: 'Report Number 193790411'
+  narrative: Author filed an initial report but failed to attach the necessary evidence. This filing was immediately superseded by Report 193806821.
+  check: 🟢
+
 - event: (🌀🏛️) 11/16 5:32pm - [Web] Filed: FTC Report 193806821
   initiator: 🌀Author
   receiver: 🏛️FTC
