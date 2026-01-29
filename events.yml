@@ -1649,6 +1649,17 @@ events:
     11.5.1: Screenshot of earnings call webinar
   check: 🟢
 
+- event: "(🌀🌐) 11/12 ~12pm - [Post] Published v8.0"
+  initiator: 🌀Author
+  receiver: 🌐Facebook
+  time: 2025-11-12 12:00:00 PT
+  approximate: true
+  channel: Post
+  messages:
+    - 🌀Author: 'Published Report v8.0 to social channels.'
+  narrative: Author published version 8.0 of the investigation timeline.
+  check: 🟢
+
 - event: (🌀🏛️) 11/15 6:15pm - [Web] Opened: CFPB Complaint 251116-25920284
   initiator: 🌀Author
   receiver: 🏛️CFPB
@@ -1968,6 +1979,17 @@ events:
     1.2.1: Email from Barrister Malstroms 'TSB Status on (ANGI, INC.)' showing served status
   check: 🟢
 
+- event: "(🌀🌐) 1/2 ~2pm - [Post] Published v9.1"
+  initiator: 🌀Author
+  receiver: 🌐Facebook
+  time: 2026-01-02 14:00:00 PT
+  approximate: true
+  channel: Post
+  messages:
+    - 🌀Author: 'Published Report v9.1 to social channels.'
+  narrative: Author published version 9.1 of the investigation timeline.
+  check: 🟢
+
 - event: (🌀⚖️) 1/5 8:03am - [Certified Mail] Delivered: Address Correction to Clerk
   initiator: ✉️USPS
   receiver: 🌀Author
@@ -2036,6 +2058,17 @@ events:
   narrative: USPS confirmed delivery of the address correction to Angi's registered agent.
   figures:
     1.6.8: USPS Tracking screen 'Delivered: SALEM, OR'
+  check: 🟢
+
+- event: "(🌀🌐) 1/6 ~2pm - [Post] Published v9.2"
+  initiator: 🌀Author
+  receiver: 🌐Facebook
+  time: 2026-01-06 14:00:00 PT
+  approximate: true
+  channel: Post
+  messages:
+    - 🌀Author: 'Published Report v9.2 to social channels.'
+  narrative: Author published version 9.2 of the investigation timeline.
   check: 🟢
 
 - event: (🌀⚖️) 1/7 5:19pm - [Certified Mail] Sent: Proof of Service to Clerk
