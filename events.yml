@@ -2563,3 +2563,4 @@ checks:
     - Figures are valid in figures.yml.
     - Figure descriptions faithfully describe the timeline image.
     - Narrative faithfully summarizes the narrative in the timeline event.
+    - All timeline events have been added to events.yml.
