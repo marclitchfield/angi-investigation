@@ -1,4 +1,14 @@
 events:
+  checks:
+    - Event title exactly matches timeline entry.
+    - Initiator and Receiver are valid in parties.yml.
+    - Channel is valid in channels.yml.
+    - Event time is correct and matches the evidence, or designated as approximate.
+    - All messages senders are valid in parties.yml.
+    - All messages in timeline event are faithfully represented.
+    - Figures are valid in figures.yml.
+    - Figure descriptions faithfully describe the timeline image.
+    - Narrative faithfully summarizes the narrative in the timeline event.
 
 # PART I: OBSTRUCTIVE CANCELLATION METHODS
 
