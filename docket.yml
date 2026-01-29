@@ -156,7 +156,7 @@ docket:
     check: 🟢
 
   - entry: 14
-    description: "COS for CM/ECF Access"
+    description: "COS for CM/ECF Filing Grant/ Moot Orders"
     filed:
       date: 2026-01-21
       by: Plaintiff
