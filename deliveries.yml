@@ -289,7 +289,7 @@ deliveries:
 
   - version: v8.8-slim
     date: 2025-12-25
-    event: "(🌀️) 12/25 9:41am - [Web] Filed FTC Report 195498563"
+    event: "(🌀️🏛️) 12/25 9:41am - [Web] Filed FTC Report 195498563"
     recipient: 🏛️FTC
     method: Priority Mail
     status: Delivered

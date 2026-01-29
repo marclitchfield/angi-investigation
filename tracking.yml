@@ -41,7 +41,7 @@ tracking:
       event: (🌀🔍) 1/2 10:25am - [Certified Mail] Sent: Audit Committee Report to EY
     delivered:
       time: 2026-01-06 10:48:00 PT
-      event: (✉️🌀) 1/6 10:48pm - [Certified Mail] Delivered: Audit Committee Report to EY
+      event: (✉️🌀) 1/6 10:48am - [Certified Mail] Delivered: Audit Committee Report to EY
     check: 🟢
 
   - tracking_number: 9589071052700950160332
