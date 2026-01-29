@@ -1,0 +1,201 @@
+docket:
+  - entry: 1
+    description: Complaint (+JS-044)
+    filed:
+      date: 2025-12-22
+      by: Plaintiff
+      event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
+    certification:
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+      date: 2026-01-12
+      docket: 8
+    check: 🟢
+
+  - entry: 2
+    description: Summons (AO-440)
+    filed:
+      date: 2025-12-22
+      by: Clerk
+      event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
+    certification:
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+      date: 2026-01-12
+      docket: 8
+    check: 🟢
+
+  - entry: 3
+    description: Pre-Trial Documents
+    filed:
+      date: 2025-12-23
+      by: Clerk
+      event: "(⚖️🌀) 12/26 12:00pm - [Mail] Pre-Trial Documents from US District Court"
+    certification:
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+      date: 2026-01-12
+      docket: 7
+    check: 🟢
+
+  - entry: 4
+    description: Notice of Manual Filing
+    filed:
+      date: 2025-12-22
+      by: Plaintiff
+      event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
+    certification:
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+      date: 2026-01-12
+      docket: 8
+    check: 🟢
+
+  - entry: 5
+    description: Schedule of Digital Evidence (+USB Drive)
+    filed:
+      date: 2025-12-22
+      by: Plaintiff
+      event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
+    certification:
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+      date: 2026-01-12
+      docket: 8
+    check: 🟢
+
+  - entry: 6
+    description: Notice of Address Change
+    filed:
+      date: 2026-01-06
+      by: Plaintiff
+      event: "(⚖️🌀) 1/6 10:31am - [Email] Docket Alert: Address Correction"
+    certification:
+      event: "(⚖️🌀) 1/6 10:31am - [Email] Docket Alert: Address Correction"
+      date: 2026-01-06
+      docket: 6
+    check: 🟢
+
+  - entry: 7
+    description: "COS: Pre-Trial Documents"
+    filed:
+      date: 2026-01-12
+      by: Plaintiff
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+    certification:
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+      date: 2026-01-12
+      docket: 7
+    check: 🟢
+
+  - entry: 8
+    description: Service Return
+    filed:
+      date: 2026-01-12
+      by: Plaintiff
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+    certification:
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+      date: 2026-01-12
+      docket: 8
+    check: 🟢
+
+  - entry: 9
+    description: Motion for CM/ECF Filing
+    filed:
+      date: 2026-01-12
+      by: Plaintiff
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+    certification:
+      event: "(🌀⚖️) 1/12 1:27pm - [Email] Docket Alert: Service Return +2"
+      date: 2026-01-12
+      docket: 9
+    check: 🟢
+
+  - entry: 10
+    description: Application for CM/ECF Filing
+    filed:
+      date: 2026-01-13
+      by: Plaintiff
+      event: "(⚖️🌀) 1/13 2:40pm - [NEF] CM/ECF Filing Application"
+    certification:
+      event: "(🌀⚖️) 1/21 10:54pm - [NEF] Filed: COS for CM/ECF Access"
+      date: 2026-01-21
+      docket: 14
+    check: 🟢
+
+  - entry: 11
+    description: "ORDER: CM/ECF Filing GRANTED"
+    filed:
+      date: 2026-01-16
+      by: Judge
+      event: "(⚖️🌀) 1/16 10:09am - [NEF] ORDER: CM/ECF Fling Access GRANTED"
+    certification:
+      event: "(🌀⚖️) 1/21 10:54pm - [NEF] Filed: COS for CM/ECF Access"
+      date: 2026-01-21
+      docket: 14
+    check: 🟢
+
+  - entry: 12
+    description: "ORDER: Motion for CM/ECF Filing MOOT"
+    filed:
+      date: 2026-01-16
+      by: Judge
+      event: "(⚖️🌀) 1/16 12:25pm - [NEF] ORDER: Redundant Motion Moot"
+    certification:
+      event: "(🌀⚖️) 1/21 10:54pm - [NEF] Filed: COS for CM/ECF Access"
+      date: 2026-01-21
+      docket: 14
+    check: 🟢
+
+  - entry: 13
+    description: First Amended Complaint
+    filed:
+      date: 2026-01-20
+      by: Plaintiff
+      event: "(🌀⚖️) 1/20 8:37am - [NEF] Filed: First Amended Complaint"
+    certification:
+      event: "(🌀⚖️) 1/21 10:57pm - [NEF] Filed: COS for FAC"
+      date: 2026-01-21
+      docket: 15
+    check: 🟢
+
+  - entry: 14
+    description: "COS for CM/ECF Access"
+    filed:
+      date: 2026-01-21
+      by: Plaintiff
+      event: "(🌀⚖️) 1/21 10:54pm - [NEF] Filed: COS for CM/ECF Access"
+    certification:
+      event: "(🌀⚖️) 1/21 10:54pm - [NEF] Filed: COS for CM/ECF Access"
+      date: 2026-01-21
+      docket: 14
+    check: 🟢
+
+  - entry: 15
+    description: "COS: First Amended Complaint"
+    filed:
+      date: 2026-01-21
+      by: Plaintiff
+      event: "(🌀⚖️) 1/21 10:57pm - [NEF] Filed: COS for FAC"
+    certification:
+      event: "(🌀⚖️) 1/21 10:57pm - [NEF] Filed: COS for FAC"
+      date: 2026-01-21
+      docket: 15
+    check: 🟢
+
+  - entry: 16
+    description: "Notice: 26(a)(1) Initial Disclosure Served"
+    filed:
+      date: 2026-01-21
+      by: Plaintiff
+      event: "(🌀⚖️) 1/21 10:57pm - [NEF] Filed: Notice of 26(a)(1) Service"
+    certification:
+      event: "(🌀⚖️) 1/21 10:57pm - [NEF] Filed: Notice of 26(a)(1) Service"
+      date: 2026-01-21
+      docket: 16
+    check: 🟢
+
+checks:
+  - Has filing and certification events in events.yml.
+  - Filing date and filer are correct.
+  - Certification of Service has been filed.
+  - Certification of Service links to correct docket entry.
+  - All docket entries from timeline have been added.
+  - All public docket records for case 3:25-cv-02394-SI have been added.
+  
