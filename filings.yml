@@ -94,7 +94,7 @@ filings:
     title: Invalid FTC Report (No Attachment)
     status: Invalid
     method: Web (reportfraud.ftc.gov)
-    event: "(🌀🏛️) 11/16 5:32pm - [Web] Filed: FTC Report 193806821"
+    event: "(🌀🏛️) 11/16 5:07pm - [Web] Invalid FTC Report (No Attachment)"
     check: 🟢
 
   - id: "193806821"
@@ -172,7 +172,7 @@ filings:
     delivered: v8.8-civil
     links:
       - https://drive.google.com/file/d/1qSRiYpKBHbQv6Gbv9P_mLXO2_3dJA-Ap
-    event: null
+    event: "(🌀🏛️) 12/31 3:26pm - [Web] FILED: SEC TCR 17672-236-170-589"
     check: 🟢
 
   - id: C-000050111
