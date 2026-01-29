@@ -1,0 +1,20 @@
+# **Litchfield v. Angi Inc.**
+## **U.S. DISTRICT COURT - DISTRICT OF OREGON**
+
+### **Case No.**: [3:25-cv-02394-SI](https://www.courtlistener.com/docket/72074717/litchfield-v-angi-inc/)
+
+### Timeline **Version**: [v11.4](https://litchfield-v-angi.short.gy/v11.3-timeline)
+
+* [Parties](./parties.yml)
+* [Channels](./channels.yml)
+* [Deliveries](./deliveries.yml)
+
+### Checks
+
+* 🟢 [Events](./events.yml)
+* 🟢 [Docket](./docket.yml)
+* 🟢 [Filings](./filings.yml)
+* 🟢 [Figures](./figures.yml)
+* 🟢 [Recordings](./recordings.yml)
+* 🟢 [Tracking](./tracking.yml)
+* 🟨 Citations (missing)
