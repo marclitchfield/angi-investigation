@@ -1,0 +1,322 @@
+recordings:
+  - id: RECORDING-A
+    filename: Homeadvisor-Login-Signup-Workflow.mp4
+    description: Deceptive login process dynamically registers new users
+    duration: 1:00
+    hash: 0ef008d51285567cf062e4cc60effdf0
+    link: https://drive.google.com/file/d/1BwuRgS9ajUe50eSmBH_G4ZQ4_eRqm8kP/view?usp=drive
+    lodged: No
+    recorded: September 14, 2025 (non-contemporaneous reproduction 4 days after initial discovery)
+    sequence:
+      - "0:01": "I am given a choice between 'Log In' or 'Sign Up'. I chose 'Log In' to check if I already had an account"
+      - "0:04": "'Welcome Back!' Is displayed, which confirms the belief that the user is returning"
+      - "0:04": "'Don't have an account? Sign up' with a link to 'Sign up' implies that there is another place to go"
+      - "0:28": "Log in code is delivered via email, implying a registered account already exists"
+      - "0:45": "Info collected to 'complete' account, implying a process being resumed and information being updated"
+      - "0:56": "'Welcome Back' banner again confirms the belief in the user's mind that they are returning"
+    event: "(🌀🟠) 9/10 ~10:16am - [Web] Discovery of Deceptive Registration Funnel"
+    check: 🟢
+
+  - id: RECORDING-B
+    filename: Angi-Facebook-Customer-Help-Service.mp4
+    description: Accepting a direct message from Customer Help Service.
+    duration: 0:14
+    hash: a0a3d35233d361676f415de57687a8c6
+    link: https://drive.google.com/file/d/1t1k-HQ_SGsNfofWozxT-NKY16ZlaJo27/view?usp=drivesdk
+    lodged: No
+    recorded: September 10, 2025 (contemporaneous)
+    sequence:
+      - "0:06": "Looks like a new account, sketch"
+      - "0:08": "Select Respond, but canceling because this is for the friend request, not to respond to the agent"
+      - "0:10": "Select Messages, but at this time I was uncertain what would be accepted if I chose to accept"
+    event: "(🌀🔴) 9/10 3:42pm - [App] Disregarding Friend Request"
+    check: 🟢
+
+  - id: RECORDING-C
+    filename: Angi-Facebook-Post-Not-Visible.mp4
+    description: The post I commented on has been removed, but still accessible as a Reel. Replies from Customer Help Service are now hidden by default.
+    duration: 1:07
+    hash: fd7c69573d94ea4cf17af199bc4ec556
+    link: https://drive.google.com/file/d/17qwtFtRZ44RkOP7HcjpYYw6rLL4bMuBj/view?usp=drivesdk
+    lodged: No
+    recorded: September 11, 2025 (contemporaneous)
+    sequence:
+      - "0:31": "I cannot find the Post I commented on the day before. It seems to me that it was removed or suppressed"
+      - "0:34": "It is still available as a Reel"
+      - "0:40": "The reply from Customer Help Service no longer appears beneath the reel"
+      - "1:00": "I navigated to Messages to show my conversation with Customer Help Service"
+    event: "(🌀🟠) 9/11 11:32am - [App] Screen Recording of hidden Reply"
+    check: 🟢
+
+  - id: RECORDING-D
+    filename: Angi-Facebook-Post-Visible.mp4
+    description: Monday morning, the original Post I commented on is now visible toward the top of the Angi Facebook page.
+    duration: 0:23
+    hash: 1372372424d394c31667726ed557fc1a
+    link: https://drive.google.com/file/d/1zWtBxQEtwnLx27pfmgAAKxA1WYXbKpxo/view?usp=drivesdk
+    lodged: No
+    recorded: September 15, 2025 (contemporaneous)
+    sequence:
+      - "0:01": "Scroll through Angi posts"
+      - "0:10": "Find the original 'Things I do to fill my own cup' Post from Angi"
+      - "0:17": "My original comment and Customer Help Service's 😢 reaction are visible"
+      - "0:20": "Viewing Post reactions"
+    event: "(🌀🟠) 9/15 8:51am - [App] Return of the Post"
+    check: 🟢
+
+  - id: RECORDING-E
+    filename: Cancellation-Maze.mp4
+    description: Entering through homeadvisor.com to find the next steps for canceling an Angi Key Membership on the FAQ page.
+    duration: 0:55
+    hash: 672bcddc268d1500f6a10edfd5b09dee
+    link: https://drive.google.com/file/d/1IMANnC-qwMg6kq9--i1mK_cZpkbzTZal/view?usp=drivesdk
+    lodged: Yes (Exhibit C)
+    recorded: September 15, 2025 (contemporaneous)
+    sequence:
+      - "0:01": "Scroll to footer"
+      - "0:05": "Expand 'About Us'"
+      - "0:07": "Choose 'Contact Us'"
+      - "0:20": "Navigating through https://www.angi.com/landing/faq"
+      - "0:27": "Choose 'View FAQ'"
+      - "0:36": "Expand 'How Do I Cancel My Angi Key Membership'"
+    event: "(🌀🟠) 9/15 9:45am - [Web] Path to Cancellation Steps Discovered"
+    check: 🟢
+
+  - id: RECORDING-F
+    filename: Customer-Help-Service-On-Angi-Page.mp4
+    description: Customer Help Service remains accessible on Angi's page. I gave Angi a link to this recording.
+    duration: 0:56
+    hash: be353707dbbb70dd48d9dbd7fde2d967
+    link: https://drive.google.com/file/d/1gmIiS8IRimBS8wuXNyyxspdUHnI757HV/view?usp=drivesdk
+    lodged: No
+    recorded: September 19, 2025 (contemporaneous)
+    sequence:
+      - "0:13": "Show All Comments, see Customer Help Service"
+      - "0:24": "Show the profile"
+      - "0:40": "Show the conversation"
+    event: "(🌀🟠) 9/19 4:33pm - [Message] Provide Tammy's Info (Ignored)"
+    check: 🟢
+
+  - id: RECORDING-G
+    filename: Redirected-To-Non-CHS-Friday-Fix.mp4
+    description: Customer Help Service (CHS) is inaccessible from Angi's page on my Android phone.
+    duration: 0:30
+    hash: d04075bc209062fd97dd4dfb94a05211
+    link: https://drive.google.com/file/d/1MTFKQ0CuWAlhdqTy5YmpUdCiuwO2AY4y/view?usp=drivesdk
+    lodged: No
+    recorded: September 20, 2025 (contemporaneous)
+    sequence:
+      - "0:06": "Tap the reel with the cat"
+      - "0:07": "Redirected to non-CHS reel"
+      - "0:13": "Back, tap cat reel again"
+      - "0:14": "Redirected to non-CHS reel"
+      - "0:20": "Back, one more time, tap that cat"
+      - "0:21": "Redirected again. It seems to work"
+    event: "(🌀🟠) 9/20 9:50am - [App] New Redirect Behavior Discovered"
+    check: 🟢
+
+  - id: RECORDING-H
+    filename: Tablet-Can-Reach-CHS.mp4
+    description: Navigating from the Angi page to Customer Help Service on my Android tablet
+    duration: 0:30
+    hash: 1a6e0a17723692d9a86ac4f91ef2157b
+    link: https://drive.google.com/file/d/1BBRB32xkobJxH53FWBc1HhvzJnqonNAu/view?usp=drivesdk
+    lodged: No
+    recorded: September 20, 2025 (contemporaneous)
+    sequence:
+      - "0:10": "cat tap"
+      - "0:18": "see CHS (behavior F)"
+    event: "(🌀🟠) 9/20 3:10pm - [App] Tablet Does Not Get Redirected Either"
+    check: 🟢
+
+  - id: RECORDING-I
+    filename: Forced-Data-Retention.mp4
+    description: Tammy attempted to remove my debit card from the billing information on Angi.com using her iPhone.
+    duration: 0:44
+    hash: c1d6ea8c4e499339bacd2bebc328c6c5
+    link: https://drive.google.com/file/d/1ufewy7wE4ao7LOqx4CDPJba5sXaipSYo/view?usp=drivesdk
+    lodged: Yes (Exhibit C)
+    recorded: October 3, 2025 (contemporaneous)
+    sequence:
+      - "0:02": "No option to remove?"
+      - "0:10": "Try to save with blank ❌"
+      - "0:40": "Try to save with an invalid card ❌"
+      - "0:43": "My card is still in the system, we are unable to remove it"
+    event: "(🌹🟠) 10/3 ~5:00pm - [Web] Discovery of Forced Data Retention"
+    check: 🟢
+
+  - id: RECORDING-L
+    filename: HomeAdvisor-Terms-NXDOMAIN.mp4
+    description: 2020 HomeAdvisor welcome email Terms and Conditions link is broken.
+    duration: 0:27
+    hash: afbf87d0c56c276ebd2c08c3cf245b3f
+    link: https://drive.google.com/file/d/1gE4KqimcVzCGlG0NTzSaVO6veQKW-2kf/view?usp=drivesdk
+    lodged: No
+    recorded: October 20, 2025 (contemporaneous)
+    sequence:
+      - "0:02": "Tap Terms and Conditions"
+      - "0:05": "Loading ce.homeadvisor.com …"
+      - "0:14": "NXDOMAIN error"
+    event: "(🌀🟠) 10/20 1:33pm - [Email] 2020 Terms of Service Inaccessible"
+    check: 🟢
+
+  - id: RECORDING-N
+    filename: Deceptive-Registration.mp4
+    description: Narrated, Deceptive Registration Funnel demonstration.
+    duration: 0:56
+    hash: 89d9115d11a420c718a364712b056132
+    link: https://drive.google.com/file/d/1xV-vfiv0mqe7iKpqY2EdTHeDlw0LgoZy/view?usp=drivesdk
+    lodged: Yes (Exhibit C)
+    recorded: October 24, 2025
+    sequence:
+      - "0:08": "Log In"
+      - "0:42": "'Welcome back, First Time User'"
+    event: "(🌀🟠) 10/24 11:35am - [Web] Deceptive Funnel Narrated"
+    check: 🟢
+
+  - id: RECORDING-O
+    filename: Forced-Data-Retention-Oct24.mp4
+    description: Narrated, Forced Data Retention demonstration
+    duration: 0:36
+    hash: c8e072bf643f811d16fe0e654f5c37fb
+    link: https://drive.google.com/file/d/1qJL5Bc8b5hQDacc-WdbPiRXsiST5nZoX/view?usp=drivesdk
+    lodged: No
+    recorded: October 24, 2025 (Contemporaneous)
+    sequence:
+      - "0:12": "My card info still in Angi's system"
+      - "0:22": "Request for written confirmation of removal, on September 19th"
+      - "0:29": "Formal demand and notification to preserve"
+    event: "(🌀🟠) 10/24 1:09pm - [Web] Forced Data Retention Narrated"
+    check: 🟢
+
+  - id: RECORDING-P
+    filename: False-Compliance.mp4
+    description: Card 2667 is still in system after Angi stated that the deletion request had been processed
+    duration: 0:17
+    hash: 94e2bacc662562420e486b412e193f4c
+    link: https://drive.google.com/file/d/1lflhFSM-u916ahJXVQPt_cAQC5s5YFhp/view?usp=drivesdk
+    lodged: Yes (Exhibit C)
+    recorded: October 28, 2025 (contemporaneous)
+    sequence:
+      - "0:10": "Card 2667 is still in the system"
+    event: "(🌀🟠) 10/28 8:40pm - [Web] Data has not been deleted"
+    check: 🟢
+
+  - id: RECORDING-Q
+    filename: HomeAdvisor-Login-Error.mp4
+    description: Cannot log in to HomeAdvisor.com account with marclitchfield@gmail.com
+    duration: 0:21
+    hash: fa588733cb26cb914fbb1a503ca9ab58
+    link: https://drive.google.com/file/d/1qaT-YwEUgp-9uy232eDQg0rbRP79RHQ3/view?usp=drivesdk
+    lodged: No
+    recorded: October 28, 2025
+    sequence:
+      - "0:07": "Supply my email address"
+      - "0:15": "Supply code from email"
+      - "0:18": "Uh oh. An error occurred while logging you into your account"
+    event: "(🌀🟠) 10/28 8:53pm - [Web] Cannot Log In to HomeAdvisor account"
+    check: 🟢
+
+  - id: RECORDING-R
+    filename: Angi-Violates-Data-Deletion-Demand-Deadline.mp4
+    description: Narrated, Card 2667 is accessible from Angi's systems after my 5pm October 31 deadline.
+    duration: 0:26
+    hash: 0d98c55bd4902049f6755c0565919420
+    link: https://drive.google.com/file/d/1-E82JCRYvuqGk18KFBwanxqU8igbMtsu/view?usp=drivesdk
+    lodged: No
+    recorded: October 31, 2025 (contemporaneous)
+    sequence:
+      - "0:05": "Reload page, logged in as Tammy"
+      - "0:10": "Manage account"
+      - "0:15": "Card with PAN ending in 2667 remains accessible from the system"
+    event: "(🌀🟠) 10/31 6:45pm - [Web] Card Remains in System After Deadline"
+    check: 🟢
+
+  - id: RECORDING-V
+    filename: Angi-Account-Deleted.mp4
+    description: Tammy's entire account appears to have been disabled or deleted.
+    duration: 0:39
+    hash: 3a2e87bcdc515afd3595d84bdec811f0
+    link: https://drive.google.com/file/d/1SSdEjaWXp-vYu7KU3LSPFvPTrfCgWLrs/view?usp=drivesdk
+    lodged: No
+    recorded: November 4, 2025 (contemporaneous)
+    sequence:
+      - "0:05": "Press log in"
+      - "0:13": "Supply Tammy's Email and tap Continue"
+      - "0:27": "Tammy receives an email with a 6-digit code, she reads it to me, I type it in"
+      - "0:33": "Press Verify and Continue"
+      - "0:35": "'We need a few details to complete your account.' - Tammy's old account is now inaccessible"
+    event: "(🌀🟠) 11/4 6:12pm - [Web] Verify Account Deletion"
+    check: 🟢
+
+  - id: RECORDING-W
+    filename: Earnings-Call.mp4
+    description: Excerpt of Angi 2025 Q3 Earnings Call about technical debt.
+    duration: 2:44
+    hash: f34131d6af275f761d65519ef8a4b854
+    link: https://drive.google.com/file/d/1WqHMNfv3yuoj080Pf3ZXWOywwjo2ZCGT/view?usp=drivesdk
+    lodged: No
+    recorded: November 5, 2025 (contemporaneous)
+    sequence:
+      - "0:20": "We don't have any wins from platform integration"
+      - "0:55": "Consolidation of sales force to sell only the new product"
+      - "1:30": "Platform pieces that have the change chance improve conversion"
+      - "1:35": "Will allow our team to develop and test and iterate faster"
+      - "1:40": "We have been held back in our ability to move with speed"
+      - "1:48": "Legacy technology and tech debt have held us back for years"
+      - "2:15": "Not building in a massive lift from some piece of technology"
+      - "2:20": "On our 6th migration and we haven't had a major outage in any of those"
+    event: "(🟠) 11/5 6am - [Web] Angi Earnings Call"
+    check: 🟢
+
+  - id: RECORDING-X
+    filename: Eve-Of-Filing.mp4
+    description: Deceptive Registration Funnels at HomeAdvisor.com and Angi.com Remain Operational
+    duration: 2:37
+    hash: a367e5481d9ae52ce112e3fb8e570509
+    link: https://drive.google.com/file/d/1RwbdmHBXiAABZV9HwvdXqtMobNY79NMD/view?usp=drivesdk
+    lodged: Yes (Exhibit C)
+    recorded: December 21, 2025 (contemporaneous)
+    sequence:
+      - "0:12": "Supply new email alias to homeadvisor.com Log In process"
+      - "1:09": "Logged in to homeadvisor.com"
+      - "1:21": "Supply new email alias to angi.com"
+      - "2:18": "Logged in to angi.com"
+    event: "(🌀🟠) 12/21 9:50am - [Web] Verification on the Eve of Filing"
+    check: 🟢
+
+  - id: RECORDING-Y
+    filename: Angi-Account-Inaccessible-Since-Nov4.mp4
+    description: tenamyw@gmail.com at angi.com remains inaccessible since November 4, 2025.
+    duration: 0:40
+    hash: cca2b702cf5abb1d08968cce59bf9e93
+    link: https://drive.google.com/file/d/1w1f5aExrRGkWdCmhEXPQT4hPdJF5aztF/view?usp=drivesdk
+    lodged: No
+    recorded: January 16, 2026 (contemporaneous)
+    sequence:
+      - "0:14": "Try to log in with tenamyw@gmail.com at angi.com"
+      - "0:22": "Supply 6-digit code"
+      - "0:29": "Account completion screen, indicating disabled account"
+    event: "(🌀🟠) 1/16 6:51pm - [Web] Current Account Access"
+    check: 🟢
+
+  - id: RECORDING-Z
+    filename: HomeAdvisor-Account-Inaccessible-Since-Oct28.mp4
+    description: marclitchfield@gmail.com at homeadvisor.com remains inaccessible since October 28, 2025. The deceptive registration funnel remains operational.
+    duration: 1:29
+    hash: 2e96737f2afe8dc5753dd34c90f153a4
+    link: https://drive.google.com/file/d/1jkDYZ1lLNVYB7Ht1CZ-npZVhJaAC61zI/view?usp=drivesdk
+    lodged: No
+    recorded: January 16, 2026 (contemporaneous)
+    sequence:
+      - "0:14": "Try to log in with marclitchfield@gmail.com at homeadvisor.com"
+      - "0:26": "Supply 6-digit code"
+      - "0:30": "'Uh-oh' error"
+      - "0:40": "Start a new 'Log In' action"
+      - "0:57": "Provide gmail virtual alias marclitchfield+jan16@gmail.com"
+      - "1:08": "Supply 6-digit code"
+      - "1:18": "Supply first name of 'January 16'"
+      - "1:22": "Log in"
+      - "1:26": "'Welcome back, January 16.'"
+    event: "(🌀🟠) 1/16 6:51pm - [Web] Current Account Access"
+    check: 🟢
