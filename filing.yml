@@ -1,0 +1,230 @@
+filings:
+  - id: 250914-24063002
+    entity: 🏛️CFPB
+    date: 2025-09-13 19:39:00 PT
+    title: Opened CFPB Complaint 250914-24063002
+    status: Closed (Referred to FTC)
+    reported: Violation II
+    method: Web (Uploaded)
+    delivered: v1
+    links:
+      - https://drive.google.com/file/d/15B8BviFiTlHRJLJ5DKa3AsuuA11j_yhV
+    event: "(🌀🏛️) 9/13 7:39pm - [Web] Opened: CFPB Complaint 250914-24063002"
+    check: 🟢
+
+  - id: 251013-24920571
+    entity: 🏛️CFPB
+    date: 2025-10-13 11:36:00 PT
+    title: Opened CFPB Complaint 251013-24920571
+    status: Closed (Referred to FTC)
+    reported: Violation IV
+    method: Web (Uploaded)
+    delivered: v4
+    links:
+      - https://drive.google.com/file/d/15AbPthh3L_6-mJaUimnYakKdG8Yx2QjM
+    event: "(🌀🏛️) 10/13 11:36am - [Web] Opened CFPB Complaint 251013-24920571"
+    check: 🟢
+
+  - id: 251102-25508055
+    entity: 🏛️CFPB
+    date: 2025-11-02 15:30:00 PT
+    title: Opened CFPB Complaint 251102-25508055
+    status: Closed (Referred to FTC)
+    reported: Internal Control Failures
+    method: Web (Uploaded)
+    links:
+      - https://drive.google.com/file/d/1ZFQNm6_8jHJDefft1MZAmKW0ImXBhVEf/view
+    event: "(🌀🏛️) 11/2 3:30pm - [Web] Opened CFPB Complaint 251102-25508055"
+    check: 🟢
+
+  - id: 251116-25920284
+    entity: 🏛️CFPB
+    date: 2025-11-15 18:15:00 PT
+    title: Opened CFPB Complaint 251116-25920284
+    status: Alerted (1/8/26)
+    reported: Fatal Paradox
+    method: Web (Uploaded)
+    delivered: v8.1-slim
+    links:
+      - https://drive.google.com/file/d/1Gx22_VgG4AQO8MkavML4pAYb5VZSPKGa/view
+    event: "(🌀🏛️) 11/15 6:15pm - [Web] Opened: CFPB Complaint 251116-25920284"
+    check: 🟢
+
+  - id: "192792633"
+    entity: 🏛️FTC
+    date: 2025-09-13 10:24:00 PT
+    title: Submit FTC Report 192792633
+    status: Filed
+    reported: Violation II
+    method: Web (reportfraud.ftc.gov)
+    event: "(🌀🏛️) 9/13 10:24am - [Web] Submit: FTC Report 192792633"
+    check: 🟢
+
+  - id: "9410811899561949849708"
+    entity: 🏛️FTC
+    date: 2025-10-16 11:35:00 PT
+    title: Sent Report v4.3 to FTC via Priority Mail
+    status: Delivered (10/27)
+    reported: Violations I-IV
+    method: USPS Priority Mail
+    delivered: v4.3
+    supplements: "192792633"
+    links:
+      - https://drive.google.com/file/d/1w175rAIZElgXlMfkuYd6dm6_HYag4LwC
+    event: "(🌀🏛️) 10/16 11:35am - [Priority Mail] Sent Report v4.3 to FTC"
+    check: 🟢
+
+  - id: mgt-u2s0-6hc5
+    entity: 🏛️FTC (Regulations.gov)
+    date: 2025-10-16 12:20:00 PT
+    title: Comment Regulations.gov FTC Strategic Plan
+    status: Filtered (Restricted: Unrelated)
+    reported: Violations I & IV
+    method: Web (regulations.gov)
+    delivered: v4.3-P
+    location: regulations.gov/comment/FTC-2025-0660-0009
+    links:
+      - https://drive.google.com/file/d/1gP2x-o5mGnoMugpXBBBoIaI2tVxdeDgw
+    event: "(🌀🏛️) 10/16 12:20pm - [Comment] Regulations.gov FTC Strategic Plan"
+    check: 🟢
+
+  - id: "193790411"
+    entity: 🏛️FTC
+    date: 2025-11-16 17:07:00 PT
+    title: Invalid FTC Report (No Attachment)
+    status: Invalid
+    method: Web (reportfraud.ftc.gov)
+    event: "(🌀🏛️) 11/16 5:32pm - [Web] Filed: FTC Report 193806821"
+    check: 🟢
+
+  - id: "193806821"
+    entity: 🏛️FTC
+    date: 2025-11-16 17:32:00 PT
+    title: Filed FTC Report 193806821
+    status: Filed
+    reported: Internal Control Failures
+    method: Web (reportfraud.ftc.gov)
+    supersedes: ["192792633", "193790411"]
+    delivered: v8.1-slim
+    links:
+      - https://drive.google.com/file/d/1d77qJaiODyfq89bjFjhNtaf7bmHxBtpZ
+    event: "(🌀🏛️) 11/16 5:32pm - [Web] Filed: FTC Report 193806821"
+    check: 🟢
+
+  - id: "195498563"
+    entity: 🏛️FTC
+    date: 2025-12-25 09:41:00 PT
+    title: Filed FTC Report 195498563
+    status: Filed
+    reported: Litigation
+    method: Web (reportfraud.ftc.gov)
+    supplements: ["192792633", "193806821"]
+    event: "(🌀️) 12/25 9:41am - [Web] Filed FTC Report 195498563"
+    check: 🟢
+
+  - id: 17597-937-502-732
+    entity: 🏛️SEC
+    date: 2025-10-06 16:35:00 PT
+    title: SEC TCR 17597-937-502-732
+    status: Filed
+    reported: Violations I-IV
+    method: Web (Uploaded)
+    delivered: v3.1
+    event: "(🌀🏛️) 10/6 4:35pm - [Web] SEC TCR 17597-937-502-732"
+    check: 🟢
+
+  - id: 17622-040-479-957
+    entity: 🏛️SEC
+    date: 2025-11-03 13:10:00 PT
+    title: Submit SEC Supplemental TCR
+    status: Filed
+    reported: Internal Control Failures
+    method: Web (Uploaded)
+    supplements: 17597-937-502-732
+    delivered: v7.2
+    links:
+      - https://drive.google.com/file/d/1wIGWBva4ugchVHTvq1CEMoocT8bYnCFt
+    event: "(🌀🏛️) 11/3 1:10pm - [Web] Submit SEC Supplemental TCR"
+    check: 🟢
+
+  - id: 17658-243-256-826
+    entity: 🏛️SEC
+    date: 2025-12-15 10:45:00 PT
+    title: FILED SEC TCR 17658-243-256-826
+    status: Filed
+    reported: 21F-17 Violation, Dark Numbers
+    method: Web (Uploaded)
+    supplements: 17622-040-479-957
+    delivered: v8.5-sec
+    links:
+      - https://drive.google.com/file/d/1oS-jUrCJgodiQqgi5oIejSEV7_lGovsp
+    event: "(🌀🏛️) 12/15 10:45am - [Web] FILED: SEC TCR 17658-243-256-826"
+    check: 🟢
+
+  - id: 17672-236-170-589
+    entity: 🏛️SEC
+    date: 2025-12-31 15:26:00 PT
+    title: SEC TCR 17672-236-170-589 (Litigation)
+    status: Filed
+    reported: Litigation
+    method: Web (Uploaded)
+    supplements: 17658-243-256-826
+    delivered: v8.8-civil
+    links:
+      - https://drive.google.com/file/d/1qSRiYpKBHbQv6Gbv9P_mLXO2_3dJA-Ap
+    event: null
+    check: 🟢
+
+  - id: C-000050111
+    entity: ⭐CO AG
+    date: 2025-10-13 15:35:00 PT
+    title: Filed CO AG Complaint C-000050111
+    status: Filed
+    reported: Violations I-IV
+    method: Web (coag.gov)
+    delivered: v4
+    event: "(🌀⭐) 10/13 3:35pm - [Web] Filed CO AG Complaint C-000050111"
+    check: 🟢
+
+  - id: FF7819-25
+    entity: ⭐OR DOJ
+    date: 2025-10-05 13:24:00 PT
+    title: Update OR DOJ FF7819-25 with v2
+    status: Closed (11/19 No Response)
+    reported: Violations I-IV
+    method: Email (Attached)
+    delivered: v2
+    event: "(🌀⭐) 10/5 1:24pm - [Email] Update OR DOJ FF7819-25 with v2"
+    check: 🟢
+
+  - id: (no id)
+    entity: ⭐OR DOJ
+    date: 2025-11-01 21:39:00 PT
+    title: Filed Oregon DOJ OCPA Complaint
+    status: Filed (No Response)
+    reported: OCPA Violation (IV)
+    method: Web (doj.state.or.us)
+    links:
+      - https://drive.google.com/file/d/1biQl7TqiEFTi3btmuXcY_6pqSNOGhfVh
+    event: "(🌀⭐) 11/1 9:39pm - [Web] Filed Oregon DOJ OCPA Complaint"
+    check: 🟢
+
+  - id: 3:25-cv-02394-SI
+    entity: ⚖️US District Court (Oregon)
+    date: 2025-12-22 15:22:00 PT
+    title: Case 3:25-cv-2394-SI Litchfield v. Angi
+    status: Filed
+    reported: Violations I-IV
+    method: In-Person (Clerk)
+    service:
+      agent: CT Corporation System
+      server: Barrister Malstroms
+      served: 2026-01-02
+    filings:
+      - v8.8-civil (10/22/25)
+      - v10.1-civil (1/20/26)
+    links:
+      - https://www.courtlistener.com/docket/72074717/litchfield-v-angi-inc/
+    event: "(⚖️🌀) 12/22 3:22pm - [Delivery] Case 3:25-cv-2394-SI: Litchfield v. Angi"
+    check: 🟢
+    
