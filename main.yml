@@ -15,7 +15,10 @@ channels:
   Comment: Public comments posted to social media threads or government dockets.
   Post: Public broadcasts or status updates on social media platforms.
   App: Interactions occurring specifically within a mobile application interface (e.g., Facebook App, US Bank App).
-  Message: Private or Direct Messages (DM) exchanged on social platforms (e.g., Facebook Messenger).
+  Message: Private or Direct Messages (DM) exchanged on social platforms (e.g., Facebook Messenger).\
+  Internal: Self-reflective notes, documentation of mindset, or non-communicative actions.
+  Deadline: A specific point in time limiting the period of action.
+  Print: Production of physical documents from digital files.
   Conversation: Verbal, in-person discussions.
   Delivery: Physical hand-delivery of documents or evidence (e.g., In-person Court Filing, Process Server).
   Mail: Standard postal mail services.
