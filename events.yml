@@ -2443,7 +2443,7 @@ events:
   narrative: Stripe auto-closed the support ticket due to lack of response.
   check: 🟢
 
-- event: (🌀💳) 1/23 10:55am - [Email] Please Reopen the Investigation
+- event: (🌀💳) 1/23 10:55am - [Email] Please Reopen, Contine Investigation
   initiator: 🌀Author
   receiver: 💳Stripe/Privacy/Seerat
   time: 2026-01-23 10:55:00 PT
@@ -2475,7 +2475,7 @@ events:
   narrative: Perkins Coie introduced themselves as defense counsel and requested an extension to file an answer.
   check: 🟢
 
-- event: (🌀📙) 1/26 7:24pm - [Email] Granted Extension
+- event: (🌀📙) 1/26 7:24pm - [Email] Granted Extension (Assuming Feb 17)
   initiator: 🌀Author
   receiver: 📙Perkins Coie/Mr. McCullough
   time: 2026-01-26 19:24:00 PT
@@ -2518,7 +2518,7 @@ events:
   narrative: Defense counsel requested a longer extension, until March 3, due to trial schedules and the need to review the case.
   check: 🟢
 
-- event: (🌀📙) 1/27 ~10:25am - [Email] Accept Mar 3 Unconditionally. Plus…
+- event: (🌀📙) 1/27 ~10:25am - [Email] Accept Mar 3 Unconditionally. Plus...
   initiator: 🌀Author
   receiver: 📙Perkins Coie/Mr. McCullough
   time: 2026-01-27 10:25:00 PT
@@ -2552,6 +2552,15 @@ events:
   narrative: Defense counsel acknowledged the preservation obligations and deferred discovery discussions until after pleadings are closed.
   check: 🟢
 
+- event: (🌹💳) 1/28 1:47am - [Email] Stripe Still Cannot Authenticate Tammy
+  initiator: 💳Stripe/Privacy
+  receiver: 🌹Tammy
+  time: 2026-01-28 01:47:00 PT
+  channel: Email
+  messages:
+    - 💳Stripe/Privacy: 'Unfortunately, we were unable to authenticate this ticket... Please click the first link below and log in using that link.'
+  narrative: Stripe informed Tammy that the previous authorization attempt failed and requested she try again.
+  check: 🟢
 
 checks:
     - Event title exactly matches timeline entry.
