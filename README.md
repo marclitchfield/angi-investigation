@@ -10,7 +10,7 @@
   * Disclosure
   * Channels
   * Parties
-  * Social Media Publication Profiles
+  * Social
 
 ### Checks
 
@@ -22,6 +22,5 @@
 * 🟢 [Filings](./filings.yml)
 * 🟢 [Figures](./figures.yml)
 * 🟢 [Recordings](./recordings.yml)
-* 🟢 [Social](./social.yml)
 * 🟢 [Tracking](./tracking.yml)
 * 🟨 Citations (missing)
