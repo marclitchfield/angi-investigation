@@ -232,6 +232,18 @@ recordings:
     event: "(🌀🟠) 10/31 6:45pm - [Web] Card Remains in System After Deadline"
     check: 🟢
 
+  - id: RECORDING-U
+    filename: Newser-Spam-Reflood.mp4
+    description: Narrated screen recording of the return of the Newser/Angi spam flood.
+    duration: 1:00
+    hash: pending
+    lodged: No
+    recorded: November 3, 2025 (contemporaneous)
+    sequence:
+      - "0:01": "Narrated capture of spam flood returning"
+    event: "(🌀🌐) 11/3 4:11pm - [App] Report Newser Angi Reflood to Google News"
+    check: 🟢
+
   - id: RECORDING-V
     filename: Angi-Account-Deleted.mp4
     description: Tammy's entire account appears to have been disabled or deleted.
