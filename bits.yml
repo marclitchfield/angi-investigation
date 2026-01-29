@@ -1,0 +1,110 @@
+bits:
+  1:
+    category: Remediating Deceptive Login Funnel
+    title: Login Verification Email Delivery
+    question: Will login verification emails be delivered to input email addresses that do not have a prior user identity when the login form is submitted?
+    expected: 🔴
+    evidence:
+      - recording: RECORDING-A
+      - recording: RECORDING-N
+      - recording: RECORDING-X
+      - event: (🌀🟠) 9/10 ~10:16am - [Web] Discovery of Deceptive Registration Funnel
+      - figure: 9.10.11
+
+  2:
+    category: Remediating Deceptive Login Funnel
+    title: Account Completion Form Presentation
+    question: Upon submission of a valid code from the login verification email for an input email address that did not have a prior user identity, will an account completion form be presented?
+    expected: 🔴
+    evidence:
+      - recording: RECORDING-A
+      - recording: RECORDING-V
+      - event: (🌀🟠) 9/10 ~10:16am - [Web] Discovery of Deceptive Registration Funnel
+      - figure: 9.10.13
+      - figure: 1.16.6
+
+  3:
+    category: Remediating Deceptive Login Funnel
+    title: HomeAdvisor Welcome Back Banner
+    question: Upon valid submission of the account completion form and subsequent initial login when no prior user identity existed, will a message banner containing the phrase 'Welcome Back' be displayed at homeadvisor.com?
+    expected: 🔴
+    evidence:
+      - recording: RECORDING-A
+      - recording: RECORDING-N
+      - recording: RECORDING-Z
+      - event: (🌀🟠) 9/10 ~10:16am - [Web] Discovery of Deceptive Registration Funnel
+      - figure: 9.10.14
+      - figure: 10.21.2
+      - figure: 1.16.10
+
+  4:
+    category: Remediating Deceptive Login Funnel
+    title: User Registration Logic
+    question: Upon valid submission of the account completion form when no prior user identity existed, will a user identity associated with the input email address be registered?
+    expected: 🔴
+    evidence:
+      - recording: RECORDING-A
+      - recording: RECORDING-X
+      - recording: RECORDING-Z
+      - event: (🌀🟠) 9/10 ~10:16am - [Web] Discovery of Deceptive Registration Funnel
+
+  5:
+    category: Data Retention
+    title: Payment Deletion Button Visibility
+    question: Do the payment method controls lack, omit, or hide an interface element to remove or delete an existing payment method?
+    expected: 🔴
+    evidence:
+      - recording: RECORDING-I
+      - figure: 9.10.5
+      - figure: 10.3.1
+      - figure: 10.21.4
+      - figure: 11.1.2
+
+  6:
+    category: Data Retention
+    title: Payment Deletion Functionality
+    question: Does the functionality for managing payment methods lack a capability to delete the payment method associated with a registered user without requiring a replacement?
+    expected: 🔴
+    evidence:
+      - recording: RECORDING-I
+      - event: (🌹🟠) 10/3 ~5:00pm - [Web] Discovery of Forced Data Retention
+
+  7:
+    category: Data Retention
+    title: Payment Token Storage
+    question: Does the system store a payment token associated with the user's payment method?
+    expected: 🔴
+    evidence:
+      - recording: RECORDING-I
+      - recording: RECORDING-P
+      - recording: RECORDING-R
+      - figure: 10.28.3
+      - figure: 10.31.2
+
+  8:
+    category: Compliance Verification
+    title: Retention After Oct 28 Resolved Ticket
+    question: Did the system retain the active payment token for card *2667 after the 'Resolved' notification on Oct 28, 2025?
+    expected: 🔴
+    evidence:
+      - recording: RECORDING-P
+      - event: (🟠🌀) 10/28 9:52am - [Email] Service Desk: Request Resolved
+      - event: (🌀🟠) 10/28 8:40pm - [Web] Data has not been deleted
+      - figure: 10.28.3
+
+  9:
+    category: Compliance Verification
+    title: Retention After Nov 4 Compliance Assertion
+    question: Did the system retain the active payment token for card *2667 after the assertion of compliance on Nov 4, 2025?
+    expected: 🟢
+    evidence:
+      - recording: RECORDING-V
+      - recording: RECORDING-Y
+      - event: (🟠🌀) 11/4 2:45pm - [Email] Legal Threat & Fatal Paradox
+      - event: (🌀🟠) 11/4 6:12pm - [Web] Verify Account Deletion
+
+checks:
+  - Examine all evidence and determine answer to question.
+  - Evidence must actually support the conclusion.
+  - If answer is YES --> bit is 🔴, if answer is NO --> bit is 🟢.
+  - Check "passes" if answer matches expected.
