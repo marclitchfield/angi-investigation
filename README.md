@@ -11,6 +11,8 @@
 
 ### Checks
 
+**INSTRUCTIONS**: Evaluate all checks, report all failures, and produce yaml code blocks or timeline edits required to remediate detected failures. The timeline is assumed to be the official record, and this dataset must be faithful to it. Be diligent also in reporting errors and inaccuracies in the timeline itself.
+
 * 🟢 [Events](./events.yml)
 * 🟢 [Docket](./docket.yml)
 * 🟢 [Filings](./filings.yml)
