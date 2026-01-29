@@ -1,0 +1,285 @@
+deliveries:
+  - version: v1
+    date: 2025-09-13
+    recipient: 🏛️CFPB
+    method: Web (Uploaded)
+    status: Delivered
+    reference: Complaint 250914-24063002
+
+  - version: v1
+    date: 2025-09-13
+    recipient: ⭐OR DOJ
+    method: Web (Uploaded)
+    status: Delivered
+    reference: Complaint 972424
+deliveries: 
+
+  - version: v2
+    date: 2025-10-05
+    recipient: ⭐OR DOJ
+    method: Email (Attached)
+    status: Delivered
+    reference: File FF7819-25
+
+  - version: v3.1
+    date: 2025-10-06
+    recipient: 🏛️SEC
+    method: Web (Uploaded)
+    status: Delivered
+    reference: TCR 17597-937-502-732
+
+  - version: v3.2
+    date: 2025-10-06
+    recipient: 🌐Facebook
+    method: Post
+    status: Published
+    note: Made Public 10/8
+
+  - version: v3.3
+    date: 2025-10-08
+    recipient: 📰NYT
+    method: Web (Tip)
+    status: Delivered
+
+  - version: v4
+    date: 2025-10-13
+    recipient: 🏛️CFPB
+    method: Web (Uploaded)
+    status: Delivered
+    reference: Complaint 251013-24920571
+
+  - version: v4
+    date: 2025-10-13
+    recipient: ⭐CO AG
+    method: Web (Uploaded)
+    status: Delivered
+    reference: Complaint C-000050111
+
+  - version: v4.3
+    date: 2025-10-16
+    recipient: 🏛️FTC
+    method: Priority Mail
+    status: Delivered
+    tracking: 9410 8118 9956 1949 8497 08
+    note: Delivered 10/27/2025
+
+  - version: v4.3-P
+    date: 2025-10-16
+    recipient: 🏛️FTC (Regulations.gov)
+    method: Comment
+    status: Filtered
+    tracking: mgt-u2s0-6hc5
+    note: Restricted as 'Unrelated'
+
+  - version: v5.2
+    date: 2025-10-21
+    recipient: 📰ProPublica
+    method: Web
+    status: Delivered
+
+  - version: v5.2
+    date: 2025-10-21
+    recipient: 📰Washington Post
+    method: Email
+    status: Delivered
+    note: To Shira Ovide
+
+  - version: v5.2
+    date: 2025-10-21
+    recipient: 📰The Oregonian
+    method: Email
+    status: Delivered
+
+  - version: v5.3
+    date: 2025-10-21
+    recipient: 📰Washington Post
+    method: Email
+    status: Delivered
+    note: To Geoffrey Fowler
+
+  - version: v5.4
+    date: 2025-10-22
+    recipient: 📰Bloomberg
+    method: Email
+    status: Delivered
+    note: To Jason Leopold
+
+  - version: v6.2
+    date: 2025-10-22
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v6.5
+    date: 2025-10-24
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v6.5
+    date: 2025-10-25
+    recipient: 📰Krebs on Security
+    method: Web
+    status: Delivered
+
+  - version: v6.5
+    date: 2025-10-25
+    recipient: 📰New York Times
+    method: Signal
+    status: Delivered
+    note: To Ryan Mac
+
+  - version: v6.5
+    date: 2025-10-25
+    recipient: 📰Wall Street Journal
+    method: Email
+    status: Delivered
+    note: To Rob Barry
+
+  - version: v6.5
+    date: 2025-10-25
+    recipient: 📰TastyLive
+    method: Post/X
+    status: Delivered
+
+  - version: v6.6
+    date: 2025-10-25
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v6.7
+    date: 2025-10-27
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v6.8
+    date: 2025-10-28
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v6.10
+    date: 2025-10-29
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v6.11
+    date: 2025-10-30
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v6.12
+    date: 2025-11-01
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v6.12
+    date: 2025-11-01
+    recipient: ⭐OR DOJ
+    method: Web (Uploaded)
+    status: Delivered
+    reference: OCPA Complaint
+
+  - version: v7.1
+    date: 2025-11-03
+    recipient: ⭐CO AG
+    method: Email
+    status: Delivered
+
+  - version: v7.2
+    date: 2025-11-03
+    recipient: 🏛️SEC
+    method: Web (Uploaded)
+    status: Delivered
+    reference: TCR 17622-040-479-957
+
+  - version: v7.3
+    date: 2025-11-03
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v7.4
+    date: 2025-11-04
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v8.0
+    date: 2025-11-12
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v8.1-slim
+    date: 2025-11-15
+    recipient: 🏛️CFPB
+    method: Web (Uploaded)
+    status: Delivered
+    reference: Complaint 251116-25920284
+
+  - version: v8.1-slim
+    date: 2025-11-16
+    recipient: 🏛️FTC
+    method: Web (Uploaded)
+    status: Filed
+    reference: Report 193806821
+
+  - version: v8.5-sec
+    date: 2025-12-15
+    recipient: 🏛️SEC
+    method: Web (Uploaded)
+    status: Delivered
+    reference: TCR 17658-243-256-826
+
+  - version: v8.6
+    date: 2025-12-15
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v8.7
+    date: 2025-12-15
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v8.8-civil
+    date: 2025-12-22
+    recipient: ⚖️US District Court
+    method: In-Person (USB)
+    status: Filed
+    reference: Exhibit C (Docket Entry 5)
+
+  - version: v8.8-slim
+    date: 2025-12-25
+    recipient: 🏛️FTC
+    method: Priority Mail
+    status: Delivered
+    tracking: 9405 5508 9956 1023 8255 01
+    note: Delivered 1/8/2026
+
+  - version: v9.1
+    date: 2026-01-02
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v9.2
+    date: 2026-01-06
+    recipient: 🌐Facebook, X
+    method: Post
+    status: Published
+
+  - version: v10.1-civil
+    date: 2026-01-20
+    recipient: ⚖️US District Court
+    method: CM/ECF
+    status: Filed
+    reference: Docket Entry 13 (Exhibit A)
+    
