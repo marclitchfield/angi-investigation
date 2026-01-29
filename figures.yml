@@ -668,7 +668,7 @@ figures:
 
   1.6.7:
     caption: ✉️ USPS tracking showing delivery of Audit Report to Ernst & Young.
-    event: (✉️🌀) 1/6 10:48pm - [Certified Mail] Delivered: Audit Committee Report to EY
+    event: (✉️🌀) 1/6 10:48am - [Certified Mail] Delivered: Audit Committee Report to EY
     image: USPS Tracking screen: 'Delivered: DENVER, CO'
     check: 🟢
 
