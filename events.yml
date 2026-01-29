@@ -1098,6 +1098,7 @@ events:
   deliveries:
     - 🚛: v5.2 -> Washington Post
     - 🚛: v5.2 -> The Oregonian
+    - 🚛: v5.3 -> Washington Post
   check: 🟢
 
 - event: (🌀📰) 10/22 5:48am - Tip Bloomberg
