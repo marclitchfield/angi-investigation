@@ -5,15 +5,18 @@
 
 ### Timeline **Version**: [v11.4](https://litchfield-v-angi.short.gy/v11.4-timeline)
 
-* [Parties](./parties.yml)
-* [Channels](./channels.yml)
-* [Deliveries](./deliveries.yml)
+* [Main](./main.yml)
+  * Disclosure
+  * Channels
+  * Parties
+  * Social Media Publication Profiles
 
 ### Checks
 
 **INSTRUCTIONS**: Evaluate all checks, report all failures, and produce yaml code blocks or timeline edits required to remediate detected failures. The timeline is assumed to be the official record, and this dataset must be faithful to it. Be diligent also in reporting errors and inaccuracies in the timeline itself.
 
 * 🟢 [Events](./events.yml)
+* 🟢 [Deliveries](./deliveries.yml)
 * 🟢 [Docket](./docket.yml)
 * 🟢 [Filings](./filings.yml)
 * 🟢 [Figures](./figures.yml)
