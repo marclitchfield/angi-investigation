@@ -3,7 +3,7 @@
 
 ### **Case No.**: [3:25-cv-02394-SI](https://www.courtlistener.com/docket/72074717/litchfield-v-angi-inc/)
 
-### Timeline **Version**: [v11.4](https://litchfield-v-angi.short.gy/v11.3-timeline)
+### Timeline **Version**: [v11.4](https://litchfield-v-angi.short.gy/v11.4-timeline)
 
 * [Parties](./parties.yml)
 * [Channels](./channels.yml)
