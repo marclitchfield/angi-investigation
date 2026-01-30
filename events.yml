@@ -2628,7 +2628,7 @@ events:
         - 📙Perkins Coie/Ms. Markley: "Defendant Angi requests the Court extend the deadline to respond to March 3, 2026."
       narrative: Defense counsel filed an unopposed motion extending their response deadline to March 3, citing recently retained counsel and scheduling conflicts.
       figures:
-        1.29.1: NEF for Perkin's Coie unopposed extension motion.
+        1.29.1: NEF for Perkins Coie's unopposed extension motion.
       check: 🟢
   
     - event: "(📙⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
