@@ -172,23 +172,23 @@ deliveries:
   - version: v6.7
     date: 2025-10-27
     event: "(🌀🟠) 10/27 7:20pm - [Email] I Respond to Angi Legal Counsel"
-    recipient: 🌐Facebook, X
-    method: Post
-    status: Published
+    recipient: 🟠Angi/Sr. Counsel
+    method: Email
+    status: Delivered
 
   - version: v6.8
     date: 2025-10-28
     event: "(🟠🌀) 10/28 9:52am - [Email] Service Desk: Request Resolved"
-    recipient: 🌐Facebook, X
-    method: Post
-    status: Published
+    recipient: 🌀Author     
+    method: Email
+    status: Received
 
   - version: v6.11
     date: 2025-10-30
     event: "(🌀🟠) 10/30 5:23am - [Email] Request for Comments for Article"
-    recipient: 🌐Facebook, X
-    method: Post
-    status: Published
+    recipient: 🟠Angi
+    method: Email
+    status: Delivered
 
   - version: v6.12
     date: 2025-11-01
