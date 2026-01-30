@@ -191,6 +191,31 @@ docket:
       docket: 16
     check: 🟢
 
+  - entry: 17
+    description: "Unopposed Motion for Extension to Mar 3"
+    filed:
+      date: 2026-01-29
+      by: Defendant
+      event: "(📔⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
+    certification:
+      event: "(📔⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
+      date: 2026-01-29
+      docket: 17
+    check: 🟢
+
+  - entry: 18
+    description: "Angi Inc. Corporate Disclosure Statement"
+    filed:
+      date: 2026-01-29
+      by: Defendant
+      event: "(📔⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
+    certification:
+      event: "(📔⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
+      date: 2026-01-29
+      docket: 18
+    check: 🟢
+
+
 checks:
   - Has filing and certification events in events.yml.
   - Filing date and filer are correct.
