@@ -196,9 +196,9 @@ docket:
     filed:
       date: 2026-01-29
       by: Defendant
-      event: "(📔⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
+      event: "(📙⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
     certification:
-      event: "(📔⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
+      event: "(📙⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
       date: 2026-01-29
       docket: 17
     check: 🟢
