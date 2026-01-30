@@ -183,13 +183,6 @@ deliveries:
     method: Post
     status: Published
 
-  - version: v6.10
-    date: 2025-10-29
-    event: "(🟠🟠) 10/29 1:01am - [Email] Service Desk Internal Forward"
-    recipient: 🌐Facebook, X
-    method: Post
-    status: Published
-
   - version: v6.11
     date: 2025-10-30
     event: "(🌀🟠) 10/30 5:23am - [Email] Request for Comments for Article"
