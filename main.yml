@@ -481,4 +481,5 @@ social:
     check: 🟢
 
 checks:
+  - Examine current social profile bio at link and retrieve the current published version.
   - Social bio has link to the exact version of timeline in the README (ensure latest is published via bio link)
