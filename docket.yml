@@ -208,9 +208,9 @@ docket:
     filed:
       date: 2026-01-29
       by: Defendant
-      event: "(📔⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
+      event: "(📙⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
     certification:
-      event: "(📔⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
+      event: "(📙⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
       date: 2026-01-29
       docket: 18
     check: 🟢
