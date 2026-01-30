@@ -2618,7 +2618,7 @@ events:
     narrative: Stripe informed Tammy that the previous authorization attempt failed and requested she try again.
     check: 🟢
   
-    - event: "(📔⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
+    - event: "(📙⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
       initiator: 📙Perkins Coie/Ms. Markley
       receiver: 🌀Author
       time: 2026-01-29 16:04:00 PT
@@ -2631,7 +2631,7 @@ events:
         1.29.1: NEF for Perkin's Coie unopposed extension motion.
       check: 🟢
   
-    - event: "(📔⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
+    - event: "(📙⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
       initiator: 📙Perkins Coie/Ms. Markley
       receiver: 🌀Author
       time: 2026-01-29 16:07:00 PT
