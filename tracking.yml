@@ -98,21 +98,20 @@ tracking:
       event: (✉️🌀) 1/10 11:01am - [Certified Mail] Delivered: CM/ECF Filing Motion to Angi
     check: 🟢
 
-  - tracking_number: 9589071052703548108389
+  - tracking_number: 9502606682766020433591
     sent:
       time: 2026-01-20 22:47:00 PT
-      event: (🌀⚖️) 1/20 10:47pm - [Certified Mail] Send Judge's Copy of FAC to Clerk
+      event: "(🌀⚖️) 1/20 10:47pm - [Priority Mail] Send Judge's Copy of FAC to Clerk"
     delivered:
       time: 2026-01-22 08:30:00 PT
-      event: (✉️🌀) 1/22 8:30am - [Certified Mail] Delivered: FAC to Clerk
+      event: "(✉️🌀) 1/22 8:30am - [Certified Mail] Delivered: FAC to Clerk"
     check: 🟢
 
-  - tracking_number: 9589071052703548108372
+  - tracking_number: 9502606682766020433621
     sent:
       time: 2026-01-20 22:47:00 PT
-      event: (🌀🟠) 1/20 10:47pm - [Certified Mail] Send FAC+ Package to Angi
+      event: "(🌀🟠) 1/20 10:47pm - [Priority Mail] Send FAC+ Package to Angi"
     delivered:
       time: 2026-01-22 11:26:00 PT
-      event: (✉️🌀) 1/22 11:26am - [Certified Mail] Delivered: FAC to Angi
+      event: "(✉️🌀) 1/22 11:26am - [Certified Mail] Delivered: FAC to Angi"
     check: 🟢
-    
