@@ -1366,8 +1366,6 @@ events:
     messages:
       - 🟠Angi/Service Desk: '[#INC-2549943]: New comment on Marclitchfield''s ticket... This is to confirm that ticket INC-2549943 is not resolved.'
     narrative: Internal email forwarded Author's comment to Privacy Officer, Counsel, and PR, confirming internal awareness of the dispute. (Revealed in 10/31 email).
-    deliveries:
-      - 🌐: v6.9 -> Facebook, X
     check: 🟢
   
   - event: (🌀🟠) 10/30 5:23am - [Email] Request for Comments for Article
