@@ -570,6 +570,12 @@ figures:
     image: Angi Payment Method screen showing Visa **** 2667 and 'Update payment method'
     check: 🟢
 
+  11.1.2:
+    caption: 🟠 Angi payment settings showing 'Update payment method' button, still lacking a delete option on November 1.
+    event: (🌀⭐) 11/1 9:39pm - [Web] Filed Oregon DOJ OCPA Complaint
+    image: Angi Payment Method screen showing 'Update payment method' button
+    check: 🟢
+
   11.1.3:
     caption: ⭐ Oregon DOJ Consumer Protection website (Privacy section).
     event: (🌀⭐) 11/1 9:39pm - [Web] Filed: Oregon DOJ OCPA Complaint
