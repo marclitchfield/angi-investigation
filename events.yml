@@ -2262,7 +2262,7 @@ events:
       1.13.5: Stripe Charge Lookup Tool showing 'We found your charge'
     check: 🟢
   
-  - event: (⚖️🌀) 1/16 10:09am - [NEF] ORDER: CM/ECF Fling Access GRANTED
+  - event: (⚖️🌀) 1/16 10:09am - [NEF] ORDER: CM/ECF Filing Access GRANTED
     initiator: ⚖️US District/Judge Simon
     receiver: 🌀Author
     time: 2026-01-16 10:09:00 PT
