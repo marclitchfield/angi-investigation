@@ -1032,6 +1032,18 @@ figures:
     image: Stripe error screen: 'Invalid token'
     check: 🟢
 
+  1.29.1:
+    caption: ⚖️ NEF for Perkin's Coie unopposed extension motion.
+    event: "(📔⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
+    image: NEF for Perkin's Coie unopposed extension motion.
+    check: 🟢
+
+  1.29.2:
+    caption: ⚖️ NEF for Angi's corporate disclosures.
+    event: "(📔⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
+    image: NEF for Angi's corporate disclosures
+    check: 🟢
+
 checks:
   - Image description faithfully describes image.
   - Caption matches timeline Appendix B entry.
