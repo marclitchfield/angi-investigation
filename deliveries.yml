@@ -289,6 +289,14 @@ deliveries:
     tracking: 9405 5508 9956 1023 8255 01
     note: Delivered 1/8/2026
 
+  - version: v8.8-civil
+    date: 2025-12-31
+    event: "(🌀🏛️) 12/31 3:26pm - [Web] FILED: SEC TCR 17672-236-170-589"
+    recipient: 🏛️SEC
+    method: Web (Split/Uploaded)
+    status: Delivered
+    reference: TCR 17672-236-170-589
+
   - version: v9.1
     date: 2026-01-02
     event: "(🌀🌐) 1/2 ~2pm - [Post] Published v9.1"
