@@ -1050,6 +1050,31 @@ figures:
     image: NEF for Angi's corporate disclosures
     check: 🟢
 
+  1.30.1:
+    caption: ⚖️ NEF for ORDER Granting Time Extension (Docket Entry 19).
+    event: "(🌀⚖️) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted"
+    image: NEF for ORDER Granting Time Extension
+    check: 🟢
+
+  1.30.2:
+    caption: ⚖️ NEF for Notice of Errata to Exhibit A (Docket Entry 20).
+    event: "(🌀⚖️) 1/30 10:00am - [NEF] Filed: Notice of Errata - Appendix A"
+    image: NEF for Notice of Errata to Exhibit A
+    check: 🟢
+
+  1.30.3:
+    caption: ✉️ Scan of the Forward Time Exp shipment returned from Angi HQ.
+    event: "(🌀️) 1/30 ~3:00pm - [Print] Audit Committee Report Redelivery"
+    image: Scan of the Forward Time Exp shipment returned from Angi HQ
+    check: 🟢
+
+  1.30.4:
+    caption: ️ Printed shipments for Angi Indianapolis (USPS Certified), Angi HQ (UPS), and EY (1st class).
+    event: "(🌀️) 1/30 ~3:00pm - [Print] Audit Committee Report Redelivery"
+    image: Printed shipments for Angi Indianapolis, Angi HQ, and EY
+    check: 🟢
+
+
 checks:
   - Image description faithfully describes image.
   - Caption matches timeline Appendix B entry.
