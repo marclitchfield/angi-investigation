@@ -2654,7 +2654,7 @@ events:
     narrative: Stripe sent another automated hold notification despite previous authentication.
     check: 🟢
 
-  - event: (🌀⚖️) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted
+  - event: "(⚖️🌀) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted"
     initiator: ⚖️US District/Judge Simon
     receiver: 🌀Author
     time: 2026-01-30 08:45:00 PT
@@ -2734,6 +2734,17 @@ events:
       - 🌀Author: 'UPS Ground was used to redeliver the report to Denver.'
       - 🚚UPS: 'Tracking Number: 1ZG201TC0326188824'
     narrative: Author used UPS Ground to deliver the report to Denver HQ, anticipating they would deliver to the front desk unlike USPS.
+    check: 🟢
+
+  - event: (🌀🔍) 1/30 3:40pm - [1st Class Mail] Re-send Audit Report to EY
+    initiator: 🌀Author
+    receiver: 🔍EY
+    time: 2026-01-30 15:40:00 PT
+    approximate: true
+    channel: 1st Class Mail
+    messages:
+      - 🌀Author: 'Sent Audit Committee Report to Ernst & Young in Denver via First Class Mail.'
+    narrative: Author re-sent the Audit Report to Angi's external auditor to ensure delivery, bypassing potential signature rejection or forwarding errors.
     check: 🟢
 
 checks:
