@@ -345,6 +345,13 @@ parties:
       - Certified Mail
       - Priority Mail
 
+  🚚UPS:
+    name: United Parcel Service
+    role: Courier
+    function: Package Delivery
+    channels:
+      - UPS Ground
+
   🔊CR:
     name: Consumer Reports
     role: Advocacy
