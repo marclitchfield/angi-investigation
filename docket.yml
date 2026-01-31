@@ -215,6 +215,30 @@ docket:
       docket: 18
     check: 🟢
 
+  - entry: 19
+    description: "ORDER: Extension Motion Granted"
+    filed:
+      date: 2026-01-30
+      by: Judge
+      event: "(🌀⚖️) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted"
+    certification:
+      event: "(🌀⚖️) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted"
+      date: 2026-01-30
+      docket: 19
+    check: 🟢
+
+  - entry: 20
+    description: "Notice of Errata to Exhibit A - Appendix A"
+    filed:
+      date: 2026-01-30
+      by: Plaintiff
+      event: "(🌀⚖️) 1/30 10:00am - [NEF] Filed: Notice of Errata - Appendix A"
+    certification:
+      event: "(🌀⚖️) 1/30 10:00am - [NEF] Filed: Notice of Errata - Appendix A"
+      date: 2026-01-30
+      docket: 20
+    check: 🟢  
+
 
 checks:
   - Has filing and certification events in events.yml.
