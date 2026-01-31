@@ -2510,7 +2510,7 @@ events:
     narrative: Author requested Stripe reopen the case and provided detailed technical context on why Angi's claims about Stripe were misleading.
     check: 🟢
   
-  - event: (🌀🟠) 1/23 ~12:00pm - [Post/Hacker News] TDD via Discovery
+  - event: (🌀🌐) 1/23 ~12:00pm - [Post/Hacker News] TDD via Discovery
     initiator: 🌀Author
     receiver: 🌐Hacker News
     time: 2026-01-23 12:00:00 PT
@@ -2698,7 +2698,7 @@ events:
     narrative: Author replied to Stripe Support to prevent the case from auto-closing.
     check: 🟢
 
-  - event: (🌀️) 1/30 ~3:00pm - [Print] Audit Committee Report Redelivery
+  - event: (🌀) 1/30 ~3:00pm - [Print] Audit Committee Report Redelivery
     initiator: 🌀Author
     receiver: 🌀Author
     time: 2026-01-30 15:00:00 PT
