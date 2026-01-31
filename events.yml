@@ -2715,18 +2715,6 @@ events:
   - event: (🌀🟠) 1/30 3:40pm - [Certified Mail] Re-send Audit Report to Indianapolis
     initiator: 🌀Author
     receiver: 🟠Angi
-    time: 2026-01-30 14:00:00 PT
-    approximate: true
-    channel: Certified Mail
-    messages:
-      - 🌀Author: 'I used Certified Mail for the shipment to Indianapolis.'
-      - ✉️USPS: 'Tracking Number: 9589071052702162097574'
-    narrative: Author re-sent the Audit Report to Angi's Indianapolis office.
-    check: 🟢
-
-  - event: (🌀🟠) 1/30 3:40pm - [Certified Mail] Re-send Audit Report to Indianapolis
-    initiator: 🌀Author
-    receiver: 🟠Angi
     time: 2026-01-30 15:40:00 PT
     approximate: true
     channel: Certified Mail
