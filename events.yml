@@ -2712,7 +2712,7 @@ events:
       1.30.4: Printed shipments for Angi Indianapolis, Angi HQ, and EY
     check: 🟢
 
-  - event: (🌀🟠) 1/30 ~2pm - [Certified Mail] Re-send Audit Report to Indianapolis
+  - event: (🌀🟠) 1/30 3:40pm - [Certified Mail] Re-send Audit Report to Indianapolis
     initiator: 🌀Author
     receiver: 🟠Angi
     time: 2026-01-30 14:00:00 PT
@@ -2724,7 +2724,7 @@ events:
     narrative: Author re-sent the Audit Report to Angi's Indianapolis office.
     check: 🟢
 
-  - event: (🌀🟠) 1/30 ~2pm - [UPS Ground] Re-send Audit Report to Denver HQ
+  - event: (🌀🟠) 1/30 3:40pm - [UPS Ground] Re-send Audit Report to Denver HQ
     initiator: 🌀Author
     receiver: 🟠Angi
     time: 2026-01-30 14:00:00 PT
@@ -2736,7 +2736,7 @@ events:
     narrative: Author used UPS Ground to deliver the report to Denver HQ, anticipating they would deliver to the front desk unlike USPS.
     check: 🟢
 
-  - event: (🌀🔍) 1/30 ~2pm - [1st Class Mail] Send Retry Notice to EY
+  - event: (🌀🔍) 1/30 3:40pm - [1st Class Mail] Send Retry Notice to EY
     initiator: 🌀Author
     receiver: 🔍EY
     time: 2026-01-30 14:00:00 PT
