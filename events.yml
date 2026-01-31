@@ -2618,32 +2618,134 @@ events:
     narrative: Stripe informed Tammy that the previous authorization attempt failed and requested she try again.
     check: 🟢
   
-    - event: "(📙⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
-      initiator: 📙Perkins Coie/Ms. Markley
-      receiver: 🌀Author
-      time: 2026-01-29 16:04:00 PT
-      channel: NEF
-      messages:
-        - ⚖️US District/Defendant: "Unopposed Motion for Extension of Time to Respond to First Amended Complaint. Julia E. Markley, Michael McCullough for Angi Inc.. Filed by Angi Inc.."
-        - 📙Perkins Coie/Ms. Markley: "Defendant Angi requests the Court extend the deadline to respond to March 3, 2026."
-      narrative: Defense counsel filed an unopposed motion extending their response deadline to March 3, citing recently retained counsel and scheduling conflicts.
-      figures:
-        1.29.1: NEF for Perkins Coie's unopposed extension motion.
-      check: 🟢
-  
-    - event: "(📙⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
-      initiator: 📙Perkins Coie/Ms. Markley
-      receiver: 🌀Author
-      time: 2026-01-29 16:07:00 PT
-      channel: NEF
-      messages:
-        - ⚖️US District/Defendant: "Corporate Disclosure Statement. Filed by Angi Inc.."
-        - 📙Perkins Coie/Ms. Markley: "Blackrock, Inc. is a publicly held corporation that owns 10% or more of Angi’s stock."
-      narrative: Defense counsel filed the mandatory corporate disclosure statement, identifying BlackRock, Inc. as a major shareholder.
-      figures:
-        1.29.2: NEF for Angi's corporate disclosures
-      check: 🟢
-    
+  - event: "(📙⚖️) 1/29 4:04pm - [NEF] Perkins Coie Files Extension Motion"
+    initiator: 📙Perkins Coie/Ms. Markley
+    receiver: 🌀Author
+    time: 2026-01-29 16:04:00 PT
+    channel: NEF
+    messages:
+      - ⚖️US District/Defendant: "Unopposed Motion for Extension of Time to Respond to First Amended Complaint. Julia E. Markley, Michael McCullough for Angi Inc.. Filed by Angi Inc.."
+      - 📙Perkins Coie/Ms. Markley: "Defendant Angi requests the Court extend the deadline to respond to March 3, 2026."
+    narrative: Defense counsel filed an unopposed motion extending their response deadline to March 3, citing recently retained counsel and scheduling conflicts.
+    figures:
+      1.29.1: NEF for Perkins Coie's unopposed extension motion.
+    check: 🟢
+
+  - event: "(📙⚖️) 1/29 4:07pm - [NEF] Angi's Corporate Disclosure"
+    initiator: 📙Perkins Coie/Ms. Markley
+    receiver: 🌀Author
+    time: 2026-01-29 16:07:00 PT
+    channel: NEF
+    messages:
+      - ⚖️US District/Defendant: "Corporate Disclosure Statement. Filed by Angi Inc.."
+      - 📙Perkins Coie/Ms. Markley: "Blackrock, Inc. is a publicly held corporation that owns 10% or more of Angi’s stock."
+    narrative: Defense counsel filed the mandatory corporate disclosure statement, identifying BlackRock, Inc. as a major shareholder.
+    figures:
+      1.29.2: NEF for Angi's corporate disclosures
+    check: 🟢
+
+    - event: (💳🌹) 1/30 1:48am - [Email] Stripe Case Auto-Hold Again
+    initiator: 💳Stripe/Support
+    receiver: 🌹Tammy
+    time: 2026-01-30 01:48:00 PT
+    channel: Email
+    messages:
+      - 💳Stripe/Support: 'We wanted to let you know that your case is on hold while we await your response'
+    narrative: Stripe sent another automated hold notification despite previous authentication.
+    check: 🟢
+
+  - event: (🌀⚖️) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted
+    initiator: ⚖️US District/Judge Simon
+    receiver: 🌀Author
+    time: 2026-01-30 08:45:00 PT
+    channel: NEF
+    messages:
+      - ⚖️US District/Judge Simon: 'ORDER - The Court GRANTS Defendant''s Unopposed Motion for Extension of Time... response is due on or before March 3, 2026.'
+    narrative: The Court granted the unopposed motion extending Angi's deadline to respond.
+    figures:
+      1.30.1: NEF for ORDER Granting Time Extension (Docket Entry 19)
+    check: 🟢
+
+  - event: (🌀⚖️) 1/30 10:00am - [NEF] Filed: Notice of Errata - Appendix A
+    initiator: 🌀Author
+    receiver: ⚖️US District/Clerk
+    time: 2026-01-30 10:00:00 PT
+    channel: NEF
+    messages:
+      - ⚖️US District/Plaintiff: 'Notice re Amended Complaint... Errata to Exhibit A (Appendix A) Filed by Stephen Marcus Litchfield.'
+    narrative: Author filed a Notice of Errata to correct figure citations in Appendix A of the First Amended Complaint.
+    figures:
+      1.30.2: NEF for Notice of Errata to Exhibit A (Docket Entry 20)
+    check: 🟢
+
+  - event: (🌀📙) 1/30 10:05am - [Email] Notify Perkins Coie of Errata For Appendix A
+    initiator: 🌀Author
+    receiver: 📙Perkins Coie/Mr. McCullough
+    time: 2026-01-30 10:05:00 PT
+    channel: Email
+    messages:
+      - 🌀Author: 'I have filed a corrected version of Appendix A... purely a cleanup of the cross-reference numbers'
+    narrative: Author emailed defense counsel a courtesy notice regarding the Errata filing.
+    check: 🟢
+
+  - event: (🌀💳) 1/30 10:34am - [Email] Poke Stripe to Keep Case Open
+    initiator: 🌀Author
+    receiver: 💳Stripe/Support
+    time: 2026-01-30 10:34:00 PT
+    channel: Email
+    messages:
+      - 🌀Author: 'I wanted to make sure the overall ticket is not closed... we are hopeful that the delegation of authority is complete'
+    narrative: Author replied to Stripe Support to prevent the case from auto-closing.
+    check: 🟢
+
+  - event: (🌀️) 1/30 ~3:00pm - [Print] Audit Committee Report Redelivery
+    initiator: 🌀Author
+    receiver: 🌀Author
+    time: 2026-01-30 15:00:00 PT
+    approximate: true
+    channel: Internal
+    messages:
+      - 🌀Author: 'To bypass the Postal Deflector Shield around Angi HQ in Denver, I will deliver a copy... to Angi''s Indianapolis Office... and use UPS ground to redeliver to Denver HQ'
+    narrative: Author prepared new shipments of the Audit Committee Report to bypass previous delivery failures at Angi HQ.
+    figures:
+      1.30.3: Scan of the Forward Time Exp shipment returned from Angi HQ
+      1.30.4: Printed shipments for Angi Indianapolis, Angi HQ, and EY
+    check: 🟢
+
+  - event: (🌀🟠) 1/30 ~2pm - [Certified Mail] Re-send Audit Report to Indianapolis
+    initiator: 🌀Author
+    receiver: 🟠Angi
+    time: 2026-01-30 14:00:00 PT
+    approximate: true
+    channel: Certified Mail
+    messages:
+      - 🌀Author: 'I used Certified Mail for the shipment to Indianapolis.'
+      - ✉️USPS: 'Tracking Number: 9589071052702162097574'
+    narrative: Author re-sent the Audit Report to Angi's Indianapolis office.
+    check: 🟢
+
+  - event: (🌀🟠) 1/30 ~2pm - [UPS Ground] Re-send Audit Report to Denver HQ
+    initiator: 🌀Author
+    receiver: 🟠Angi
+    time: 2026-01-30 14:00:00 PT
+    approximate: true
+    channel: UPS Ground
+    messages:
+      - 🌀Author: 'UPS Ground was used to redeliver the report to Denver.'
+      - 🚚UPS: 'Tracking Number: 1ZG201TC0326188824'
+    narrative: Author used UPS Ground to deliver the report to Denver HQ, anticipating they would deliver to the front desk unlike USPS.
+    check: 🟢
+
+  - event: (🌀🔍) 1/30 ~2pm - [1st Class Mail] Send Retry Notice to EY
+    initiator: 🌀Author
+    receiver: 🔍EY
+    time: 2026-01-30 14:00:00 PT
+    approximate: true
+    channel: 1st Class Mail
+    messages:
+      - 🌀Author: 'I sent Ernst & Young a CC of the redelivery letter and the scan of the returned envelope'
+    narrative: Author notified the external auditor of the delivery failure and retry via First Class Mail.
+    check: 🟢
 
 checks:
     - Event title exactly matches timeline entry.
