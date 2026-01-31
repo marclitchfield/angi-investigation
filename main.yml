@@ -225,6 +225,13 @@ parties:
     channels:
       - Delivery
 
+  💳Stripe/Support:
+    name: Stripe Support
+    role: Data Processor
+    function: Automated Support / General Queue
+    channels:
+      - Email
+
   💳Stripe/Privacy/Seerat:
     name: Seerat
     role: Data Processor
