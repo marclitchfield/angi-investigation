@@ -220,9 +220,9 @@ docket:
     filed:
       date: 2026-01-30
       by: Judge
-      event: "(🌀⚖️) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted"
+      event: "(⚖️🌀) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted"
     certification:
-      event: "(🌀⚖️) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted"
+      event: "(⚖️🌀) 1/30 8:45am - [NEF] ORDER: Extension Motion Granted"
       date: 2026-01-30
       docket: 19
     check: 🟢
