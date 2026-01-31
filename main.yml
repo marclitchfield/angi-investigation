@@ -198,6 +198,20 @@ parties:
       - NEF
       - Certified Mail
 
+  ⚖️US District/Plaintiff:
+    name: Plaintiff (CM/ECF)
+    role: Judiciary
+    function: System Generated Filer Identity
+    channels:
+      - NEF
+
+  ⚖️US District/Defendant:
+    name: Defendant (CM/ECF)
+    role: Judiciary
+    function: System Generated Filer Identity
+    channels:
+      - NEF
+
   ⚖️PACER:
     name: PACER
     role: Judiciary
@@ -230,12 +244,27 @@ parties:
     channels:
       - Delivery
 
+  💳Stripe:
+    name: Stripe
+    role: Data Processor
+    function: Automated Notification
+    channels:
+      - Email
+
   💳Stripe/Support:
     name: Stripe Support
     role: Data Processor
     function: Automated Support / General Queue
     channels:
       - Email
+
+  💳Stripe/Privacy:
+    name: Stripe Privacy Team
+    role: Data Processor
+    function: Privacy Operations
+    channels:
+      - Email
+      - App
 
   💳Stripe/Privacy/Seerat:
     name: Seerat
