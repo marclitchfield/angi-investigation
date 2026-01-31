@@ -2724,27 +2724,28 @@ events:
     narrative: Author re-sent the Audit Report to Angi's Indianapolis office.
     check: 🟢
 
+  - event: (🌀🟠) 1/30 3:40pm - [Certified Mail] Re-send Audit Report to Indianapolis
+    initiator: 🌀Author
+    receiver: 🟠Angi
+    time: 2026-01-30 15:40:00 PT
+    approximate: true
+    channel: Certified Mail
+    messages:
+      - 🌀Author: 'I used Certified Mail for the shipment to Indianapolis.'
+      - ✉️USPS: 'Tracking Number: 9589071052702162097574'
+    narrative: Author re-sent the Audit Report to Angi's Indianapolis office.
+    check: 🟢
+
   - event: (🌀🟠) 1/30 3:40pm - [UPS Ground] Re-send Audit Report to Denver HQ
     initiator: 🌀Author
     receiver: 🟠Angi
-    time: 2026-01-30 14:00:00 PT
+    time: 2026-01-30 15:40:00 PT
     approximate: true
     channel: UPS Ground
     messages:
       - 🌀Author: 'UPS Ground was used to redeliver the report to Denver.'
       - 🚚UPS: 'Tracking Number: 1ZG201TC0326188824'
     narrative: Author used UPS Ground to deliver the report to Denver HQ, anticipating they would deliver to the front desk unlike USPS.
-    check: 🟢
-
-  - event: (🌀🔍) 1/30 3:40pm - [1st Class Mail] Send Retry Notice to EY
-    initiator: 🌀Author
-    receiver: 🔍EY
-    time: 2026-01-30 14:00:00 PT
-    approximate: true
-    channel: 1st Class Mail
-    messages:
-      - 🌀Author: 'I sent Ernst & Young a CC of the redelivery letter and the scan of the returned envelope'
-    narrative: Author notified the external auditor of the delivery failure and retry via First Class Mail.
     check: 🟢
 
 checks:
