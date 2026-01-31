@@ -1064,16 +1064,15 @@ figures:
 
   1.30.3:
     caption: ✉️ Scan of the Forward Time Exp shipment returned from Angi HQ.
-    event: "(🌀️) 1/30 ~3:00pm - [Print] Audit Committee Report Redelivery"
+    event: "(🌀) 1/30 ~3:00pm - [Print] Audit Committee Report Redelivery"
     image: Scan of the Forward Time Exp shipment returned from Angi HQ
     check: 🟢
 
   1.30.4:
-    caption: ️ Printed shipments for Angi Indianapolis (USPS Certified), Angi HQ (UPS), and EY (1st class).
-    event: "(🌀️) 1/30 ~3:00pm - [Print] Audit Committee Report Redelivery"
+    caption: ️ Printed shipments for Angi Indianapolis, Angi HQ, and EY.
+    event: "(🌀) 1/30 ~3:00pm - [Print] Audit Committee Report Redelivery"
     image: Printed shipments for Angi Indianapolis, Angi HQ, and EY
     check: 🟢
-
 
 checks:
   - Image description faithfully describes image.
