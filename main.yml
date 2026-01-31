@@ -48,6 +48,11 @@ parties:
       - Certified Mail
       - Priority Mail
       - NEF
+      - Internal
+      - Print
+      - UPS Ground
+      - Deadline
+      - Conversation
 
   🌹Tammy:
     name: Tammy Litchfield
