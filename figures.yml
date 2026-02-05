@@ -1074,6 +1074,31 @@ figures:
     image: Printed shipments for Angi Indianapolis, Angi HQ, and EY
     check: 🟢
 
+  2.2.1:
+    caption: 💳 Stripe Charge Lookup Tool verification.
+    event: (🌀💳) 2/2 3:03 - [Email] Close Loop with Support
+    image: Stripe Charge Lookup Tool verifying transaction details
+    check: 🟢
+
+  2.4.1:
+    caption: ✉️ USPS Priority Mail 9405530109355279498680 Errata Probe goes through the shield.
+    event: (✉️🌀) 2/4 1:54pm - [Priority Mail] Errata Notice Delivered to Denver HQ
+    image: USPS Tracking screen 'Delivered in or at the mailbox'
+    check: 🟢
+
+  2.4.2:
+    caption: ✉️ Priority Mail tracking history.
+    event: (✉️🌀) 2/4 1:54pm - [Priority Mail] Errata Notice Delivered to Denver HQ
+    image: USPS Tracking History for Errata Notice
+    check: 🟢
+
+  2.4.3:
+    caption: 🚚 UPS Ground shipment 1ZG201TC0326188824 of Audit Committee Report.
+    event: (🚚🌀) 2/4 5:07pm - [UPS Ground] Audit Committee Report to Angi HQ
+    image: UPS Tracking screen 'Delivered'
+    check: 🟢
+    
+
 checks:
   - Image description faithfully describes image.
   - Caption matches timeline Appendix B entry.
