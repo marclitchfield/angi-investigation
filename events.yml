@@ -2747,6 +2747,129 @@ events:
     narrative: Author re-sent the Audit Report to Angi's external auditor to ensure delivery, bypassing potential signature rejection or forwarding errors.
     check: 🟢
 
+      - event: (💳🌹) 1/31 3:34am - [Email] Stuck in Stripe Auth Loop
+    initiator: 💳Stripe/Support
+    receiver: 🌹Tammy
+    time: 2026-01-31 03:34:00 PT
+    channel: Email
+    messages:
+      - 💳Stripe/Support: 'We need to take an additional step for authentication... please click the first link below'
+    narrative: Stripe Support (Ghe) informs Tammy that they are stuck in an authentication loop and requests login again.
+    check: 🟢
+
+  - event: "(🌀🌐) 1/31 7:43am - [Post/X] Summary of Recent of Events"
+    initiator: 🌀Author
+    receiver: 🌐X
+    time: 2026-01-31 07:43:00 PT
+    channel: Post
+    messages:
+      - 🌀Author: 'Angi has retained Perkins Coie LLP... I granted an extension until March 3... I provided a draft ESI proposal'
+    narrative: Author posts a summary of recent legal developments and the "Dark Patterns" thesis on X.
+    deliveries:
+      - 🌐: v11.6 -> Facebook, Reddit, X
+    check: 🟢
+
+  - event: (🌀🟠) 1/31 11:32am - [Priority Mail] Deflector Shield Probe
+    initiator: 🌀Author
+    receiver: 🟠Angi
+    time: 2026-01-31 11:32:00 PT
+    channel: Priority Mail
+    messages:
+      - 🌀Author: 'To verify that the postal shield remains operational... I shipped a probe package Priority Mail to Angi HQ'
+      - ✉️USPS: 'Priority Mail Tracking Number: 9405530109355279498680'
+    narrative: Author mails a courtesy copy of the Extension Order to Angi HQ via Priority Mail to test if it gets returned like the Certified Mail did.
+    check: 🟢
+
+  - event: (🌀🌐) 2/1 ~10:00am - [Post/Reddit] r/legaltech TDDDD
+    initiator: 🌀Author
+    receiver: 🌐Reddit
+    time: 2026-02-01 10:00:00 PT
+    approximate: true
+    channel: Post
+    messages:
+      - 🌀Author: 'I am proposing to use TDD to get a set of tests to pass in a system I do not control... Test-Driven Discovery-Driven Development (TDDDD)'
+    narrative: Author posts on r/legaltech proposing a "Test-Driven Discovery" model for the litigation.
+    check: 🟢
+
+  - event: (💳🌹) 2/2 1:13am - [Email] Stripe Patience Gratitude
+    initiator: 💳Stripe/Support
+    receiver: 🌹Tammy
+    time: 2026-02-02 01:13:00 PT
+    channel: Email
+    messages:
+      - 💳Stripe/Support: 'I want to express my sincere gratitude for your patience... I will keep this ticket open and monitor it closely.'
+    narrative: Stripe Support sends a follow-up email expressing gratitude for patience.
+    check: 🟢
+
+  - event: (🌀💳) 2/2 1:45pm - [Certified Mail] Send MSA Violation to Stripe
+    initiator: 🌀Author
+    receiver: 💳Stripe
+    time: 2026-02-02 13:45:00 PT
+    channel: Certified Mail
+    messages:
+      - 🌀Author: 'Formal Notice of Material MSA Violations... Merchant: Angi Inc.'
+      - ✉️USPS: 'Tracking Number: 9407111899561917234502'
+    narrative: Author mails a formal Notice of Material Merchant Services Agreement Violations to Stripe Legal via Certified Mail.
+    figures:
+      2.2.1: Stripe Charge Lookup Tool verification
+    check: 🟢
+
+  - event: (🌀💳) 2/2 2:57pm - [Email] Formal Notice of MSA Violations
+    initiator: 🌀Author
+    receiver: 💳Stripe
+    time: 2026-02-02 14:57:00 PT
+    channel: Email
+    messages:
+      - 🌀Author: 'Attached please find a Formal Notice of Material MSA Violations... This notice is being filed directly with Legal'
+    narrative: Author emails the Formal Notice of MSA Violations to Stripe Legal and the DPO.
+    check: 🟢
+
+  - event: (🌀💳) 2/2 3:03 - [Email] Close Loop with Support
+    initiator: 🌀Author
+    receiver: 💳Stripe/Support
+    time: 2026-02-02 15:03:00 PT
+    channel: Email
+    messages:
+      - 🌀Author: 'Please consider this support ticket closed, as we will proceed exclusively through your Legal and Compliance departments'
+    narrative: Author informs Stripe Support that the issue has been escalated to Legal and closes the support loop.
+    check: 🟢
+
+  - event: (💳🌀) 2/3 4:26am - [Email] Stripe Support Ping
+    initiator: 💳Stripe/Support
+    receiver: 🌀Author
+    time: 2026-02-03 04:26:00 PT
+    channel: Email
+    messages:
+      - 💳Stripe/Support: 'I''m connecting you with another member of our team... we''ll be in touch'
+    narrative: Stripe Support (Khushi) sends a holding response.
+    check: 🟢
+
+  - event: (✉️🌀) 2/4 1:54pm - [Priority Mail] Errata Notice Delivered to Denver HQ
+    initiator: ✉️USPS
+    receiver: 🌀Author
+    time: 2026-02-04 13:54:00 PT
+    channel: Priority Mail
+    messages:
+      - ✉️USPS: 'Delivered in or at the mailbox... DENVER, CO 80205'
+    narrative: The Priority Mail probe to Angi HQ was successfully delivered, unlike the Certified Mail attempt.
+    figures:
+      2.4.1: USPS Tracking screen 'Delivered in or at the mailbox'
+      2.4.2: USPS Tracking History for Errata Notice
+    check: 🟢
+
+  - event: (🚚🌀) 2/4 5:07pm - [UPS Ground] Audit Committee Report to Angi HQ
+    initiator: 🚚UPS
+    receiver: 🌀Author
+    time: 2026-02-04 17:07:00 PT
+    channel: UPS Ground
+    messages:
+      - 🚚UPS: 'Delivered on Feb 4, 2026 at 5:07 PM'
+    narrative: The Audit Committee Report sent via UPS Ground was successfully delivered to Angi HQ.
+    figures:
+      2.4.3: UPS Tracking screen 'Delivered'
+    check: 🟢
+    
+
 checks:
     - Event title exactly matches timeline entry.
     - Initiator and Receiver are valid in parties.yml.
