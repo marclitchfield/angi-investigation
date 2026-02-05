@@ -125,9 +125,26 @@ tracking:
   - tracking_number: 1ZG201TC0326188824
     sent:
       time: 2026-01-30 15:40:00 PT
-      event: "(🌀🟠) 1/30 3:40pm - [UPS Ground] Re-send Audit Report to Denver HQ"
+      event: (🌀🟠) 1/30 3:40pm - [UPS Ground] Re-send Audit Report to Denver HQ
+    delivered:
+      time: 2026-02-04 17:07:00 PT
+      event: (🚚🌀) 2/4 5:07pm - [UPS Ground] Audit Committee Report to Angi HQ
     check: 🟢
 
+  - tracking_number: 9405530109355279498680
+    sent:
+      time: 2026-01-31 11:32:00 PT
+      event: (🌀🟠) 1/31 11:32am - [Priority Mail] Deflector Shield Probe
+    delivered:
+      time: 2026-02-04 13:54:00 PT
+      event: (✉️🌀) 2/4 1:54pm - [Priority Mail] Errata Notice Delivered to Denver HQ
+    check: 🟢
+
+  - tracking_number: 9407111899561917234502
+    sent:
+      time: 2026-02-02 13:45:00 PT
+      event: (🌀💳) 2/2 1:45pm - [Certified Mail] Send MSA Violation to Stripe
+    check: 🟢
 
 
 
